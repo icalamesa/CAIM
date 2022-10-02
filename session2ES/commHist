@@ -1,0 +1,7827 @@
+    1  ls
+    2  vim ~/.zshrc
+    3  nvim
+    4  pacman -R vim
+    5  sudo pacman -R vim
+    6  nvim .zshrc
+    7  nvim ~/.zshrc
+    8  sudo reboot now
+    9  ls
+   10  la
+   11  vim .config/kitty
+   12  ls
+   13  la
+   14  cd .config/kitty
+   15  ls
+   16  vim ayu_mirage.conf
+   17  vim kitty.conf
+   18  ls
+   19  rm ayu_mirage.conf
+   20  THEME=https://raw.githubusercontent.com/dexpota/kitty-themes/master/themes/3024_Day.conf\nwget "$THEME" -P ~/.config/kitty/kitty-themes/themes
+   21  cd ~/.config/kitty\nln -s ./kitty-themes/themes/Floraverse.conf ~/.config/kitty/theme.conf
+   22  ls
+   23  rm theme.conf
+   24  rm -rf kitty
+   25  rm -rf kitty-themes
+   26  ls
+   27  THEME=https://raw.githubusercontent.com/dexpota/kitty-themes/master/themes/ayu_mirage.conf\nwget "$THEME" -P ~/.config/kitty/kitty-themes/themes
+   28  cd ~/.config/kitty\nln -s ./kitty-themes/themes/ayu_mirage.conf ~/.config/kitty/ayu_mirage.conf\n
+   29  sudo reboot now
+   30  cd .config/kitty
+   31  ls
+   32  la
+   33  vim ayu_mirage.conf
+   34  ls
+   35  vim kitty
+   36  vim kitty.conf
+   37  ls
+   38  cd kitty-themes
+   39  ls
+   40  cd themes
+   41  ls
+   42  vim ayu_mirage.conf
+   43  cd ..
+   44  ls
+   45  vim kitty
+   46  vim kitty.conf
+   47  git commit -m "working config"
+   48  git config --global user.email "icalamesa@gmail.com"
+   49  git config --global user.name "icalamesa"
+   50  git commit -m "working config"
+   51  git commit -am "working"
+   52  gitn push
+   53  git push
+   54  ls
+   55  la
+   56  vim
+   57  ls
+   58  cd .config/
+   59  git clone
+   60  git clone https://github.com/icalamesa/neovim-config
+   61  ls
+   62  mv neovim-config nvim
+   63  cd nvim
+   64  ls
+   65  vim init.vim
+   66  sudo reboot now
+   67  sudo pacman -S qt5ct
+   68  man set
+   69  vim .zshrc
+   70  source .zshrc
+   71  sudo pacman -S oxygen
+   72  sudo pacman -S oxygen-icons
+   73  sudo reboot now
+   74  sudo pacman -R oxygen oxygen-icons
+   75  sudo pacman -R qt5ct
+   76  vim .zshrc
+   77  ls
+   78  la
+   79  pwd
+   80  mkdir programming
+   81  mkdir downloads
+   82  mkdir docs
+   83  mkdir personal
+   84  cd docs
+   85  cd ..
+   86  cd personal
+   87  mkdir media
+   88  sudo yay -S cfiles
+   89  yay -S cfiles
+   90  sudo pacman -S vi
+   91  yay -S cfiles
+   92  cfiles
+   93  sudo pacman -S flameshot
+   94  flameshot
+   95  flameshot gui
+   96  vim .config/i3/config 
+   97  nvim .config/i3/config 
+   98  sudo reboot now
+   99  vim .config/i3/config
+  100  sudo reboot now
+  101  vim .config/i3/config
+  102  sudo reboot now
+  103  vim .zshrc
+  104  source .zshrc
+  105  git
+  106  man git
+  107  man gir
+  108  vim .zshrc
+  109  source .zshrc
+  110  ls
+  111  cd personal
+  112  vim .zshrc
+  113  cd ..
+  114  vim .zshrc
+  115  source .zshrc
+  116  vim .zshrc
+  117  source .zshrc
+  118  cd keybinds
+  119  ls
+  120  cd ..
+  121  vim .zshrc
+  122  source .zshrc
+  123  ls
+  124  cd personal
+  125  cd ..
+  126  vim .zshrc
+  127  source .zshrc
+  128  la
+  129  vim .zshrc
+  130  source .zshrc
+  131  vim .zshrc
+  132  source .zshrc
+  133  ls
+  134  mkdir install
+  135  cd install
+  136  git clone https://github.com/alejandromume/ubunly-zsh-theme\#install
+  137  ls
+  138  git clone https://github.com/alejandromume/ubunly-zsh-theme
+  139  ls
+  140  cd ubunly-zsh-theme
+  141  ls
+  142  chmod +x INSTALL.sh
+  143  ./INSTALL.sh
+  144  cd ..
+  145  vim .zshrc
+  146  source .zshrc
+  147  ls
+  148  vim .zshrc
+  149  source .zshrc
+  150  cd ly
+  151  ls
+  152  cd ..
+  153  clear
+  154  cd programming
+  155  cd .
+  156  cd ..
+  157  vim .zshrc
+  158  source .zshrc
+  159  ls
+  160  la
+  161  vim .zshrc
+  162  source .zshrc
+  163  so
+  164  source .zshrc
+  165  cd ly
+  166  vim .zshrc
+  167  cd ..
+  168  vim .zshrc
+  169  source .zshrc
+  170  ls
+  171  la
+  172  langinfo
+  173  man linux64
+  174  timedatectl
+  175  sudo timedatectl set-ntp 1
+  176  timedatectl
+  177  sudo shutdown now
+  178  i3status
+  179  sudo pacman -R i3status
+  180  i3status
+  181  sudo reboot now
+  182  yay -S polybar
+  183  vim .config/i3/config
+  184  vim /usr/share/doc/polybar/config
+  185  sudo reboot now
+  186  polybar
+  187  cp /usr/share/doc/polybar/config /usr/share/doc/polybar/config
+  188  cp /usr/share/doc/polybar/config $XDG_CONFIG_HOME/polybar/config
+  189  man cp
+  190  echo $XDG_CONFIG_HOME
+  191  mkdir .config/polybar
+  192  cp /usr/share/doc/polybar/config .config/polybar/config
+  193  polybar example
+  194  man npm
+  195  sudo pacman -S npm
+  196  npm install truffle -g
+  197  sudo npm install truffle -g
+  198  truffle
+  199  truffle init
+  200  ls
+  201  man truffle
+  202  rm -rf test contracts
+  203  ls
+  204  rm -rf migrations
+  205  ls
+  206  rm -rf truffle-config.js
+  207  cd install
+  208  ls
+  209  cd ..
+  210  cd do
+  211  cd docs
+  212  ls
+  213  cd ..
+  214  cd programming
+  215  ls
+  216  mkdir sc_repository
+  217  cd sc_repository
+  218  ls
+  219  sudo systemctl suspend now
+  220  sudo systemctl suspend
+  221  cd ~/Downloads
+  222  ls
+  223  tar -xvzf discord-0.0.15.tar.gz discord
+  224  tar -xvzf discord-0.0.15.tar.gz
+  225  ls
+  226  ./Discord
+  227  ls
+  228  sudo pacman -S discord
+  229  cd ..
+  230  ls
+  231  rm -rf Discord discord-0.0.15.tar.gz
+  232  ls
+  233  discord
+  234  sudo shutdown now
+  235  ls
+  236  cd downloads
+  237  ls
+  238  cd ..
+  239  rm -rf downloads
+  240  ls
+  241  la
+  242  li
+  243  cd programming
+  244  ls
+  245  la
+  246  cd sc_repository
+  247  ls
+  248  mkdir multi_faucet
+  249  cd multi_faucet
+  250  ls
+  251  la
+  252  pwd
+  253  touch contract.sol
+  254  ls
+  255  vim contract.sol
+  256  nvim contract.sol
+  257  cd .config/kitty
+  258  ls
+  259  la
+  260  vim kitty
+  261  vim kitty.conf
+  262  vim .config/kitty/kitty.conf
+  263  xkbwatch
+  264  xkbcomp
+  265  vim .zshrc
+  266  source .zshrc
+  267  vim .zshrc
+  268  source .zshrc
+  269  echo $KEYMAP
+  270  localectl status
+  271  setxkbmap -print -query
+  272  xkbcli
+  273  xkbcli list
+  274  localectl set-locale es
+  275  localectl list-locales
+  276  sudo vim /etc/locale.gen
+  277  sudo n+vim /etc/locale.gen
+  278  sudo nvim /etc/locale.gen
+  279  locale-gen
+  280  sudo locale-gen
+  281  sudo nvim /etc/locale.conf
+  282  xkbbell
+  283  xkbevd
+  284  xkbvleds
+  285  xkbwatch
+  286  history | grep debug
+  287  sudo pacman -S libxkbcommon-x11
+  288  sudo reboot now
+  289  sudo shutdown now
+  290  ls
+  291  cd programming
+  292  ls
+  293  cd sc_repository
+  294  ls
+  295  cd multi_faucet
+  296  ls
+  297  vim contract.sol
+  298  vim .config/nvim/init.vim
+  299  ls
+  300  la
+  301  localectl set-locale en
+  302  sudo vim /etc/locale.conf
+  303  sudo nvim /etc/locale.conf
+  304  vim contract.sol
+  305  truffle init
+  306  ls
+  307  cd contracts
+  308  la
+  309  cd ..
+  310  ls
+  311  vim contract.sol
+  312  sudo apcman -S telegram
+  313  sudo pacman -S telegram
+  314  sudo pacman -S telegram-desktop
+  315  pacman -S xclip
+  316  sudo pacman -S xclip
+  317  echo $DISPLAY
+  318  cat contract
+  319  cat contract.sol
+  320  vim contract.sol
+  321  sudo shutdown now
+  322  sudo pacman -S noto-fonts-emoji
+  323  sudo pacman -S adobe-source-han-sans-otc-fonts
+  324  cfiles
+  325  sudo reboot now
+  326  vim programming/sc_repository/multi_faucet/contract.sol
+  327  timedatextl
+  328  timedatectl
+  329  vim programming/sc_repository/multi_faucet/contract.sol
+  330  cd programming/sc_repository/multi_faucet
+  331  ls
+  332  truffle develop
+  333  ls
+  334  mv contract.sol contracts
+  335  ls
+  336  truffle develop
+  337  cd contracts
+  338  ls
+  339  vim contract.sol
+  340  truffle develop
+  341  vim contract.sol
+  342  fg
+  343  truffle develop
+  344  vim contract.sol
+  345  truffle compile
+  346  vim contract.sol
+  347  truffle compile
+  348  vim contract.sol
+  349  vim .config/nvim/init.vim
+  350  cd .config/nvim/plugged/vim-solidity
+  351  ls
+  352  vim syntax/solidity.vim
+  353  vim ftdetect/solidity.vim
+  354  vim ftplugin/solidity.vim 
+  355  vim contract.sol
+  356  sudo systemctl suspend
+  357  vim ftplugin/solidity.vim 
+  358  truffle compile
+  359  vim contract.sol
+  360  truffle compile
+  361  vim contract.sol
+  362  truffle compile
+  363  vim contract.sol
+  364  truffle compile
+  365  vim contract.sol
+  366  truffle compile
+  367  vim contract.sol
+  368  truffle compile
+  369  truffle develop
+  370  vim contract.sol
+  371  sudo reboot now
+  372  cd programming/sc_repository/multi_faucet
+  373  vim contracts/contract.sol
+  374  cd ..
+  375  mkdir multi_faucet2
+  376  cd multi_faucet
+  377  npm install --save-dev hardhat
+  378  npm init
+  379  ls
+  380  cd ..
+  381  cd multi_faucet2
+  382  npm init
+  383  npm install --save-dev hardhat
+  384  ls
+  385  cd  node_modules
+  386  ls
+  387  cd ..
+  388  file multi_faucet2
+  389  cfiles 
+  390  la
+  391  cd multi_faucet2
+  392  ls
+  393  npx hardhat
+  394  la
+  395  cd contracts
+  396  ls
+  397  npx hardhat compile
+  398  ls
+  399  cd ..
+  400  cd test
+  401  ls
+  402  vim sample-test.js
+  403  ls
+  404  npx hardhat test
+  405  cd ..
+  406  cd scripts
+  407  ls
+  408  vim sample-script.js
+  409  npx hardhat run sample-script.js
+  410  npx hardhat node
+  411  cd ..
+  412  cd multi_faucet
+  413  ls
+  414  cd contracts
+  415  ls
+  416  vim contract.sol
+  417  truffle compile
+  418  ls
+  419  vim contract.sol
+  420  cat contract.sol
+  421  vim contract.sol
+  422  sudo reboot now
+  423  vim programming/sc_repository/multi_faucet/contracts/contract.sol
+  424  cat programming/sc_repository/multi_faucet/contracts/contract.sol
+  425  vim programming/sc_repository/multi_faucet/contracts/contract.sol
+  426  cat programming/sc_repository/multi_faucet/contracts/contract.sol
+  427  vim programming/sc_repository/multi_faucet/contracts/contract.sol
+  428  sudo reboot now
+  429  ls
+  430  la
+  431  cd programming
+  432  ls
+  433  cd sc_repository
+  434  ls
+  435  ~/Downloads/ganache-2.5.4-linux-x86_64.AppImage
+  436  chmod +x ~/Downloads/ganache-2.5.4-linux-x86_64.AppImage
+  437  ~/Downloads/ganache-2.5.4-linux-x86_64.AppImage
+  438  sudo reboot now
+  439  cd programming
+  440  ls
+  441  cd sc_repository
+  442  ls
+  443  cd multi_faucet
+  444  ls
+  445  cd contracts
+  446  vim contract.sol
+  447  cd ..
+  448  cd multi_faucet2
+  449  ls
+  450  cd contracts
+  451  ls
+  452  cd ..
+  453  cd multi_faucet
+  454  ls
+  455  cd contracts
+  456  ls
+  457  vim contract.sol
+  458  truffle develop
+  459  vim contract.sol
+  460  truffle develop
+  461  ls
+  462  vim ../truffle-config.js
+  463  truffle develop
+  464  vim ../truffle-config.js
+  465  truffle develop
+  466  vim ../truffle-config.js
+  467  vim ../migrations
+  468  vim ../truffle-config.js
+  469  truffle develop
+  470  vim ../truffle-config.js
+  471  truffle develop
+  472  vim ../truffle-config.js
+  473  fg
+  474  truffle develop
+  475  fg
+  476  vim ../truffle-config.js
+  477  truffle develop
+  478  cd programming/sc_repository/multi_faucet
+  479  cd migrations
+  480  ls
+  481  vim 1_initial_migration.js
+  482  truffle develop
+  483  vim ../truffle-config.js
+  484  vim 1_initial_migration.js
+  485  vim 2_deployment
+  486  vim 2_deployment.js
+  487  cd programming/sc_repository
+  488  touch mnemonic_ropsten
+  489  vim mnemonic_ropsten
+  490  cd ../contracts
+  491  ls
+  492  vim contract.sol
+  493  ls
+  494  vim contract.sol
+  495  truffle develop
+  496  sudo reboot no
+  497  sudo reboot now
+  498  cd programming/sc_repository/multi_faucet
+  499  ls
+  500  vim truffle-config.js
+  501  ls
+  502  cd contracts
+  503  ls
+  504  vim Migrations.sol
+  505  ls
+  506  cd ..
+  507  ls
+  508  cd migrations
+  509  ls
+  510  vim 2_deployment.js
+  511  sudo shutdown now
+  512  sudo systemctl suspend
+  513  timedatectl
+  514  sudo reboot now
+  515  cd .config
+  516  ls
+  517  la
+  518  cd i3
+  519  ls
+  520  vim config
+  521  timedatectlk
+  522  timedatectl
+  523  htop
+  524  sudo timedatectl set-local-rtc 1 --adjust-system-clock
+  525  timedatectl
+  526  timedatectl set-local-rtc 0
+  527  ls
+  528  sudo timedatectl set-local-rtc 1 --adjust-system-clock
+  529  ls
+  530  sudo pacman -S thunar
+  531  sudo shutdown now
+  532  sudo pacman -Syu
+  533  sudo yay -S polybar-git
+  534  yay -S polybar-git
+  535  vim .config/polybar/config
+  536  cd .config/polybar
+  537  vim .config/i3/config
+  538  sudo reboot now
+  539  polybar
+  540  polybar -r
+  541  polybar -w
+  542  polybar -lw
+  543  polybar -l
+  544  polybar -l -w
+  545  polybar -l w
+  546  vim .config/i3/config
+  547  cd .config/polybar
+  548  ls
+  549  vim config
+  550  ls
+  551  vim ../i3/config
+  552  vim launch.sh
+  553  telegram-desktop
+  554  man tee
+  555  ./launch.sh
+  556  chmod +x launch.sh
+  557  ./launch.sh
+  558  vim config
+  559  ls
+  560  cd .config
+  561  ls
+  562  cd polybar
+  563  vim launch.sh
+  564  ./launch.sh
+  565  vim .config/nvim/init.vim
+  566  vim config
+  567  vim .config/nvim/init.vim
+  568  sudo pacman -S lua
+  569  vim .config/nvim/init.vim
+  570  vim config
+  571  vim .config/nvim/init.vim
+  572  vim config
+  573  vim .config/nvim/init.vim
+  574  vim config
+  575  polybar -r
+  576  polybar -r bar1
+  577  ./launch.sh
+  578  cd .config/polybar
+  579  ls
+  580  la
+  581  vim launch.sh
+  582  sudo reboot now
+  583  cd .config/polybar
+  584  vim config
+  585  cd .config/polybar
+  586  vim config
+  587  sudo pacman -S nitrogen
+  588  vim .config/i3/config
+  589  cd .config/i3
+  590  ls
+  591  nitrogen wallpaper.jpeg
+  592  mkdir wallpaper
+  593  mv wallpaper.jpeg wallpaper
+  594  nitrogen wallpaper
+  595  cd ../kitty
+  596  la
+  597  vim kitty.conf
+  598  s
+  599  sudo shutdown now
+  600  sudo pacman -S picom
+  601  cp /etc/xdg/picom.conf
+  602  cp /etc/xdg/picom.conf ~/.config/picom
+  603  vim .config/picom
+  604  picom
+  605  picom &
+  606  sudo shutdown now
+  607  nitrogen .config/i3/wallpaper/
+  608  vim .config/i3/config
+  609  ls
+  610  la
+  611  ls
+  612  cd programming
+  613  ls
+  614  mkdir web
+  615  cd web
+  616  mkdir test
+  617  cd test
+  618  vim test.html
+  619  brave test.html
+  620  vim test.html
+  621  cd programming/web
+  622  ls
+  623  mkdir hello_world
+  624  cd hello_world
+  625  touch hello_world.html
+  626  vim hello_world.html
+  627  cd .config/nvim
+  628  ls
+  629  cd plugged
+  630  ls
+  631  cd delimitMate
+  632  ls
+  633  vim basic_vimrc
+  634  la
+  635  less README.md
+  636  vim plugin/delimitMate.vim
+  637  vim hello_world.html
+  638  cd ../..
+  639  ls
+  640  vim init.vim
+  641  vim hello_world.html
+  642  vim init.vim
+  643  vim hello_world.html
+  644  git add .
+  645  git rm --cached plugged/nvim-colorizer.lua
+  646  git commit -m "matching pairs highlight color changed"
+  647  git push origin:HEAD
+  648  sudo reboot noiw
+  649  sudo reboot now
+  650  sudo shutdown now
+  651  cd programming
+  652  ls
+  653  cd web
+  654  ls
+  655  cd test
+  656  cd ..
+  657  cd hello_world
+  658  ls
+  659  vim hello_world.html
+  660  cd programming/web
+  661  vim hello_world/hello_world.html
+  662  cd ..
+  663  vim web/test/test.html
+  664  brave hello_world.html
+  665  sudo systemctl suspend
+  666  vim web/test/test.html
+  667  vim hello_world.html
+  668  sudo shutdown now
+  669  cd programming
+  670  ls
+  671  cd web
+  672  ls
+  673  cd hello_world
+  674  vim hello_world.html
+  675  cd programming
+  676  ls
+  677  cd web
+  678  ls
+  679  cd hello_world
+  680  la
+  681  vim style.css
+  682  vim test_image.html
+  683  cd ..
+  684  mkdir test_image
+  685  cd test_image
+  686  vim test_image.html
+  687  cd ../test_image
+  688  vim style.css
+  689  vim test_image.html
+  690  sudo shutdown now
+  691  cd programming
+  692  ls
+  693  cd web
+  694  ls
+  695  cd test_image
+  696  okular
+  697  man exec
+  698  exec
+  699  sudo pacman -S okular
+  700  exec okular ../css\ tutorial.pdf
+  701  cd programming/web
+  702  xdg-open css\ tutorial.pdf
+  703  sudo pacman -S zathura
+  704  zathura css\ tutorial.pdf
+  705  sudo pacman -R zathura
+  706  vim .zshrc
+  707  run okular
+  708  source .zshrc
+  709  run okular
+  710  vim .zshrc
+  711  source .zshrc
+  712  run okular
+  713  vim .zshrc
+  714  source .zshrc
+  715  run okular
+  716  vim .zshrc
+  717  source .zshrc
+  718  run okular
+  719  vim .zshrc
+  720  source .zshrc
+  721  run okular
+  722  vim .zshrc
+  723  run okular
+  724  vim .zshrc
+  725  source .zshrc
+  726  run okular
+  727  vim .zshrc
+  728  run okular
+  729  jobs
+  730  man jobs
+  731  run okular css\ tutorial.pdf
+  732  pwd
+  733  cd programming/web
+  734  run okular css\ tutorial.pdf
+  735  vim .zshrc
+  736  source .zshrc
+  737  run okular
+  738  jobs
+  739  vim .zshrc
+  740  run okular
+  741  ru okular
+  742  run okular
+  743  la
+  744  source .zshrc
+  745  run okular
+  746  man Runç
+  747  man Run
+  748  run okular
+  749  exit
+  750  vim .zshrc
+  751  run okular
+  752  vim .zshrc
+  753  run okular
+  754  ç
+  755  vim .zshrc
+  756  run okular
+  757  man sh
+  758  help sh
+  759  cd programming/web
+  760  ls
+  761  cd test_image
+  762  ls
+  763  la
+  764  vim *
+  765  sudo reboot now
+  766  sudo shutdown now
+  767  sudo reboot now
+  768  sudo shutdown now
+  769  vim
+  770  sudo shutdown now
+  771  sudo reboot now
+  772  la
+  773  mkdir ideas
+  774  cd i
+  775  cd ideas
+  776  ls
+  777  vim drawing_platform.txt
+  778  sudo reboot now
+  779  timedatectl
+  780  sudo reboot now
+  781  sudo systemctl suspend
+  782  sudo shutdown now
+  783  sudo systemctl suspend
+  784  sudo reboot now
+  785  nmtui
+  786  sudo systemctl suspend
+  787  Desktop
+  788  programming
+  789  la
+  790  mkdir python
+  791  cd python
+  792  la
+  793  mkdir tweet_organizer.py
+  794  la
+  795  mv tweet_organizer.py tweet_organizer
+  796  la
+  797  cd tweet_organizer
+  798  touch main.py
+  799  vim main.py
+  800  py main.py
+  801  python main.py
+  802  vim main.py
+  803  python main.py
+  804  vim main.py
+  805  python main.py
+  806  vim main.py
+  807  python main.py
+  808  vim main.py
+  809  python main.py
+  810  vim main.py
+  811  python main.py
+  812  vim main.py
+  813  python main.py
+  814  vim main.py
+  815  python main.py
+  816  vim main.py
+  817  python main.py
+  818  vim main.py
+  819  python main.py
+  820  vim main.py
+  821  cd programming/python
+  822  cd tweet_organizer
+  823  la
+  824  python main.py
+  825  touch file.txt
+  826  vim file.txt
+  827  python main.py
+  828  vim file.txt
+  829  python main.py
+  830  vim file.txt
+  831  python main.py
+  832  vim file.txt
+  833  python main.py
+  834  vim file.txt
+  835  restart now
+  836  reboot now
+  837  sudo reboot now
+  838  sudo pacman -S thunderbird
+  839  sudo pacman -Syu
+  840  shutdown now
+  841  sudo pacman -S firefox
+  842  shutdown now
+  843  sudo systemctl suspend
+  844  cd personal
+  845  la
+  846  mkdir threads
+  847  mv electronic_cash.txt threads
+  848  cd threads
+  849  la
+  850  vim electronic_cash.txt
+  851  nmtui
+  852  sudo systemctl suspend
+  853  cd programming/python
+  854  la
+  855  cd tweet_organizer
+  856  la
+  857  vim main.py
+  858  cd programming/python/tweet_organizer
+  859  vim file.txt
+  860  cd programming/python/tweet_organizer
+  861  la
+  862  python main.py
+  863  clear
+  864  python main.py
+  865  clean
+  866  clear
+  867  reset
+  868  python main.py
+  869  reset
+  870  python main.py
+  871  reset
+  872  python main.py
+  873  sudo shutdown now
+  874  man locate
+  875  man ps
+  876  ps aux
+  877  ps aux | grep root
+  878  man astu
+  879  astu
+  880  sudo shutdown now
+  881  sudo reboot now
+  882  cd programming
+  883  mkdir basurero
+  884  cd basurero
+  885  la
+  886  touch python_image_processing.py
+  887  cd programming/basurero
+  888  pip install Pillow
+  889  sudo pacman -S pip
+  890  sudo pacman -S python-pip
+  891  pip install Pillow
+  892  sudo pip install Pillow
+  893  mv ~/Downloads/download.jpeg .
+  894  la
+  895  vim python_image_processing.py
+  896  mv tradeoffertempalte.jpg test.jpg
+  897  python python_image_processing.py
+  898  la
+  899  python python_image_processing.py
+  900  la
+  901  man kitty
+  902  kitty +kitten icat output.jpeg
+  903  sudo pacman -S viewnior
+  904  viewnior output.jpeg
+  905  python python_image_processing.py
+  906  la
+  907  viewnior output.jpeg
+  908  rm output.jpeg
+  909  python python_image_processing.py
+  910  viewnior output.jpeg
+  911  python python_image_processing.py
+  912  viewnior output.jpeg
+  913  python python_image_processing.py
+  914  viewnior output.jpeg
+  915  sudo shutdown now
+  916  cd programming/basurero
+  917  la
+  918  vim python_image_processing.py
+  919  programming/basurero
+  920  la
+  921  viewnior output.jpeg
+  922  python python_image_processing.py
+  923  viewnior output.jpeg
+  924  python python_image_processing.py
+  925  viewnior output.jpeg
+  926  file download.jpeg
+  927  file test.jpg
+  928  python python_image_processing.py
+  929  viewnior output.jpeg
+  930  python python_image_processing.py
+  931  viewnior output.jpeg
+  932  python python_image_processing.py
+  933  viewnior output.jpeg
+  934  python python_image_processing.py
+  935  viewnior output.jpeg
+  936  python python_image_processing.py
+  937  cd /usr/share/fonts
+  938  la
+  939  cd TTF
+  940  la
+  941  python python_image_processing.py
+  942  viewnior output.jpeg
+  943  python python_image_processing.py
+  944  viewnior output.jpeg
+  945  python python_image_processing.py
+  946  viewnior output.jpeg
+  947  python python_image_processing.py
+  948  viewnior output.jpeg
+  949  python python_image_processing.py
+  950  viewnior output.jpeg
+  951  python python_image_processing.py
+  952  viewnior output.jpeg
+  953  python python_image_processing.py
+  954  viewnior output.jpeg
+  955  python python_image_processing.py
+  956  viewnior output.jpeg
+  957  python python_image_processing.py
+  958  viewnior output.jpeg
+  959  python python_image_processing.py
+  960  viewnior output.jpeg
+  961  python python_image_processing.py
+  962  viewnior output.jpeg
+  963  python python_image_processing.py
+  964  viewnior output.jpeg
+  965  python python_image_processing.py
+  966  viewnior output.jpeg
+  967  python python_image_processing.py
+  968  viewnior output.jpeg
+  969  cd programming/python
+  970  la
+  971  cd tweet_organizer
+  972  la
+  973  vim main.py
+  974  python python_image_processing.py
+  975  viewnior output.jpeg
+  976  python python_image_processing.py
+  977  viewnior output.jpeg
+  978  python python_image_processing.py
+  979  viewnior output.jpeg
+  980  python python_image_processing.py
+  981  viewnior output.jpeg
+  982  python python_image_processing.py
+  983  viewnior output.jpeg
+  984  python python_image_processing.py
+  985  viewnior output.jpeg
+  986  python python_image_processing.py
+  987  viewnior output.jpeg
+  988  python python_image_processing.py
+  989  viewnior output.jpeg
+  990  python python_image_processing.py
+  991  viewnior output.jpeg
+  992  python python_image_processing.py
+  993  viewnior output.jpeg
+  994  python python_image_processing.py
+  995  viewnior output.jpeg
+  996  python python_image_processing.py
+  997  viewnior output.jpeg
+  998  python python_image_processing.py
+  999  viewnior output.jpeg
+ 1000  python python_image_processing.py
+ 1001  viewnior output.jpeg
+ 1002  python python_image_processing.py
+ 1003  viewnior output.jpeg
+ 1004  python python_image_processing.py
+ 1005  viewnior output.jpeg
+ 1006  python python_image_processing.py
+ 1007  viewnior output.jpeg
+ 1008  la
+ 1009  python python_image_processing.py
+ 1010  viewnior output.jpeg
+ 1011  python python_image_processing.py
+ 1012  viewnior output.jpeg
+ 1013  python python_image_processing.py
+ 1014  viewnior output.jpeg
+ 1015  python python_image_processing.py
+ 1016  viewnior output.jpeg
+ 1017  python python_image_processing.py
+ 1018  viewnior output.jpeg
+ 1019  python python_image_processing.py
+ 1020  viewnior output.jpeg
+ 1021  python python_image_processing.py
+ 1022  viewnior output.jpeg
+ 1023  python python_image_processing.py
+ 1024  viewnior output.jpeg
+ 1025  python python_image_processing.py
+ 1026  viewnior output.jpeg
+ 1027  sudo systemctl suspend
+ 1028  python python_image_processing.py
+ 1029  viewnior output.jpeg
+ 1030  python python_image_processing.py
+ 1031  viewnior output.jpeg
+ 1032  python python_image_processing.py
+ 1033  viewnior output.jpeg
+ 1034  python python_image_processing.py
+ 1035  viewnior output.jpeg
+ 1036  python python_image_processing.py
+ 1037  viewnior output.jpeg
+ 1038  python python_image_processing.py
+ 1039  viewnior output.jpeg
+ 1040  python python_image_processing.py
+ 1041  viewnior output.jpeg
+ 1042  python python_image_processing.py
+ 1043  viewnior output.jpeg
+ 1044  python python_image_processing.py
+ 1045  viewnior output.jpeg
+ 1046  python python_image_processing.py
+ 1047  viewnior output.jpeg
+ 1048  bat output.jpeg
+ 1049  bat python_image_processing.py
+ 1050  sshpi
+ 1051  pissh
+ 1052  man ssh
+ 1053  help ssh
+ 1054  ssh pi@192.168.1.100
+ 1055  sudo pacman -S ssh
+ 1056  sudo pacman -S openssh
+ 1057  ssh pi@192.168.1.100
+ 1058  ssh ivan@192.168.1.100
+ 1059  man ssh
+ 1060  ssh -J ivan@192.168.1.100
+ 1061  ssh -J ivan@192.168.1.100:22
+ 1062  ssh ivan@192.168.0.100
+ 1063  ssh pi@192.168.0.100
+ 1064  nmtui
+ 1065  ssh pi@192.168.0.100
+ 1066  ssh pi@192.168.1.100
+ 1067  ssh-keygen
+ 1068  ssh pi@192.168.1.100
+ 1069  ssh pi@192.168.0.100
+ 1070  ssh pi@192.168.0.100 -v
+ 1071  ssh pi@192.168.1.100 -v
+ 1072  ssh pi@192.168.1.100
+ 1073  nmtui
+ 1074  ssh pi@192.168.1.100
+ 1075  nmtui
+ 1076  sudo pacman -S gvim
+ 1077  cd programming
+ 1078  la
+ 1079  cd basurero
+ 1080  la
+ 1081  vim python_image_processing.py
+ 1082  viewnior output.jpeg
+ 1083  vim python_image_processing.py
+ 1084  python python_image_processing.py
+ 1085  la
+ 1086  vim python_image_processing.py
+ 1087  python python_image_processing.py
+ 1088  la
+ 1089  mv file_name.pdf pic.jpg
+ 1090  viewnior pic.jpg
+ 1091  vim python_image_processing.py
+ 1092  ssh pi@192.168.1.100
+ 1093  la
+ 1094  vim .zshrc
+ 1095  ssh pi@192.168.1.100
+ 1096  source .zshrc
+ 1097  ssh pi@192.168.1.100
+ 1098  man scp
+ 1099  cd programming/basurero
+ 1100  la
+ 1101  viewnor download.jpeg
+ 1102  viewnior download.jpeg
+ 1103  mv test.jpg template.jpg
+ 1104  scp template.jpg pi@piIvan.local:~/pipy_bot
+ 1105  scp template.jpg pi@192.168.0.100.local:~/pipy_bot
+ 1106  scp template.jpg pi@192.168.0.100.local:~/pipy_bot -v
+ 1107  scp template.jpg pi@192.168.0.100:~/pipy_bot
+ 1108  man scp
+ 1109  scp -v template.jpg pi@192.168.0.100:~/pipy_bot
+ 1110  scp -v template.jpg pi@192.168.1.100:~/pipy_bot
+ 1111  reset
+ 1112  cd ..
+ 1113  cd sc_repository
+ 1114  la
+ 1115  cd multi_faucet2
+ 1116  la
+ 1117  cd contracts
+ 1118  la
+ 1119  cd ..
+ 1120  cd multi_faucet
+ 1121  la
+ 1122  cd contracts
+ 1123  la
+ 1124  vim contract.sol
+ 1125  cd programming/sc_repository
+ 1126  la
+ 1127  cd multi_faucet
+ 1128  la
+ 1129  cd contracts
+ 1130  cd programming/sc_repository/multi_faucet
+ 1131  la
+ 1132  vim contract.sol
+ 1133  cp contracts/contract.sol ../multi_faucet2/contracts
+ 1134  la
+ 1135  vim truffle-config.js
+ 1136  man npm
+ 1137  man npx
+ 1138  npx hardhat node
+ 1139  cd programming/sc_repository/multi_faucet2
+ 1140  npx hardhat node
+ 1141  cd programming/sc_repository/multi_faucet2
+ 1142  la
+ 1143  npm install --save-dev @nomiclabs/hardhat-ethers ethers @nomiclabs/hardhat-waffle ethereum-waffle chai
+ 1144  npm audit fix
+ 1145  cd ../multi_faucet2
+ 1146  vim hardhat.config.js
+ 1147  npx hardhat compile
+ 1148  cd contracts
+ 1149  cd ..
+ 1150  cd multi_faucet2
+ 1151  ña
+ 1152  la
+ 1153  cd contracts
+ 1154  la
+ 1155  vim contract.sol
+ 1156  npx hardhat compile
+ 1157  cd ..
+ 1158  mkdir test
+ 1159  cd test
+ 1160  la
+ 1161  vim sample-test.js
+ 1162  npx hardhat test
+ 1163  vim sample-test.js
+ 1164  la
+ 1165  vim Greeter.sol
+ 1166  vim contract.sol
+ 1167  npx hardhat test
+ 1168  vim contract.sol
+ 1169  vim sample-test.js
+ 1170  npx hardhat test
+ 1171  vim sample-test.js
+ 1172  npx hardhat test
+ 1173  vim sample-test.js
+ 1174  npx hardhat test
+ 1175  vim sample-test.js
+ 1176  npx hardhat test
+ 1177  vim sample-test.js
+ 1178  npx hardhat test
+ 1179  vim sample-test.js
+ 1180  npx hardhat test
+ 1181  sudo shutdown now
+ 1182  cd programming/sc_repository
+ 1183  la
+ 1184  cd multi_faucet2
+ 1185  cd programming/sc_repository
+ 1186  cd multi_faucet2
+ 1187  npx hardhart node
+ 1188  npx hardhat node
+ 1189  la
+ 1190  cd contracts
+ 1191  la
+ 1192  vim contract.sol Greeter.sol
+ 1193  cd test
+ 1194  la
+ 1195  vim sample-test.js
+ 1196  cd multi_faucet2
+ 1197  la
+ 1198  npx hardhat test
+ 1199  sudo systemctl suspend
+ 1200  npx hardhat test
+ 1201  cd programming/sc_repository/multi_faucet2
+ 1202  la
+ 1203  vim hardhat.config.js
+ 1204  npx hardhat test
+ 1205  sudo reboot now
+ 1206  sshpi
+ 1207  ssh pi@192.168.1.100
+ 1208  sudo shutdown now
+ 1209  cd /usr/bin/
+ 1210  la
+ 1211  sudo mv ~/ledger-live-desktop-2.32.2-linux-x86_64.AppImage .
+ 1212  mv ledger-live-desktop-2.32.2-linux-x86_64.AppImage ledger_live
+ 1213  sudo mv ledger-live-desktop-2.32.2-linux-x86_64.AppImage ledger_live
+ 1214  ledger_live
+ 1215  sudo mv ledger_live ~
+ 1216  cd ..
+ 1217  la
+ 1218  cd local
+ 1219  la
+ 1220  cd lo
+ 1221  cd local
+ 1222  la
+ 1223  cd bin
+ 1224  la
+ 1225  mv ~/ledger_live .
+ 1226  sudo mv ~/ledger_live .
+ 1227  ledger_live
+ 1228  sudo ledger_live
+ 1229  ./ledger_live
+ 1230  sudo mv ledger_live ~
+ 1231  cd ~
+ 1232  ledger_live
+ 1233  la
+ 1234  chmod +x ledger_live
+ 1235  la
+ 1236  ledger_live
+ 1237  ./ledger_live
+ 1238  sudo pacman -S fuse2
+ 1239  ./ledger_live
+ 1240  sudo systemctl suspend
+ 1241  sudo reboot now
+ 1242  cd programming
+ 1243  sudo systemctl suspend
+ 1244  sudo shutdown now
+ 1245  la
+ 1246  ls
+ 1247  ./ledger_live
+ 1248  python3
+ 1249  la
+ 1250  cd programming
+ 1251  la
+ 1252  cd basurero
+ 1253  la
+ 1254  mkdir hexc
+ 1255  cd hexc
+ 1256  la
+ 1257  touch file.py
+ 1258  vim file.py
+ 1259  ./file.py
+ 1260  chmod +x file.py
+ 1261  ./file.py
+ 1262  vim file.py
+ 1263  ./file.py
+ 1264  python3 file.py
+ 1265  ^[[200~wget -q -O - https://raw.githubusercontent.com/LedgerHQ/udev-rules/master/add_udev_rules.sh | sudo bash
+ 1266  wget -q -O - https://raw.githubusercontent.com/LedgerHQ/udev-rules/master/add_udev_rules.sh | sudo bash
+ 1267  cd ..
+ 1268  python3 ledger_live
+ 1269  ./ledger_live
+ 1270  bash
+ 1271  ./ledger_live
+ 1272  sudo reboot now
+ 1273  la
+ 1274  ls
+ 1275  vim PM.txt
+ 1276  sudo shutdown now
+ 1277  ./ledger_live
+ 1278  sudo reboot now
+ 1279  pip isntall web3
+ 1280  pip install web3
+ 1281  la
+ 1282  cd programming/
+ 1283  mkdir projects
+ 1284  cd projects
+ 1285  la
+ 1286  mkdir argennon_bot
+ 1287  cd argennon_bot
+ 1288  la
+ 1289  git init
+ 1290  git config --global init.defaultBranch main
+ 1291  la
+ 1292  git branch -m main
+ 1293  ssh-keygen -t ed25519 -C "icrypto19@gmail.com"
+ 1294  eval "$(ssh-agent -s)"\n> Agent pid 59566
+ 1295  eval "$(ssh-agent -s)"
+ 1296  ssh-add ~/.ssh/id_ed25519
+ 1297  sudo shutdown now
+ 1298  ls -al ~/.ssh
+ 1299  cat *.pub
+ 1300  cat ./*.pub
+ 1301  cd ./ssh
+ 1302  cd ssh
+ 1303  cd .ssh
+ 1304  cat id_ed25519.pub
+ 1305  ssh -T git@github.com
+ 1306  cd ..
+ 1307  cd programming
+ 1308  la
+ 1309  cd projects
+ 1310  la
+ 1311  rm -rf argennon_bot
+ 1312  git clone git@github.com:uneevn/Argennon-server-bot.git
+ 1313  la
+ 1314  cd Argennon-server-bot
+ 1315  lña
+ 1316  la
+ 1317  man git branch
+ 1318  la
+ 1319  touch bot.py adag_listener.py
+ 1320  la
+ 1321  cd programming
+ 1322  la
+ 1323  cd python
+ 1324  la
+ 1325  ssh pi@192.168.1.100
+ 1326  ssh pi@192.168.0.100
+ 1327  ssh pi@192.168.1.100
+ 1328  sudo shutdown now
+ 1329  la
+ 1330  cd programming/projects
+ 1331  la
+ 1332  cd Argennon-server-bot
+ 1333  la
+ 1334  vim bot.py
+ 1335  cd programming
+ 1336  la
+ 1337  cd python
+ 1338  la
+ 1339  ssh pi@192.168.1.100
+ 1340  sudo shutdown now
+ 1341  cd programming/projects/Argennon-server-bot
+ 1342  cd programming/la
+ 1343  la
+ 1344  vim bot.py
+ 1345  python3 bot.py
+ 1346  pip update
+ 1347  man pip
+ 1348  sudo -H pip3 install --upgrade pip
+ 1349  pip install discord
+ 1350  la
+ 1351  python3 bot.py
+ 1352  la
+ 1353  ssh pi@192.168.1.100
+ 1354  la
+ 1355  vim bot.py
+ 1356  python3 bot.py
+ 1357  vim bot.py
+ 1358  python3 bot.py
+ 1359  vim bot.py
+ 1360  fg
+ 1361  vim bot.py
+ 1362  python3 bot.py
+ 1363  vim bot.py
+ 1364  fg
+ 1365  python3 bot.py
+ 1366  fg
+ 1367  vim bot.py
+ 1368  fg
+ 1369  python3 bot.py
+ 1370  vim bot.py
+ 1371  pip install python-binance
+ 1372  la
+ 1373  vim bot.py
+ 1374  python3 bot.py
+ 1375  vim bot.py
+ 1376  python3 bot.py
+ 1377  vim bot.py
+ 1378  python3 bot.py
+ 1379  sudo shutdown now
+ 1380  cd programming/projects
+ 1381  la
+ 1382  cd A
+ 1383  CD Argennon-server-bot
+ 1384  cd Argennon-server-bot
+ 1385  la
+ 1386  vim bot.py
+ 1387  python3 bot.py
+ 1388  la
+ 1389  vim bot.py
+ 1390  python3 bot.py
+ 1391  vim bot.py
+ 1392  python3 bot.py
+ 1393  vim arg_abi.json
+ 1394  sudo reboot now
+ 1395  sudo shutdown now
+ 1396  sudo reboot now
+ 1397  nmtui
+ 1398  sudo shutdown now
+ 1399  ls
+ 1400  la
+ 1401  cd .config
+ 1402  cd kitty
+ 1403  la
+ 1404  git commit -am "a"
+ 1405  git push
+ 1406  cd ..
+ 1407  cd nvim
+ 1408  cd ..
+ 1409  ssh-keygen -t ed25519 -C "icalamesa@gmail.com"
+ 1410  cat /home/ivan/.ssh/id_ed25519.pub
+ 1411  cd kitty
+ 1412  la
+ 1413  git push github.com
+ 1414  man git push
+ 1415  git push
+ 1416  git remote add server git@github.com:icalamesa/kitty.git
+ 1417  git push server
+ 1418  man git remote
+ 1419  git push git@github.com:icalamesa/kitty.git
+ 1420  cat /home/ivan/.ssh/id_ed25519.pub
+ 1421  git push server
+ 1422  git fetch
+ 1423  cd ..
+ 1424  vim .zshrc
+ 1425  cd ..
+ 1426  vim .zshrc
+ 1427  vim .config/i3/config
+ 1428  sudo shutdown now
+ 1429  clear
+ 1430  la
+ 1431  pwd
+ 1432  cd programming
+ 1433  la
+ 1434  mkdir uni
+ 1435  cd uni
+ 1436  la
+ 1437  mkdir EDA
+ 1438  LA
+ 1439  cd EDA
+ 1440  la
+ 1441  mkdir P69781
+ 1442  CD P69781
+ 1443  cd P69781
+ 1444  la
+ 1445  touch input.txt main.cpp
+ 1446  vim main.cpp
+ 1447  cd programming/uni/EDA/P69781
+ 1448  la
+ 1449  g++ main.cpp -o bin
+ 1450  ./bin
+ 1451  g++ main.cpp -o bin
+ 1452  ./bin
+ 1453  g++ main.cpp -o bin
+ 1454  ./bin
+ 1455  sudo shutdown now
+ 1456  man sprintf
+ 1457  man sprint
+ 1458  man write
+ 1459  man man
+ 1460  la
+ 1461  cd programming
+ 1462  la
+ 1463  cd uni
+ 1464  la
+ 1465  mkdir SO
+ 1466  cd SO
+ 1467  la
+ 1468  tar -zxvf S2.tar.gz
+ 1469  la
+ 1470  cd S2
+ 1471  la
+ 1472  make
+ 1473  vim Makefile
+ 1474  make
+ 1475  vim Makefile
+ 1476  cp Makefile makefile_1
+ 1477  vim makefile_1
+ 1478  vim listaParametros.c
+ 1479  vim makefile_1
+ 1480  make makefile_1
+ 1481  make 
+ 1482  la
+ 1483  man make
+ 1484  make -f makefile_1
+ 1485  vim makefile
+ 1486  vim listaParametros.c
+ 1487  make -f makefile_1
+ 1488  vim listaParametros.c
+ 1489  make -f makefile_1
+ 1490  vim listaParametros.c
+ 1491  make -f makefile_1
+ 1492  vim listaParametros.c
+ 1493  make -f makefile_1
+ 1494  la
+ 1495  ./listaParametros
+ 1496  vim punteros.c
+ 1497  cat README
+ 1498  vim punteros.c
+ 1499  touch numeros.c
+ 1500  pwd
+ 1501  cd /home/ivan/programming/uni/SO/S2
+ 1502  la
+ 1503  vim numeros.c
+ 1504  gcc numeros.c
+ 1505  vim numeros.c
+ 1506  gcc numeros.c
+ 1507  vim numeros.c
+ 1508  man print
+ 1509  man printf
+ 1510  gcc numeros.c
+ 1511  vim numeros.c
+ 1512  gcc numeros.c
+ 1513  vim numeros.c
+ 1514  gcc numeros.c
+ 1515  vim numeros.c
+ 1516  gcc numeros.c
+ 1517  ./a.out hola 1 2 879y7
+ 1518  vim numeros.c
+ 1519  gcc numeros.c
+ 1520  ./a.out hola 1 2 879y7
+ 1521  ./a.out hola 1 2 879y7 -567
+ 1522  vim numeros.c
+ 1523  gcc numeros.c
+ 1524  ./a.out hola 1 2 879y7 -567
+ 1525  la
+ 1526  touch makefile_numeros
+ 1527  vim makefile
+ 1528  la
+ 1529  cp makefile makefile_numeros
+ 1530  la
+ 1531  vim makefile
+ 1532  vim makefile_numeros
+ 1533  rm makefile
+ 1534  la
+ 1535  make -f makefile_numeros
+ 1536  la
+ 1537  ./numeros_output
+ 1538  ./numeros_output hola que tal 123 -23 01388139287348213479234237842
+ 1539  vim numeros.c
+ 1540  make -f makefile_numeros
+ 1541  la
+ 1542  make -f makefile_1 clean
+ 1543  la
+ 1544  rm a.out
+ 1545  make -f makefile_numeros clean
+ 1546  la
+ 1547  mv makefile_numeros Makefile
+ 1548  la
+ 1549  tar -zcvf previo02.tar.gz numeros.c Makefile listaParametros.c makefile_1
+ 1550  la
+ 1551  vim makefile_1
+ 1552  cd ..
+ 1553  tar -cvf S2
+ 1554  tar -cvfr S2
+ 1555  la
+ 1556  rm -rf r
+ 1557  tar -cvf S2_por_si_aca.tar S2
+ 1558  la
+ 1559  sudo shutdown now
+ 1560  man getpid
+ 1561  sudo pacman -S man-pages
+ 1562  sudo pacman -Syu
+ 1563  sudo pacman -S man-pages
+ 1564  sudo pacman -Su
+ 1565  sudo reboot now
+ 1566  man fork
+ 1567  man getpid
+ 1568  ls ~/Downloads
+ 1569  cd programming/uni
+ 1570  la
+ 1571  pwd
+ 1572  la
+ 1573  cd SO
+ 1574  la
+ 1575  rm *.tar*
+ 1576  la
+ 1577  mkdir S3
+ 1578  la
+ 1579  tar -zxvf S3.tar.gz
+ 1580  la
+ 1581  rm S3.tar.gz
+ 1582  la
+ 1583  cd S3
+ 1584  la
+ 1585  ./listaParametros
+ 1586  ./listaParametros 1 2 3 4
+ 1587  man exit
+ 1588  exit 110
+ 1589  touch previo.txt
+ 1590  la
+ 1591  rm previo.txt
+ 1592  cd /home/ivan/programming/uni
+ 1593  touch previo.txt
+ 1594  la
+ 1595  cd SO/S3
+ 1596  la
+ 1597  vim *.c
+ 1598  man execlp
+ 1599  make
+ 1600  make -f Makefile.ejemplos
+ 1601  la
+ 1602  cat README_S3
+ 1603  ./ejemplo_exec1
+ 1604  man execlp
+ 1605  man fork
+ 1606  sudo shutdown now
+ 1607  clear
+ 1608  cd /proc
+ 1609  la
+ 1610  yay -S obs-studio
+ 1611  ls
+ 1612  man flex++
+ 1613  sudo pacman -S flv
+ 1614  sudo pacman -S vlc
+ 1615  sudo pacman -Syu
+ 1616  sudo pacman -S vlc
+ 1617  vlc
+ 1618  sudo pacman -S libreoffice
+ 1619  cd 2
+ 1620  la
+ 1621  htop
+ 1622  sudo pacman -Syu htop
+ 1623  htop
+ 1624  file exe
+ 1625  cd cwd
+ 1626  su
+ 1627  cd ..
+ 1628  cd 71
+ 1629  ls
+ 1630  cd ..
+ 1631  cd 78898
+ 1632  ls
+ 1633  la
+ 1634  cd cwd
+ 1635  cat cmdline
+ 1636  cd programming
+ 1637  la
+ 1638  cd uni
+ 1639  la
+ 1640  cd SO
+ 1641  la
+ 1642  cd S3
+ 1643  la
+ 1644  make
+ 1645  ./ejemplo_fork6
+ 1646  cd ..
+ 1647  cd 81360
+ 1648  less status
+ 1649  cd 13
+ 1650  cat status
+ 1651  la
+ 1652  cat environ
+ 1653  echo $TERM
+ 1654  environ
+ 1655  env
+ 1656  la
+ 1657  ls -la
+ 1658  man exec
+ 1659  echo $PATH
+ 1660  cd /usr/local/bin
+ 1661  la
+ 1662  cd /usr/bin
+ 1663  la
+ 1664  ./touch ~/hola
+ 1665  cd ~
+ 1666  la
+ 1667  ps
+ 1668  ps -u ivan
+ 1669  sudo shutdown now
+ 1670  cd programming/uni/SO
+ 1671  la
+ 1672  tar -zxvf S4.tar.gz
+ 1673  la
+ 1674  pwd
+ 1675  man pwd
+ 1676  /home/ivan/programming/uni/SO
+ 1677  la
+ 1678  cd S4
+ 1679  la
+ 1680  make
+ 1681  make -f Makefile.eventos
+ 1682  cd S4
+ 1683  touch entrega.txt
+ 1684  sudo shutdown now
+ 1685  la
+ 1686  cd u
+ 1687  cd Downloads
+ 1688  la
+ 1689  cd ..
+ 1690  la
+ 1691  cd install
+ 1692  la
+ 1693  cd ..
+ 1694  la
+ 1695  sudo shutdown now
+ 1696  ffmpeg
+ 1697  ffmpeg -h
+ 1698  sudo reboot now
+ 1699  sudo pacman -S r
+ 1700  sudo pacman -S rstudio-binç
+ 1701  sudo pacman -S rstudio-bin
+ 1702  sudo pacman -Syu
+ 1703  yay -S rstudio-desktop-bin
+ 1704  shutdown now
+ 1705  udo systemctl suspend
+ 1706  1237932
+ 1707  sudo systemctl suspend
+ 1708  udo reboot now
+ 1709  sudo reboot now
+ 1710  sudo shutdown now
+ 1711  mtui
+ 1712  nmtui
+ 1713  ping google.es
+ 1714  sudo reboot now
+ 1715  cd programming/uni/SO
+ 1716  la
+ 1717  cd ..
+ 1718  la
+ 1719  cd basurero
+ 1720  la
+ 1721  makdir signaltest
+ 1722  mkdir signaltest
+ 1723  cd signaltest
+ 1724  la
+ 1725  vim signal.c
+ 1726  gcc signal.c
+ 1727  vim signal.c
+ 1728  cd programming/uni/SO
+ 1729  la
+ 1730  cd S4
+ 1731  la
+ 1732  vim ejemplo_alarm4.c
+ 1733  man kill
+ 1734  man 7 kill
+ 1735  man man
+ 1736  man 3 kill
+ 1737  gcc signal.c
+ 1738  man 3 kill
+ 1739  vim ejemplo_alarm4.c
+ 1740  vim signal.c
+ 1741  gcc signal.c
+ 1742  vim signal.c
+ 1743  gcc signal.c
+ 1744  vim signal.c
+ 1745  gcc signal.c
+ 1746  vim signal.c
+ 1747  gcc signal.c
+ 1748  ps -s
+ 1749  ./a.out 324363635
+ 1750  ./a.out 324363
+ 1751  vim signal.c
+ 1752  man sigsuspend
+ 1753  gcc signal.c
+ 1754  ./a.out 324363
+ 1755  man sigsuspend
+ 1756  vim signal.c
+ 1757  cd programming/basurero/signaltest
+ 1758  la
+ 1759  gcc signal.c
+ 1760  ./a.out
+ 1761  ./a.out 4566434323
+ 1762  gcc signal.c
+ 1763  ./a.out 4566434323
+ 1764  gcc signal.c
+ 1765  ./a.out 4566434323
+ 1766  gcc signal.c
+ 1767  ./a.out 4566434323
+ 1768  gcc signal.c
+ 1769  ./a.out 4566434323
+ 1770  ./a.out 56
+ 1771  ./a.out 4566434323
+ 1772  gcc signal.c
+ 1773  ./a.out 4566434323
+ 1774  gcc signal.c
+ 1775  ./a.out 4566434323
+ 1776  gcc signal.c
+ 1777  ./a.out 4566434323
+ 1778  ./a.out 1
+ 1779  gcc signal.c
+ 1780  ./a.out 4566434323
+ 1781  ./a.out 1
+ 1782  ./a.out 5678
+ 1783  ./a.out 567
+ 1784  gcc signal.c
+ 1785  ./a.out 567
+ 1786  gcc signal.c
+ 1787  ./a.out 567
+ 1788  ./a.out 5673
+ 1789  ./a.out 1000
+ 1790  ps
+ 1791  ./a.out 3519
+ 1792  vim signal.c
+ 1793  ps
+ 1794  ./a.out 1843
+ 1795  cd ..
+ 1796  cd basurero
+ 1797  la
+ 1798  cd signaltest
+ 1799  lña
+ 1800  la
+ 1801  bash
+ 1802  shutdown now
+ 1803  sudo pacman -Syu
+ 1804  yay -Su
+ 1805  shutdown now
+ 1806  vim Downloads/PEBloc2.R
+ 1807  mv Downloads/PEBloc2.R programming/PE/VAC
+ 1808  sudo shutdown now
+ 1809  la
+ 1810  ls
+ 1811  clear
+ 1812  ls
+ 1813  cd Downloads
+ 1814  la
+ 1815  cd ..
+ 1816  cd programming
+ 1817  la
+ 1818  cd uni
+ 1819  la
+ 1820  cd ..
+ 1821  cd PE
+ 1822  la
+ 1823  cd estatus\ 2\ 2
+ 1824  la
+ 1825  sudo shutdown now
+ 1826  sudo systemctl suspend
+ 1827  reboot now
+ 1828  sudo reboot now
+ 1829  sudo systemctl suspend
+ 1830  shutdown now
+ 1831  man pacman
+ 1832  sudo pacman -Syu
+ 1833  cd programming/basurero
+ 1834  la
+ 1835  git clone https://github.com/torvalds/linux
+ 1836  ka
+ 1837  la
+ 1838  uptime
+ 1839  la
+ 1840  clear
+ 1841  FPATH
+ 1842  man fpath
+ 1843  man FPATH
+ 1844  sudo reboot now
+ 1845  sudo shutdown now
+ 1846  man lpr
+ 1847  find -r brave
+ 1848  find brave
+ 1849  find -R brave
+ 1850  man find
+ 1851  cd .cache
+ 1852  la
+ 1853  man ascii
+ 1854  ./ledger_live
+ 1855  sudo shutdown now
+ 1856  cd Downloads
+ 1857  la
+ 1858  vim IlustracionTCL.R
+ 1859  cd Downloads
+ 1860  la
+ 1861  r
+ 1862  la
+ 1863  r
+ 1864  la
+ 1865  R
+ 1866  R IlustracionTCL.R
+ 1867  ./ledger_live
+ 1868  sudo shutdown now
+ 1869  man nm
+ 1870  sudo shutdown now
+ 1871  sudo pacman -Syu
+ 1872  sudo pacman -Su
+ 1873  reboot now
+ 1874  sudo reboot now
+ 1875  yay -Su
+ 1876  sudo systemctl suspend
+ 1877  ./ledger_live
+ 1878  sudo reboot now
+ 1879  nmtui
+ 1880  nmcli
+ 1881  mv Downloads/Sessió\ 5\ -\ Previ\ resolt.tar.gz programming/uni/SO/
+ 1882  cd programming/uni/SO
+ 1883  la
+ 1884  tar -zxvf Sessió\ 5\ -\ Previ\ resolt.tar.gz 
+ 1885  la
+ 1886  mkdir ses5
+ 1887  mv mem* previo.txt ses5
+ 1888  cd ses5
+ 1889  la
+ 1890  chmod -x mem* previo.txt
+ 1891  la
+ 1892  vim mem1_previo_v2.c
+ 1893  vim *
+ 1894  la
+ 1895  gcc *.c
+ 1896  gcc mem1_previo_v2.c -o mem1
+ 1897  la
+ 1898  nm mem1
+ 1899  man nm
+ 1900  sudo reboot now
+ 1901  cat /proc/707/maps
+ 1902  sudo shutdown now
+ 1903  sudo reboot now
+ 1904  man sbrk
+ 1905  man malloc
+ 1906  man sbrk
+ 1907  man 3 end
+ 1908  man bss
+ 1909  sudo shutdown now
+ 1910  sudo reboot now
+ 1911  man signal
+ 1912  cd programming/uni
+ 1913  la
+ 1914  \tcd SO
+ 1915  la
+ 1916  cd ..
+ 1917  la
+ 1918  cd basurero
+ 1919  la
+ 1920  cd signaltest
+ 1921  vim signal.c
+ 1922  r
+ 1923  vim signal.c
+ 1924  R
+ 1925  sudo reboot now
+ 1926  la
+ 1927  cd programming
+ 1928  la
+ 1929  cd uni
+ 1930  lña
+ 1931  la
+ 1932  cd SO
+ 1933  la
+ 1934  mkdir practica
+ 1935  mv practica practicar
+ 1936  cd practicar
+ 1937  la
+ 1938  mkdir signals
+ 1939  cd signals
+ 1940  la
+ 1941  touch ejercicio1.txt
+ 1942  vim ejercicio1.txt
+ 1943  la
+ 1944  rm ejercicio1.txt
+ 1945  la
+ 1946  cd ..
+ 1947  rm -rf signals
+ 1948  la
+ 1949  vim usage.h
+ 1950  mkdir CLAB-2020-21-Q2
+ 1951  la
+ 1952  cp usage.h CLAB-2020-21-Q2
+ 1953  cd CLAB-2020-21-Q2
+ 1954  la
+ 1955  vim main.c
+ 1956  mv main.c cuenta.c
+ 1957  vim cuenta.c
+ 1958  cd programming/uni/SO/practicar/CLAB-2020-21-Q2
+ 1959  la
+ 1960  vim cuenta.c
+ 1961  vim makefile
+ 1962  make
+ 1963  la
+ 1964  make
+ 1965  la
+ 1966  make
+ 1967  clear
+ 1968  make
+ 1969  la
+ 1970  ./cuenta
+ 1971  ./cuenta 1 2 3 4
+ 1972  make
+ 1973  la
+ 1974  make clean
+ 1975  make
+ 1976  ./cuenta
+ 1977  ./cuenta 1 2
+ 1978  ./cuenta 1 2 3
+ 1979  clean
+ 1980  make
+ 1981  touch improvisaciones.h
+ 1982  la
+ 1983  ls
+ 1984  ls usage.h
+ 1985  ls -lh usage.h
+ 1986  man ls
+ 1987  ls -s usage.h
+ 1988  man ls
+ 1989  man du
+ 1990  du usage.h
+ 1991  man du
+ 1992  ls -h usage.h
+ 1993  ls -sh usage.h
+ 1994  du -h usage.h
+ 1995  stat usage.h
+ 1996  :q
+ 1997  la
+ 1998  vim improvisaciones.h
+ 1999  make
+ 2000  clean
+ 2001  make
+ 2002  make clean
+ 2003  make
+ 2004  sudo reboot now
+ 2005  cd programming
+ 2006  la
+ 2007  cd t
+ 2008  cd basurero
+ 2009  la
+ 2010  mkdir macros
+ 2011  cd macros
+ 2012  touch main.c
+ 2013  la
+ 2014  cd programming/basurero/macros
+ 2015  la
+ 2016  gcc -o main main.c
+ 2017  vim main.c
+ 2018  g++ -o main main.c
+ 2019  mv main.c main.cpp
+ 2020  la
+ 2021  g++ -o main main.cpp
+ 2022  ./main
+ 2023  g++ -o main main.cpp
+ 2024  sudo shutdown now
+ 2025  sudo systemctl suspend
+ 2026  history | grep pacman -S
+ 2027  history | grep "pacman -S"
+ 2028  sudo reboot now
+ 2029  grep hola L4_ES_2021QT.doc
+ 2030  grep hola L4_ES_2021QT.doc & ps
+ 2031  man grep
+ 2032  grep a L4_ES_2021QT.doc
+ 2033  grep a PM.txt
+ 2034  grep a PM.txt & ps
+ 2035  $!
+ 2036  $
+ 2037  !
+ 2038  $!
+ 2039  $
+ 2040  !
+ 2041  $!
+ 2042  bashstrace
+ 2043  man strace
+ 2044  strace
+ 2045  sudo pacman -S strace
+ 2046  sudo strace -e trace=none -e signal=none -q -p 887
+ 2047  cd /proc
+ 2048  cd 887
+ 2049  la
+ 2050  var = ps
+ 2051  wai 889
+ 2052  wait 889
+ 2053  wait 887
+ 2054  echo $!
+ 2055  echo $?
+ 2056  man nitrogen
+ 2057  yay -S xwinwrap
+ 2058  man xwinwrap
+ 2059  xwinwrap
+ 2060  cd ..
+ 2061  ~
+ 2062  la
+ 2063  cd .config
+ 2064  la
+ 2065  cd i3
+ 2066  la
+ 2067  vim config
+ 2068  cd Downloads
+ 2069  la
+ 2070  mv 1154.gif ~/.config/i3/wallpaper
+ 2071  la
+ 2072  git clone https://github.com/sdaveas/i3-animated-background
+ 2073  la
+ 2074  rm -rf i3-animated-background
+ 2075  cd ~/.config
+ 2076  la
+ 2077  cd ..
+ 2078  mkdir scripts
+ 2079  cd scripts
+ 2080  la
+ 2081  git clone https://github.com/sdaveas/i3-animated-background
+ 2082  cd i3-animated-background
+ 2083  la
+ 2084  cd scripts
+ 2085  la
+ 2086  ./generate_pngs.sh ~/.config/i3/wallpaper/1154.gif
+ 2087  sudo pacman -S convert
+ 2088  sudo pacman -S imagemagick
+ 2089  sudo pacman -S feh
+ 2090  la
+ 2091  ./generate_pngs.sh ~/.config/i3/wallpaper/1154.gif
+ 2092  la
+ 2093  cd 1154
+ 2094  la
+ 2095  cd ..
+ 2096  la
+ 2097  ./loop_pngs.sh
+ 2098  ./loop_pngs.sh 1154
+ 2099  sudo reboot now
+ 2100  cd scripts
+ 2101  la
+ 2102  cd i3-animated-background
+ 2103  la
+ 2104  cd scripts
+ 2105  l
+ 2106  cd 1154
+ 2107  la
+ 2108  open
+ 2109  thunar .
+ 2110  man kitt
+ 2111  man kitty
+ 2112  sudo reboot now
+ 2113  la
+ 2114  sudo pacman -S nomacs
+ 2115  cd scripts
+ 2116  la
+ 2117  cd i3-animated-background
+ 2118  la
+ 2119  cd scripts
+ 2120  la
+ 2121  cd 1154
+ 2122  nomacs 115400
+ 2123  la
+ 2124  cd ..
+ 2125  la
+ 2126  rm -rf 1154
+ 2127  la
+ 2128  cd ..
+ 2129  la
+ 2130  cd scripts
+ 2131  ./generate_pngs.sh ../gifs/wallpaper.mp4
+ 2132  la
+ 2133  cd wallpaper
+ 2134  la
+ 2135  cd ..
+ 2136  la
+ 2137  ./loop_pngs.sh
+ 2138  ./loop_pngs.sh wallpaper
+ 2139  htop
+ 2140  la
+ 2141  cd wallpaper
+ 2142  la
+ 2143  file wallpaper
+ 2144  file wallpaper001.png
+ 2145  la
+ 2146  cd ..
+ 2147  clear
+ 2148  la
+ 2149  vim generate_pngs.sh
+ 2150  man ImageMagick
+ 2151  ./generate_pngs.sh ../gifs/wallpaper.mp4
+ 2152  ./loop_pngs.sh
+ 2153  ./loop_pngs.sh wallpaper
+ 2154  cd wallpaper
+ 2155  file wallpaper000.png
+ 2156  man convert
+ 2157  la
+ 2158  ..
+ 2159  la
+ 2160  vim generate_pngs.sh
+ 2161  ./generate_pngs.sh ../gifs/wallpaper.mp4\n
+ 2162  cd scripts/i3-animated-background
+ 2163  la
+ 2164  cd scripts
+ 2165  la
+ 2166  l
+ 2167  acd wallpaper
+ 2168  la
+ 2169  wallpaper
+ 2170  la
+ 2171  file wallpaper
+ 2172  file wallpaper000.png
+ 2173  cd ..
+ 2174  la
+ 2175  ./generate_pngs.sh ../gifs/wallpaper.mp4\n
+ 2176  la
+ 2177  cd wallpaper
+ 2178  la
+ 2179  l
+ 2180  al
+ 2181  l
+ 2182  la
+ 2183  file wallpaper000.png
+ 2184  cd .config
+ 2185  cd polybar
+ 2186  la
+ 2187  mkdir dotfile_test
+ 2188  cd do
+ 2189  cd dotfile_test
+ 2190  la
+ 2191  git clone https://github.com/freak532486/nord-rice-dotfiles
+ 2192  cd nord-rice-dotfiles
+ 2193  la
+ 2194  cd polybar
+ 2195  ña
+ 2196  la
+ 2197  cd mybar
+ 2198  la
+ 2199  ./launch.sh
+ 2200  la
+ 2201  cd ..
+ 2202  la
+ 2203  cp mybar ~/.config/polybar
+ 2204  cp -r mybar ~/.config/polybar
+ 2205  cd ..
+ 2206  cd .config/polybar
+ 2207  la
+ 2208  cd mybar
+ 2209  la
+ 2210  ./launch.sh
+ 2211  cd ..
+ 2212  cd dotfile_test
+ 2213  git clone https://github.com/BaptisteBdn/dotfiles
+ 2214  la
+ 2215  cd dotfiles
+ 2216  la
+ 2217  cd .c
+ 2218  cd .config
+ 2219  la
+ 2220  cd polybar
+ 2221  la
+ 2222  ./launch.sh
+ 2223  cd ..
+ 2224  la
+ 2225  cd wal
+ 2226  la
+ 2227  cd --
+ 2228  cd ..
+ 2229  la
+ 2230  ./launch.sh
+ 2231  la
+ 2232  cd mybar
+ 2233  la
+ 2234  ./launch.sh
+ 2235  cd ivan/dotfile_test/dotfiles/
+ 2236  la
+ 2237  cd .config
+ 2238  la
+ 2239  cd polybar
+ 2240  la
+ 2241  cp ./* mybar2
+ 2242  la
+ 2243  mkdir mybar2
+ 2244  cp ./* mybar2
+ 2245  cd mybar2
+ 2246  la
+ 2247  cd ..
+ 2248  cp -r scripts mybar2
+ 2249  la
+ 2250  cp -r mybar2 ~/.config/polybar
+ 2251  la
+ 2252  cd ..
+ 2253  la
+ 2254  cd wal
+ 2255  cd ..
+ 2256  cd wallpaper
+ 2257  la
+ 2258  cd ..
+ 2259  la
+ 2260  cd mybar
+ 2261  cd ..
+ 2262  cd mybar2
+ 2263  l
+ 2264  ./launch.sh
+ 2265  la
+ 2266  vim config
+ 2267  cd ..
+ 2268  l
+ 2269  cd mybar2
+ 2270  la
+ 2271  vim launch.sh
+ 2272  cd ..
+ 2273  l
+ 2274  cp -r wal ~/.cache/wal
+ 2275  ./launch.sh
+ 2276  cd ..
+ 2277  la
+ 2278  cd mybar2
+ 2279  la
+ 2280  vim config
+ 2281  la
+ 2282  cd scripts
+ 2283  la
+ 2284  cd ..
+ 2285  la
+ 2286  vim launch.sh
+ 2287  cd ..
+ 2288  la
+ 2289  mv config configbad
+ 2290  cp launch.sh launchbad.sh
+ 2291  cp mybar2/* .
+ 2292  cp -r mybar2/* .
+ 2293  la
+ 2294  ./launch.sh
+ 2295  cd ..
+ 2296  la
+ 2297  killall
+ 2298  killall polybar
+ 2299  l
+ 2300  cd polybar
+ 2301  la
+ 2302  cd mybar
+ 2303  la
+ 2304  cp -r ./* ..
+ 2305  la
+ 2306  cd ..
+ 2307  ./launch
+ 2308  ./launch.sh
+ 2309  sudo pacman -S pywal
+ 2310  sudo pacman -S pywall
+ 2311  yay -S pywal
+ 2312  la
+ 2313  pywal
+ 2314  walñ
+ 2315  wal
+ 2316  sudo reboot now
+ 2317  ./loop_pngs.sh wallpaper
+ 2318  cd dotfile_test/la
+ 2319  cd dotfile_test/
+ 2320  la
+ 2321  cd so
+ 2322  cd dotfiles
+ 2323  la
+ 2324  cd .themes
+ 2325  la
+ 2326  cd ..
+ 2327  la
+ 2328  cd .cache
+ 2329  la
+ 2330  cd ..
+ 2331  la
+ 2332  cd .config
+ 2333  la
+ 2334  cd wallpaper
+ 2335  nitrogen eclipse.png
+ 2336  nitrogen .
+ 2337  wal eclipse.png
+ 2338  wal -i eclipse.png
+ 2339  wal -il eclipse.png
+ 2340  wal -i -l eclipse.png
+ 2341  wal --l eclipse.png
+ 2342  wal -l eclipse.png
+ 2343  wal -i eclipse.png
+ 2344  wal -i eclipse.png --saturate 0.5
+ 2345  man polybar
+ 2346  killallpolybar
+ 2347  killall polybar
+ 2348  polybar
+ 2349  cd .config/polybar
+ 2350  la
+ 2351  ./launch.sh
+ 2352  cp -r mybar2/* .
+ 2353  ./launch.sh
+ 2354  opacity
+ 2355  vim ~/.config/kitty/kitty.conf
+ 2356  la
+ 2357  vim ~/.config/kitty/ayu_mirage.conf
+ 2358  cd dotfile_test/dotfiles/.config/wallpaper
+ 2359  la
+ 2360  nomacs bridge.png
+ 2361  wal mountains.png
+ 2362  wal -l mountains.png
+ 2363  wal -i mountains.png -l
+ 2364  wal -i mountains.png 
+ 2365  wal -i eclipse.png -l
+ 2366  wal -i snow.png -l
+ 2367  wal -i mountains.png -l
+ 2368  wal
+ 2369  vim ~/.zshrc
+ 2370  wal -i . --iterative -l
+ 2371  vim .zshrc
+ 2372  wal
+ 2373  wal -i . --iterative -l -t 
+ 2374  wal --backend
+ 2375  vim .config/i3/config
+ 2376  vim ~/.config/i3/config
+ 2377  i3-msg restart
+ 2378  vim ~/.config/i3/config
+ 2379  i3-msg restart
+ 2380  yay -S picom
+ 2381  sudo shutdown now
+ 2382  ./launch.sh
+ 2383  nitrogen .
+ 2384  cd dotfile_test/dotfiles/.config/wallpaper
+ 2385  la
+ 2386  cp . ~
+ 2387  cp -r . ~
+ 2388  cd ~
+ 2389  la
+ 2390  nitrogen wallpaper
+ 2391  la
+ 2392  ls
+ 2393  mkdir wallapper
+ 2394  mv wallapper wallpaper
+ 2395  mv *.png wallpaper
+ 2396  la
+ 2397  cd wallpaper
+ 2398  la
+ 2399  nitrogen .
+ 2400  vim .config/i3/config
+ 2401  i3-msg restart
+ 2402  cd ..
+ 2403  la
+ 2404  vim debug
+ 2405  la
+ 2406  cd .config/polybar
+ 2407  la
+ 2408  vim launchbad.sh
+ 2409  vim configbad
+ 2410  vim config
+ 2411  vim .config/i3/config
+ 2412  cd dotfile_test/dotfiles/.config/i3
+ 2413  la
+ 2414  vim config
+ 2415  i3-msg restart
+ 2416  vim .zshrc
+ 2417  i3-msg restart
+ 2418  la
+ 2419  vim .config/
+ 2420  la
+ 2421  find -R .xinit
+ 2422  find -r .xinit
+ 2423  find .xinit
+ 2424  la
+ 2425  i3-msg restart
+ 2426  vim .config/i3/config
+ 2427  i3-msg restart
+ 2428  vim .config/kitty/ayu_mirage.conf
+ 2429  vim .config/kitty/kitty.conf
+ 2430  man kitty
+ 2431  kitty --override opacity
+ 2432  kitty --override opacity 0.5
+ 2433  man kitty
+ 2434  kitty -o background_opacity 0.5
+ 2435  kitty -o background_opacity=0.5
+ 2436  yay -S picom-ibhagwan-git
+ 2437  la
+ 2438  cd install/
+ 2439  la
+ 2440  git clone https://aur.archlinux.org/picom-ibhagwan-git.git
+ 2441  la
+ 2442  cd picom-ibhagwan-git
+ 2443  la
+ 2444  MAKEPKG 
+ 2445  makepkg
+ 2446  sudo pacman -S libxdg-basedir 
+ 2447  makepkg
+ 2448  sudo pacman -S meson asciidoc uthash
+ 2449  sudo pacman -Syu
+ 2450  makepkg
+ 2451  sudo pacman -S meson asciidoc uthash
+ 2452  makepkg
+ 2453  yay -S picom-ibhagwan-git
+ 2454  kitty -o background_opacity 0.5
+ 2455  picom
+ 2456  picom &
+ 2457  vim .config/kitty/ayu_mirage.conf
+ 2458  vim .config/kitty/kitty
+ 2459  vim .config/kitty/kitty.conf
+ 2460  vim .config/i3/config
+ 2461  i3-msg restart
+ 2462  vim .config/kitty/kitty.conf
+ 2463  vim .config/i3/config
+ 2464  kitty
+ 2465  vim .config/i3/config
+ 2466  i3-msg restart
+ 2467  kitty
+ 2468  i3-msg restart
+ 2469  picom &
+ 2470  man picom
+ 2471  vim .config/i3/config
+ 2472  i3-msg restart
+ 2473  kitty
+ 2474  vim .config/i3/config
+ 2475  picom -b
+ 2476  i3-msg restart
+ 2477  sudo shutdown now
+ 2478  neofetch
+ 2479  sudo pacman -S neofetch
+ 2480  clear
+ 2481  neofetch
+ 2482  la
+ 2483  sudo shutdown now
+ 2484  vim .config/kitty
+ 2485  vim .config/kitty/kitty.conf
+ 2486  man picom
+ 2487  sudo shutdown now
+ 2488  vim .config/i3/config
+ 2489  i3-msg restart
+ 2490  ./.config/polybar/launch.sh
+ 2491  i3-msg restart
+ 2492  history | grep pacman
+ 2493  sudo pacman -S xournal
+ 2494  sudo pacman -S xournalpp 
+ 2495  la
+ 2496  clear
+ 2497  cd /proc
+ 2498  la
+ 2499  cd 2
+ 2500  la
+ 2501  cd ..
+ 2502  ps -euY
+ 2503  ps -eY
+ 2504  ps -Y
+ 2505  cd 1
+ 2506  la
+ 2507  cat status
+ 2508  cd ~/
+ 2509  cd programming/uni/SO
+ 2510  la
+ 2511  cd S2
+ 2512  la
+ 2513  cd programming/uni/SO/S3
+ 2514  la
+ 2515  vim ejemplo_fork1.c
+ 2516  man sigaction
+ 2517  la
+ 2518  vim ejemplo_fork1.c
+ 2519  make
+ 2520  make  -f Makefile.ejemplos
+ 2521  ./ejemplo_fork1
+ 2522  cd /proc
+ 2523  la
+ 2524  cd 1440072
+ 2525  la
+ 2526  cat status
+ 2527  cd ..
+ 2528  kill -KILL 1440071
+ 2529  cd 1440072
+ 2530  cd ..
+ 2531  cd 1440071
+ 2532  la
+ 2533  cd ~/programming/uni/SO/practicar
+ 2534  la
+ 2535  cd ..
+ 2536  la
+ 2537  cd ..
+ 2538  la
+ 2539  cd basurero
+ 2540  la
+ 2541  cd signaltest
+ 2542  la
+ 2543  vim signal.c
+ 2544  cd ../..
+ 2545  la
+ 2546  cd uni
+ 2547  la
+ 2548  cd SO
+ 2549  la
+ 2550  cd S4
+ 2551  la
+ 2552  vim ejemplo_waitpid2.c
+ 2553  la
+ 2554  vlc 2021-11-07\ 17-37-22.mkv
+ 2555  htop
+ 2556  sudo reboot now
+ 2557  vim .config/i3/config
+ 2558  ./.config/polybar/launch.sh
+ 2559  i3-msg restart
+ 2560  clear
+ 2561  la
+ 2562  cd programming
+ 2563  la
+ 2564  picom -b
+ 2565  picom
+ 2566  la
+ 2567  cd programming
+ 2568  la
+ 2569  cd uni
+ 2570  la
+ 2571  cd ..
+ 2572  kla
+ 2573  la
+ 2574  cd projects
+ 2575  la
+ 2576  git clone git@github.com:icalamesa/Tetrispp.git
+ 2577  la
+ 2578  cd Tetrispp
+ 2579  la
+ 2580  git submodule add git@github.com:libsdl-org/SDL.git SDL
+ 2581  la
+ 2582  git commit -m "Added SDL submodule"
+ 2583  git remote add origin git@github.com:icalamesa/Tetrispp.git
+ 2584  git push
+ 2585  la
+ 2586  vim .gitignore
+ 2587  vim README.md
+ 2588  mkdir src build
+ 2589  la
+ 2590  cd src
+ 2591  la
+ 2592  mkdir main
+ 2593  cd main
+ 2594  ña
+ 2595  touch main.cpp
+ 2596  vim main.cpp
+ 2597  la
+ 2598  mc board.cpp ..
+ 2599  mv board.cpp ..
+ 2600  la
+ 2601  mv main.cpp ..
+ 2602  ka
+ 2603  la
+ 2604  cd ..
+ 2605  la
+ 2606  mv board.cpp board.hh
+ 2607  sudo shutdown now
+ 2608  la
+ 2609  rm *.mkv
+ 2610  la
+ 2611  cd programming/projects/Tetrispp
+ 2612  la
+ 2613  cd src
+ 2614  la
+ 2615  vim board.hh
+ 2616  cd programming/projects/Tetrispp
+ 2617  la
+ 2618  cd src
+ 2619  la
+ 2620  vim board.hh
+ 2621  cd programming/projects/Tetrispp
+ 2622  la
+ 2623  cd s
+ 2624  cd src
+ 2625  la
+ 2626  gcc main.cpp
+ 2627  g++ main.cpp
+ 2628  cd ..
+ 2629  cd SDL
+ 2630  la
+ 2631  mkdir build
+ 2632  cd build
+ 2633  la
+ 2634  i3-msg restart
+ 2635  ../configure
+ 2636  make
+ 2637  vim Makefile
+ 2638  sudo make install
+ 2639  cd ..
+ 2640  cd src
+ 2641  la
+ 2642  g++ main.cpp
+ 2643  g++ main.cpp `sdl2-config --cflags --libs`
+ 2644  OA
+ 2645  g++ main.cpp `sdl2-config --cflags --libs`
+ 2646  git commit -am "conceptualised board and included sdl"
+ 2647  git commit -m "conceptualised board and included sdl"
+ 2648  la
+ 2649  rm a.out
+ 2650  la
+ 2651  rm main
+ 2652  la
+ 2653  cd main
+ 2654  la
+ 2655  cd ..
+ 2656  git add .
+ 2657  git commit -m "conceptualised board and included sdl"
+ 2658  git push
+ 2659  vim board.hh
+ 2660  g++ main.cpp `sdl2-config --cflags --libs`
+ 2661  g++ main.cpp
+ 2662  g++ main.cpp `sdl2-config --cflags --libs`
+ 2663  clear
+ 2664  g++ main.cpp `sdl2-config --cflags --libs`
+ 2665  la
+ 2666  g++ main.cpp `sdl2-config --cflags --libs`
+ 2667  ./a.out
+ 2668  ps -a
+ 2669  kill -KILL 1411644
+ 2670  la
+ 2671  htop
+ 2672  cat /proc/sys/kernel/pid_max
+ 2673  ps -a
+ 2674  vim .config/i3/config
+ 2675  sudo reboot now
+ 2676  cd programming/projects/Tetrispp
+ 2677  la
+ 2678  git add .
+ 2679  git commit -m "started implementation"
+ 2680  git push
+ 2681  sudo shutdown now
+ 2682  vim .config/i3/config
+ 2683  i3-msg restart
+ 2684  polybar -r main
+ 2685  i3-msg restart
+ 2686  ./.config/polybar/launch.sh
+ 2687  killall polybar
+ 2688  cd .config/polybar/
+ 2689  mv config config.ini
+ 2690  i3-msg restart
+ 2691  polybar -r main
+ 2692  i3-msg restart
+ 2693  polybar -r main
+ 2694  i3-msg restart
+ 2695  sudo reboot now
+ 2696  polybar -r main
+ 2697  nmcli
+ 2698  vim .config/i3/config
+ 2699  vim .config/polybar/launch.sh
+ 2700  vim .config/polybar/config.ini
+ 2701  polybar -r main &
+ 2702  vim .config/polybar/config.ini
+ 2703  killall polybar
+ 2704  polybar -r main
+ 2705  nmcli
+ 2706  polybar -r main
+ 2707  i3-msg restart
+ 2708  vim .config/i3/config
+ 2709  i3-msg restart
+ 2710  man polybar
+ 2711  polybar -r
+ 2712  i3-msg restart
+ 2713  polybar -r
+ 2714  vim .config/i3/config
+ 2715  i3-msg restart
+ 2716  ps -a | grep polybar
+ 2717  ps -a
+ 2718  ps -f | grep polybar
+ 2719  ps -f | grep "polybar"
+ 2720  ps -w| grep "polybar"
+ 2721  ps -a | grep "polybar"
+ 2722  man ps
+ 2723  ps -E | grep "polybar"
+ 2724  ps -e | grep "polybar"
+ 2725  i3-msg restart
+ 2726  sudo reboot now
+ 2727  vim .config/i3/config
+ 2728  i3-msg restart
+ 2729  cd programming/projects
+ 2730  la
+ 2731  cd Tetrispp
+ 2732  la
+ 2733  git fetch
+ 2734  git pull
+ 2735  la
+ 2736  cd s
+ 2737  cd src
+ 2738  la
+ 2739  ./a.out
+ 2740  ps
+ 2741  ps -a
+ 2742  kill -kill 1231
+ 2743  rm a.out
+ 2744  vim main.cpp
+ 2745  cd programming/projects/Tetrispp
+ 2746  la
+ 2747  cd src
+ 2748  g++ main.cpp `sdl2-config --cflags --libs`
+ 2749  sudo reboot now
+ 2750  cd programming/projects/Tetrispp
+ 2751  la
+ 2752  cd src
+ 2753  la
+ 2754  git fetch
+ 2755  git pull
+ 2756  git commit -m "added base Tile and continued main.cpp implementation"
+ 2757  git add .
+ 2758  cd ..
+ 2759  git commit -m "added base Tile and continued main.cpp implementation"
+ 2760  git merge origin/master
+ 2761  cd src
+ 2762  la
+ 2763  vim board.hh
+ 2764  vimdiff
+ 2765  git config merge.tool vimdiff
+ 2766  git config merge.conflictstyle diff3
+ 2767  git config mergetool.prompt false
+ 2768  git mergetool
+ 2769  git push
+ 2770  vim board.hh
+ 2771  git push
+ 2772  git rebase --continue
+ 2773  git mergetool
+ 2774  git push -f
+ 2775  vim board.hh
+ 2776  sudo systemctl suspend
+ 2777  cd programming/projects/Tetrispp/src
+ 2778  la
+ 2779  git status
+ 2780  git add .
+ 2781  cd ..
+ 2782  git commit -m "merged different specifications"
+ 2783  git push
+ 2784  src
+ 2785  la
+ 2786  rm main
+ 2787  git rm board.hh.orig
+ 2788  git push -m "removed file"
+ 2789  git commit -m "removed file"
+ 2790  git push
+ 2791  l
+ 2792  vim main.cpp
+ 2793  cd programming/projects/Tetrispp/src
+ 2794  g++ main.cpp `sdl2-config --cflags --libs`
+ 2795  man sleep
+ 2796  ps
+ 2797  sudo shutdown now
+ 2798  psswd
+ 2799  passwd
+ 2800  sudo shutdown now
+ 2801  cd programming/projects
+ 2802  la
+ 2803  cd Tetrispp
+ 2804  la
+ 2805  git push
+ 2806  git fetch
+ 2807  git status
+ 2808  git history
+ 2809  git --help
+ 2810  git log
+ 2811  git diff
+ 2812  la
+ 2813  vim Makefile
+ 2814  cd programming/projects
+ 2815  cd Tetrispp
+ 2816  la
+ 2817  cd src
+ 2818  la
+ 2819  make
+ 2820  la
+ 2821  vim Makefile
+ 2822  make
+ 2823  cd ..
+ 2824  make
+ 2825  la
+ 2826  cd src
+ 2827  la
+ 2828  vim board.hh
+ 2829  make
+ 2830  vim ../Makefile
+ 2831  make
+ 2832  vim board.hh
+ 2833  make
+ 2834  clear
+ 2835  make
+ 2836  cd programming/projects/Tetrispp
+ 2837  la
+ 2838  cd src
+ 2839  la
+ 2840  rm main
+ 2841  rm -rf main
+ 2842  la
+ 2843  git commit add -
+ 2844  git add  .
+ 2845  git commit -m "continued makefile and added some methods"
+ 2846  git push
+ 2847  clear
+ 2848  vim main.cpp
+ 2849  cd programming/projects
+ 2850  cd Tetrispp
+ 2851  la
+ 2852  cd src
+ 2853  la
+ 2854  vim board.cpp
+ 2855  make
+ 2856  clear
+ 2857  make
+ 2858  sudo shutdown now
+ 2859  cd programming/projects/Tetrispp
+ 2860  la
+ 2861  git diff
+ 2862  git add .
+ 2863  git commit -m "updated all classes and started to dive into the implementation of the logic"
+ 2864  git push
+ 2865  sudo shutdown now
+ 2866  nmtui
+ 2867  sudo shutdown now
+ 2868  nmtui
+ 2869  sudo shutdown now
+ 2870  la
+ 2871  cd programming/uni
+ 2872  la
+ 2873  cd EDA
+ 2874  la
+ 2875  git clone git@github.com:icalamesa/EDA-Game-AI.git
+ 2876  la
+ 2877  cd EDA-Game-AI
+ 2878  la
+ 2879  unzip ~/Downloads/P41108_en.zip .
+ 2880  man unzip
+ 2881  unzip ~/Downloads/P41108_en.zip -d .
+ 2882  la
+ 2883  mv game/* .
+ 2884  la
+ 2885  rm -rf game
+ 2886  la
+ 2887  make
+ 2888  man xxd
+ 2889  xxd -i AIDemo.o
+ 2890  la
+ 2891  clear
+ 2892  la
+ 2893  make
+ 2894  vim Makefile
+ 2895  make
+ 2896  la
+ 2897  vim default.cnf
+ 2898  make
+ 2899  game
+ 2900  ./game
+ 2901  ./Game
+ 2902  ./Game -S 1 Demo Demo
+ 2903  ./Game -s 1 Demo Demo
+ 2904  la
+ 2905  vim Makefile
+ 2906  cp AIDummy.o.Linux64 AIDemo.o
+ 2907  make
+ 2908  la
+ 2909  file AIDummy.o.Linux64
+ 2910  ./AIDummy.o.Linux64
+ 2911  vim Makefile
+ 2912  vim Makefile.deps
+ 2913  vim Makefile
+ 2914  la
+ 2915  make
+ 2916  cp AIDummy.o.Linux64 AIDemo.o
+ 2917  make
+ 2918  cp AIDummy.o.Linux64 AIDummy.o
+ 2919  la
+ 2920  rm AIDemo.o
+ 2921  make
+ 2922  ./Game -s 1 Demo Demo
+ 2923  ./Game -s 1 Dummy Dummy
+ 2924  ./Game Demo Demo Demo Demo -s 30 -i default.cnf -o default.out
+ 2925  vim default.cnf
+ 2926  ./Game Demo Demo Demo Demo -s 30 -i default.cnf -o default.out
+ 2927  la
+ 2928  vim Player.hh
+ 2929  :pwd
+ 2930  pwd
+ 2931  vim Player.hh
+ 2932  cd /home/ivan/programming/uni/EDA/EDA-Game-AI
+ 2933  vim State.hh
+ 2934  cd /home/ivan/programming/uni/EDA/EDA-Game-AI
+ 2935  vim Action.hh
+ 2936  vim .config/kitty/kitty.conf
+ 2937  la
+ 2938  clear
+ 2939  neofetch
+ 2940  vim .config/kitty/kitty.conf
+ 2941  neofetch
+ 2942  vim .config/kitty/kitty.conf
+ 2943  cd /home/ivan/programming/uni/EDA/EDA-Game-AI
+ 2944  la
+ 2945  vim Game.hh
+ 2946  vim Board.hh
+ 2947  vim Structs.hh
+ 2948  sudo shutdown now
+ 2949  cd programming/uni/EDA
+ 2950  la
+ 2951  cd EDA-Game-AI
+ 2952  git fetch
+ 2953  git pull
+ 2954  git pull --force
+ 2955  git reset
+ 2956  la
+ 2957  git rebase a035dfa
+ 2958  git pull
+ 2959  la
+ 2960  rm -rf .
+ 2961  rm .
+ 2962  la
+ 2963  rm -rf ./*
+ 2964  git pull
+ 2965  la
+ 2966  pwd
+ 2967  cd /home/ivan/programming/uni/EDA/EDA-Game-AI
+ 2968  cd >/home/ivan/programming/uni/EDA/EDA-Game-AI
+ 2969  cd /home/ivan/programming/uni/EDA/EDA-Game-AI
+ 2970  vim AIEDA_nodarisa.cc
+ 2971  vim Action.hh State.hh Board.hh
+ 2972  vim Structs.hh Utils.hh 
+ 2973  vim AIDemo.cc
+ 2974  cd /home/ivan/programming/uni/EDA/EDA-Game-AI
+ 2975  make
+ 2976  sudo shutdown now
+ 2977  cd programming/PE/true\ friends
+ 2978  la
+ 2979  cd ..
+ 2980  la
+ 2981  touch file.txt
+ 2982  vim file.txt
+ 2983  sudo shutdown now
+ 2984  cd programming/uni/EDA/EDA-Game-AI
+ 2985  la
+ 2986  pwd
+ 2987  vim AIDemo.cc
+ 2988  cd /home/ivan/programming/uni/EDA/EDA-Game-AI
+ 2989  la
+ 2990  make
+ 2991  cp AIDummy.o.Linux64 AIDummy.o
+ 2992  make
+ 2993  vim Action.hh
+ 2994  cd /home/ivan/programming/uni/EDA/EDA-Game-AI
+ 2995  make
+ 2996  vim Action.hh
+ 2997  vim Action.hh Player.hh
+ 2998  make
+ 2999  cd /home/ivan/programming/uni/EDA/EDA-Game-AI
+ 3000  vim Main.cc
+ 3001  make
+ 3002  git add .
+ 3003  git commit -m "created needed classes for hq paradigm and basic methods"
+ 3004  git push
+ 3005  cd /home/ivan/programming/uni/EDA/EDA-Game-AI
+ 3006  la
+ 3007  vim AIEDA_nodarisa.o AIDemo.cc
+ 3008  vim AIEDA_nodarisa.cc AIDemo.cc
+ 3009  cd /home/ivan/programming/uni/EDA/EDA-Game-AI
+ 3010  ./Game Demo Demo EDA_nodarisa Demo -s 30 -i default.cnf -o default.out
+ 3011  cd /home/ivan/programming/uni/EDA/EDA-Game-AI
+ 3012  vim AIDemo.cc
+ 3013  vim sec-game.txt
+ 3014  vim game.txt
+ 3015  vim out.cnf
+ 3016  ./test.sh
+ 3017  vim test.sh 
+ 3018  vim out.cnf
+ 3019  vim default.cnf
+ 3020  make
+ 3021  sudo shutdown now
+ 3022  calendar
+ 3023  cal
+ 3024  man cal
+ 3025  cal -4
+ 3026  cal -3
+ 3027  sudo shutdown now
+ 3028  sudo pacman -S arduino
+ 3029  sudo shutdown now
+ 3030  yay
+ 3031  sudo shutdown now
+ 3032  R
+ 3033  sudo shutdown now
+ 3034  sudo systemctl suspend
+ 3035  sudo shutdown now
+ 3036  sudo systemctl suspend
+ 3037  sudo shutdown nwo
+ 3038  sudo shutdown now
+ 3039  man dup2
+ 3040  sudo systemctl suspend
+ 3041  sudo shutdown now
+ 3042  cal
+ 3043  cal 3
+ 3044  cal -3
+ 3045  sudo shutdown now
+ 3046  cd programming
+ 3047  cd PE
+ 3048  la
+ 3049  mkdir random
+ 3050  mv *.r random
+ 3051  la
+ 3052  git clone https://github.com/icalamesa/Europe-Champions-League-R-data-analysis
+ 3053  cd Europe-Champions-League-R-data-analysis
+ 3054  cd Downloads/
+ 3055  vim B7.R
+ 3056  cd la
+ 3057  ls
+ 3058  git submodule update --init --recursive
+ 3059  cd europe-champions-league
+ 3060  la
+ 3061  cd ..
+ 3062  git add .
+ 3063  git commit -m "created tables to which work on with numeric data"
+ 3064  git push
+ 3065  cd ..
+ 3066  git clone --recursive git@github.com:icalamesa/Europe-Champions-League-R-data-analysis.git
+ 3067  cp Europe-Champions-League-R-data-analysis/script.r .
+ 3068  la
+ 3069  rm -rf Europe-Champions-League-R-data-analysis
+ 3070  git clone --recursive git@github.com:icalamesa/Europe-Champions-League-R-data-analysis.git
+ 3071  mv script.r Europe-Champions-League-R-data-analysis
+ 3072  cd Europe-Champions-League-R-data-analysis
+ 3073  git add .
+ 3074  git commit -m "created tables to which work on with numeric data"
+ 3075  git push
+ 3076  sudo shutdown now
+ 3077  sudo reboot now
+ 3078  sudo shutdown now
+ 3079  cd programming/PE
+ 3080  la
+ 3081  cd Europe-Champions-League-R-data-analysis
+ 3082  la
+ 3083  git add .
+ 3084  git commit -m "Enemy country parser works"
+ 3085  git push
+ 3086  la
+ 3087  cd europe-champions-league
+ 3088  la
+ 3089  sudo systemctl suspend
+ 3090  sudo pacman -Syu
+ 3091  sudo shutdown now
+ 3092  sudo systemctl suspend
+ 3093  sudo shutdown now
+ 3094  
+ 3095  sudo pacman -S libcurl-gnutls
+ 3096  sudo pacman -S gcc-fortran 
+ 3097  cd programming/PE/Europe-Champions-League-R-data-analysis
+ 3098  la
+ 3099  git add .
+ 3100  git commit -m "some plotting done"
+ 3101  git push
+ 3102  sudo reboot now
+ 3103  cd programming/uni/EDA
+ 3104  la
+ 3105  cd EDA-Game-AI
+ 3106  la
+ 3107  touch pseudocodigo.txt
+ 3108  vim pseudocodigo.txt
+ 3109  git add .
+ 3110  git commit -m "added pseudocode for simple AI model"
+ 3111  git push
+ 3112  sudo shutdown now
+ 3113  cd programming/uni/EDA/EDA-Game-AI
+ 3114  la
+ 3115  cat pseudocodigo.txt
+ 3116  pwd
+ 3117  cd /home/ivan/programming/uni/EDA/EDA-Game-AI
+ 3118  la
+ 3119  cp AINull.cc AIkauveté
+ 3120  mv AIkauveté AIkauveté.cc
+ 3121  vim AIkauveté.cc
+ 3122  vim AIDemo.cc
+ 3123  mv AIkauveté.cc AIkauvete.cc
+ 3124  vim AIkauvete.cc
+ 3125  cd /home/ivan/programming/uni/EDA/EDA-Game-AI
+ 3126  vim pseudocodigo.txt
+ 3127  cd programming/uni/EDA/EDA-Game-AI
+ 3128  vim Structs.hh State.
+ 3129  git add .
+ 3130  git commit -m "started implementation of simple AI"
+ 3131  git push
+ 3132  sudo shutdown now
+ 3133  cd programming/uni/EDA/EDA-Game-AI
+ 3134  vim AIkauvete.cc
+ 3135  vim AIDemo.cc
+ 3136  cd programming/uni/EDA/EDA-Game-AI
+ 3137  make
+ 3138  cd programming/uni/EDA/EDA-Game-AI
+ 3139  vim Structs.hh
+ 3140  cd programming/uni/EDA/EDA-Game-AI
+ 3141  make
+ 3142  clear
+ 3143  make
+ 3144  clear
+ 3145  make
+ 3146  clear
+ 3147  make
+ 3148  clear
+ 3149  make
+ 3150  ./Game Demo Demo kauvete Demo -s 30 -i default.cnf -o default.out
+ 3151  make
+ 3152  ./Game Demo Demo kauvete Demo -s 30 -i default.cnf -o default.out
+ 3153  make
+ 3154  git add .
+ 3155  git commit -m "implemented bfs and added base for A* algorithm"
+ 3156  git push
+ 3157  sudo shutdown now
+ 3158  cd programming/uni/EDA/EDA-Game-AI
+ 3159  la
+ 3160  vim AIkauvete.cc
+ 3161  cd programming/uni/EDA/EDA-Game-AI
+ 3162  la
+ 3163  make
+ 3164  OA
+ 3165  make
+ 3166  vim Structs.cc
+ 3167  vim Structs.hh
+ 3168  make
+ 3169  vim Structs.hh
+ 3170  make
+ 3171  vim Structs.hh
+ 3172  ./Game Demo Demo kauvete Demo -s 30 -i default.cnf -o default.out
+ 3173  ./Game Demo Demo kauvete Demo -s 15 -i default.cnf -o default.out
+ 3174  make
+ 3175  ./Game Demo Demo kauvete Demo -s 15 -i default.cnf -o default.out
+ 3176  make
+ 3177  ./Game Demo Demo kauvete Demo -s 15 -i default.cnf -o default.out
+ 3178  make
+ 3179  ./Game Demo Demo kauvete Demo -s 15 -i default.cnf -o default.out
+ 3180  make
+ 3181  ./Game Demo Demo kauvete Demo -s 15 -i default.cnf -o default.out
+ 3182  make
+ 3183  ./Game Demo Demo kauvete Demo -s 15 -i default.cnf -o default.out
+ 3184  make
+ 3185  ./Game Demo Demo kauvete Demo -s 15 -i default.cnf -o default.out
+ 3186  make
+ 3187  ./Game Demo Demo kauvete Demo -s 15 -i default.cnf -o default.out
+ 3188  make
+ 3189  ./Game Demo Demo kauvete Demo -s 15 -i default.cnf -o default.out
+ 3190  cd programming/uni/EDA/EDA-Game-AI
+ 3191  ./Game Demo Demo kauvete Demo -s 15 -i default.cnf -o default.out
+ 3192  cd programming/uni/EDA/EDA-Game-AI
+ 3193  vim AIkauvete.cc
+ 3194  ./Game Demo Demo kauvete Demo -s 20 -i default.cnf -o default.out
+ 3195  htop
+ 3196  ./Game Demo Demo kauvete Demo -s 21 -i default.cnf -o default.out
+ 3197  make
+ 3198  ./Game Demo Demo kauvete Demo -s 21 -i default.cnf -o default.out
+ 3199  make
+ 3200  ./Game Demo Demo kauvete Demo -s 21 -i default.cnf -o default.out
+ 3201  vim AIkauvete.cc
+ 3202  make
+ 3203  ./Game Demo Demo kauvete Demo -s 21 -i default.cnf -o default.out
+ 3204  vim AIkauvete.cc
+ 3205  make
+ 3206  ./Game Demo Demo kauvete Demo -s 21 -i default.cnf -o default.out
+ 3207  make
+ 3208  ./Game Demo Demo kauvete Demo -s 21 -i default.cnf -o default.out
+ 3209  ./Game Demo Demo kauvete Demo -s 20 -i default.cnf -o default.out
+ 3210  make
+ 3211  ./Game Demo Demo kauvete Demo -s 20 -i default.cnf -o default.out
+ 3212  make
+ 3213  ./Game Demo Demo kauvete Demo -s 20 -i default.cnf -o default.out
+ 3214  make
+ 3215  ./Game Demo Demo kauvete Demo -s 20 -i default.cnf -o default.out
+ 3216  ./Game Demo Demo kauvete Demo -s 20 -i default.cnf -o default.out 2> /dev/null
+ 3217  make
+ 3218  ./Game Demo Demo kauvete Demo -s 20 -i default.cnf -o default.out 2> /dev/null
+ 3219  ./Game Demo Demo kauvete Demo -s 20 -i default.cnf -o default.out
+ 3220  ./Game Demo Demo kauvete Demo -s 20 -i default.cnf -o default.out 2> /dev/null
+ 3221  make
+ 3222  ./Game Demo Demo kauvete Demo -s 20 -i default.cnf -o default.out 2> /dev/null
+ 3223  ./Game Demo Demo kauvete Demo -s 20 -i default.cnf -o default.out
+ 3224  ./Game Demo Demo kauvete Demo -s 20 -i default.cnf -o default.out 2> /dev/null
+ 3225  make
+ 3226  ./Game Demo Demo kauvete Demo -s 20 -i default.cnf -o default.out
+ 3227  make
+ 3228  ./Game Demo Demo kauvete Demo -s 20 -i default.cnf -o default.out
+ 3229  make
+ 3230  ./Game Demo Demo kauvete Demo -s 20 -i default.cnf -o default.out
+ 3231  make
+ 3232  ./Game Demo Demo kauvete Demo -s 20 -i default.cnf -o default.out
+ 3233  make
+ 3234  ./Game Demo Demo kauvete Demo -s 20 -i default.cnf -o default.out
+ 3235  make
+ 3236  ./Game Demo Demo kauvete Demo -s 20 -i default.cnf -o default.out
+ 3237  make
+ 3238  ./Game Demo Demo kauvete Demo -s 20 -i default.cnf -o default.out
+ 3239  ./Game Demo Demo kauvete Demo -s 22 -i default.cnf -o default.out
+ 3240  make
+ 3241  git add .
+ 3242  git commit -m "working pathmaking bfs"
+ 3243  git push
+ 3244  vim pseudocodigo.txt
+ 3245  cd programming/uni/EDA/EDA-Game-AI
+ 3246  vim Structs.cc
+ 3247  vim Structs.hh
+ 3248  vi State.hh
+ 3249  vim State.hh
+ 3250  make
+ 3251  sudo shutdown now
+ 3252  cd programming/uni/EDA/EDA-Game-AI
+ 3253  la
+ 3254  vim AIkauvete.cc
+ 3255  make
+ 3256  cd programming/uni/EDA/EDA-Game-AI
+ 3257  vim AIkauvete.cc
+ 3258  make
+ 3259  ./Game Demo Demo kauvete Demo -s 22 -i default.cnf -o default.out
+ 3260  ./Game Demo Demo kauvete Demo -s 25 -i default.cnf -o default.out
+ 3261  make
+ 3262  cd programming/uni/EDA/EDA-Game-AI
+ 3263  vim Structs.
+ 3264  rm Structs.
+ 3265  vim Structs.hh
+ 3266  make
+ 3267  ./Game Demo Demo kauvete Demo -s 25 -i default.cnf -o default.out
+ 3268  ./Game Demo Demo kauvete Demo -s 27 -i default.cnf -o default.out
+ 3269  make
+ 3270  git add .
+ 3271  git commit -m "implemented safe_or_attack and other correct behaviours"
+ 3272  git push
+ 3273  make
+ 3274  ./Game Demo Demo kauvete Demo -s 27 -i default.cnf -o default.out
+ 3275  ./Game Demo Demo kauvete Demo -s 28 -i default.cnf -o default.out
+ 3276  ./Game Demo Demo kauvete Demo -s 29 -i default.cnf -o default.out
+ 3277  ./Game Dummy Dummy kauvete Demo -s 29 -i default.cnf -o default.out
+ 3278  ./Game Dummy Dummy kauvete Dummy -s 29 -i default.cnf -o default.out
+ 3279  make
+ 3280  ./Game Dummy Dummy kauvete Dummy -s 29 -i default.cnf -o default.out
+ 3281  make
+ 3282  ./Game Dummy Dummy kauvete Dummy -s 29 -i default.cnf -o default.out
+ 3283  vim Makefile
+ 3284  make
+ 3285  make clean
+ 3286  make
+ 3287  cp AIDummy.o.Linux64 AIDummy.o
+ 3288  ./Game Dummy Dummy kauvete Dummy -s 29 -i default.cnf -o default.out
+ 3289  make
+ 3290  ./Game Dummy Dummy kauvete Dummy -s 29 -i default.cnf -o default.out
+ 3291  ./Game Dummy Dummy kauvete Dummy -s 27 -i default.cnf -o default.out
+ 3292  ./Game Dummy Dummy kauvete Dummy -s 28 -i default.cnf -o default.out
+ 3293  vim Makefile
+ 3294  make clean
+ 3295  make
+ 3296  cp AIDummy.o.Linux64 AIDummy.o
+ 3297  ./Game Dummy Dummy kauvete Dummy -s 28 -i default.cnf -o default.out
+ 3298  make
+ 3299  ./Game Dummy Dummy kauvete Dummy -s 28 -i default.cnf -o default.out
+ 3300  make
+ 3301  ./Game Dummy Dummy kauvete Dummy -s 28 -i default.cnf -o default.out
+ 3302  ./Game Dummy Dummy kauvete Dummy -s 25 -i default.cnf -o default.out
+ 3303  make
+ 3304  ./Game Dummy Dummy kauvete Dummy -s 25 -i default.cnf -o default.out
+ 3305  make
+ 3306  ./Game Dummy Dummy kauvete Dummy -s 25 -i default.cnf -o default.out
+ 3307  make
+ 3308  ./Game Dummy Dummy kauvete Dummy -s 25 -i default.cnf -o default.out
+ 3309  make
+ 3310  ./Game Dummy Dummy kauvete Dummy -s 25 -i default.cnf -o default.out
+ 3311  ./Game Dummy Dummy kauvete Dummy -s 27 -i default.cnf -o default.out
+ 3312  vim AIkauvete.cc
+ 3313  make
+ 3314  ./Game Dummy Dummy kauvete Dummy -s 27 -i default.cnf -o default.out
+ 3315  git add .
+ 3316  git commit -m "fixed exceptions thrown"
+ 3317  git push
+ 3318  sudo systemctl suspend
+ 3319  ./Game Dummy Dummy kauvete Dummy -s 27 -i default.cnf -o default.out
+ 3320  make
+ 3321  ./Game Dummy Dummy kauvete Dummy -s 27 -i default.cnf -o default.out
+ 3322  ./Game Dummy Dummy kauvete Dummy -s 17 -i default.cnf -o default.out
+ 3323  make
+ 3324  ./Game Dummy Dummy kauvete Dummy -s 17 -i default.cnf -o default.out
+ 3325  make
+ 3326  ./Game Dummy Dummy kauvete Dummy -s 17 -i default.cnf -o default.out
+ 3327  make
+ 3328  ./Game Dummy Dummy kauvete Dummy -s 17 -i default.cnf -o default.out
+ 3329  make
+ 3330  ./Game Dummy Dummy kauvete Dummy -s 17 -i default.cnf -o default.out
+ 3331  make
+ 3332  ./Game Dummy Dummy kauvete Dummy -s 17 -i default.cnf -o default.out
+ 3333  vim State.hh
+ 3334  make
+ 3335  ./Game Dummy Dummy kauvete Dummy -s 17 -i default.cnf -o default.out
+ 3336  make
+ 3337  ./Game Dummy Dummy kauvete Dummy -s 17 -i default.cnf -o default.out
+ 3338  ./Game Dummy Dummy kauvete Dummy -s 16 -i default.cnf -o default.out
+ 3339  ./Game Dummy Dummy kauvete Dummy -s 11 -i default.cnf -o default.out
+ 3340  make
+ 3341  ./Game Dummy Dummy kauvete Dummy -s 11 -i default.cnf -o default.out
+ 3342  git add .
+ 3343  git commit -m "working AI"
+ 3344  nmtui
+ 3345  make
+ 3346  ./Game Dummy Dummy kauvete Dummy -s 11 -i default.cnf -o default.out
+ 3347  ./Game Dummy Dummy kauvete Dummy -s 10 -i default.cnf -o default.out
+ 3348  make
+ 3349  nmtui
+ 3350  sudo shutdown now
+ 3351  cd programming/uni/EDA/EDA-Game-AI
+ 3352  vim AIkauvete.cc
+ 3353  make
+ 3354  ./Game Dummy Dummy kauvete Dummy -s 11 -i default.cnf -o default.out
+ 3355  make
+ 3356  ./Game Dummy Dummy kauvete Dummy -s 11 -i default.cnf -o default.out
+ 3357  make
+ 3358  ./Game Dummy Dummy kauvete Dummy -i default.cnf -o default.out -s 6
+ 3359  git add .
+ 3360  git commit -m "green submission"
+ 3361  git push
+ 3362  vim Makefile
+ 3363  cp ~/Downloads/AISubmission3.o programming/uni/EDA/EDA-Game-AI
+ 3364  la
+ 3365  make
+ 3366  cd programming/uni/EDA/EDA-Game-AI
+ 3367  make
+ 3368  vim Makefile
+ 3369  make
+ 3370  vim Makefile
+ 3371  make
+ 3372  ./Game Dummy Submission3 kauvete Dummy -i default.cnf -o default.out -s 6
+ 3373  ./Game Dummy Submission3 kauvete Dummy -i default.cnf -o default.out -s 8
+ 3374  cp ~/Downloads/multiple_games.py.
+ 3375  cp ~/Downloads/multiple_games.py .
+ 3376  ./multiple_games.py
+ 3377  chmod +x multiple_games.py
+ 3378  ./multiple_games.py
+ 3379  ./multiple_games.py 100
+ 3380  vim multiple_games.py
+ 3381  pip3 install subprocess
+ 3382  python3 multiple_games.py
+ 3383  htop
+ 3384  python3 multiple_games.py
+ 3385  vim Structs.hh
+ 3386  sudo reboot now
+ 3387  make
+ 3388  sudo shutdown now
+ 3389  cd programming/uni/EDA/EDA-Game-AI
+ 3390  git diff
+ 3391  la
+ 3392  hexdump -C /dev/random | grep --color=auto "ca fe"
+ 3393  strings /dev/mem | grep "llama"
+ 3394  sudo strings /dev/mem | grep "llama"
+ 3395  cp AIkauvete.cc AIkvt.cc
+ 3396  vim AIkvt.cc
+ 3397  sudo pacman -S code
+ 3398  cd programming/uni/EDA/EDA-Game-AI
+ 3399  make
+ 3400  sudo reboot now
+ 3401  cd programming/uni
+ 3402  cd SO/
+ 3403  la
+ 3404  cd practicar
+ 3405  la
+ 3406  mkdir pipes
+ 3407  cd pipes
+ 3408  la
+ 3409  vim file.c
+ 3410  echo "pene" | cat
+ 3411  gcc file.c
+ 3412  vim file.c
+ 3413  gcc file.c
+ 3414  la
+ 3415  ./a.out
+ 3416  vim file.c
+ 3417  gcc file.c
+ 3418  ./a.out
+ 3419  vim file.c
+ 3420  gcc file.c
+ 3421  ./a.out
+ 3422  vim file.c
+ 3423  gcc file.c
+ 3424  ./a.out
+ 3425  vim file.c
+ 3426  ./a.out
+ 3427  gcc file.c
+ 3428  ./a.out
+ 3429  vim file.c
+ 3430  gcc file.c
+ 3431  vim file.c
+ 3432  gcc file.c
+ 3433  ./a.out
+ 3434  sudo pacman -S inkscape
+ 3435  sudo pacman -Syu
+ 3436  yay
+ 3437  sudo systemctl suspend
+ 3438  sudo pacman -S inkscape
+ 3439  sudo reboot now
+ 3440  cd programming/uni/EDA/EDA-Game-AI
+ 3441  la
+ 3442  vim Makefile
+ 3443  make
+ 3444  ./Game Dummy Submission3 kauvete BBB -i default.cnf -o default.out -s 8
+ 3445  vim Makefile
+ 3446  make
+ 3447  make clean
+ 3448  la
+ 3449  make
+ 3450  vim Makefile
+ 3451  make
+ 3452  cp AIDummy.o.Linux64 AIDummy.o
+ 3453  make
+ 3454  g++ -o multiple_gamesa multiple_games.cc
+ 3455  ./multiple_gamesa
+ 3456  vim multiple_games.cc
+ 3457  ./multiple_gamesa Dummy Dummy Dummy BBB
+ 3458  la
+ 3459  python3 multiple_games.py
+ 3460  make
+ 3461  python3 multiple_games.py
+ 3462  ./multiple_gamesa Dummy Dummy Dummy BBB
+ 3463  vim Makefile
+ 3464  make
+ 3465  vim AIBBB.cc
+ 3466  ./multiple_gamesa Dummy Dummy Dummy AAAAAAAA
+ 3467  python3 multiple_games.py
+ 3468  htop
+ 3469  cd programming/uni/EDA/EDA-Game-AI
+ 3470  la
+ 3471  ./multiple_gamesa Dummy Dummy Dummy AAAAAAAA
+ 3472  htop
+ 3473  vim AIBBB.cc
+ 3474  vim multiple_games.cc
+ 3475  make
+ 3476  ./multiple_gamesa Dummy Dummy Dummy AAAAAAAA
+ 3477  htop
+ 3478  sudo reboot now
+ 3479  sudo shutdown now
+ 3480  sudo reboot now
+ 3481  nmtui
+ 3482  sudo reboot now
+ 3483  cd programming/PE/Europe-Champions-League-R-data-analysis
+ 3484  git fetch
+ 3485  git pull
+ 3486  git checkout v2
+ 3487  git diff experimental
+ 3488  la
+ 3489  vim utils.r
+ 3490  git checkout experimental
+ 3491  vim utils.r
+ 3492  git checkout v2
+ 3493  git checkout experimental
+ 3494  cd ..
+ 3495  cd Europe-Champions-League-R-data-analysis
+ 3496  git pull
+ 3497  la
+ 3498  cd matches_of_interest
+ 3499  la
+ 3500  man rename
+ 3501  rename -nv *champs
+ 3502  rename -nv *champs.csv
+ 3503  rename -nv *champs.csv *
+ 3504  la
+ 3505  rename -nv [*]champs.csv [1]
+ 3506  rename -nv \[*\]champs.csv [1]
+ 3507  man rename
+ 3508  rename -nv champs.csv .csv *.csv
+ 3509  rename -v champs.csv .csv *.csv
+ 3510  la
+ 3511  cd ..
+ 3512  la
+ 3513  git add .
+ 3514  git commit -m "processed data for each individual league and renamed dataset files"
+ 3515  git push
+ 3516  la
+ 3517  vim data_per_year
+ 3518  rm data_per_year
+ 3519  la
+ 3520  sudo shutdown now
+ 3521  cd programming/PE/Europe-Champions-League-R-data-analysis
+ 3522  la
+ 3523  cd europe-champions-league
+ 3524  la
+ 3525  cd ..
+ 3526  la
+ 3527  sudo reboot now
+ 3528  cd programming/PE/Europe-Champions-League-R-data-analysis
+ 3529  la
+ 3530  rm data_per_year.csv
+ 3531  git add .
+ 3532  git commit -m "achieved basic score table"
+ 3533  gi tpush
+ 3534  git push
+ 3535  sudo shutdown now
+ 3536  cd programming/PE/Europe-Champions-League-R-data-analysis
+ 3537  la
+ 3538  cd matches_of_interest
+ 3539  la
+ 3540  man ln
+ 3541  ln ../europe-champions-league/2004-05/champs.csv 2004-2005.csv
+ 3542  git add .
+ 3543  git commit -m "added missing dataset year"
+ 3544  git push
+ 3545  cd ..
+ 3546  cd matches_of_interest
+ 3547  cd ..
+ 3548  vim data_per_year.csv
+ 3549  cd matches_of_interest
+ 3550  ln ../europe-champions-league/2012-13/champs.csv 2012-2013.csv
+ 3551  cd ..
+ 3552  la
+ 3553  vim data_per_year.csv 
+ 3554  sudo reboot now
+ 3555  cd programming/PE/Europe-Champions-League-R-data-analysis
+ 3556  cd matches_of_interest
+ 3557  la
+ 3558  ln ../europe-champions-league/1994-95/champs.csv 1994-1995.csv
+ 3559  ln ../europe-champions-league/1993-94/champs.csv 1993-1994.csv
+ 3560  la
+ 3561  man ln
+ 3562  ln ../europe-champions-league/1993-94/champs.csv 1993-1994.csv --symbolic
+ 3563  rm 1993-1994.csv
+ 3564  ln ../europe-champions-league/1993-94/champs.csv 1993-1994.csv --symbolic
+ 3565  la
+ 3566  ln ../europe-champions-league/1994-95/champs.csv 1994-1995.csv --force --symbolic
+ 3567  la
+ 3568  ln ../europe-champions-league/2012-13/champs.csv 2012-2013.csv --force --symbolic
+ 3569  la
+ 3570  ln ../europe-champions-league/2004-05/champs.csv 2004-2005.csv --symbolic --force
+ 3571  la
+ 3572  ln ../europe-champions-league/1992-93/champs.csv 1992-1993.csv --force --symbolic
+ 3573  la
+ 3574  ln ../europe-champions-league/1991-92/champs.csv 1991-1992.csv --force --symbolic
+ 3575  la
+ 3576  ln ../europe-champions-league/1990-91/champs.csv 1990-1991.csv --force --symbolic
+ 3577  la
+ 3578  ln ../europe-champions-league/1989-90/champs.csv 1989-1990.csv --force --symbolic
+ 3579  la
+ 3580  ln ../europe-champions-league/1988-89/champs.csv 1988-1989.csv --force --symbolic
+ 3581  ln ../europe-champions-league/1987-88/champs.csv 1987-1988.csv --force --symbolic
+ 3582  ln ../europe-champions-league/1986-87/champs.csv 1986-1987.csv --force --symbolic
+ 3583  la
+ 3584  ln ../europe-champions-league/1985-86/champs.csv 1985-1986.csv --force --symbolic
+ 3585  la
+ 3586  ln ../europe-champions-league/1984-85/champs.csv 1984-1985.csv --force --symbolic
+ 3587  la
+ 3588  ln ../europe-champions-league/1983-84/champs.csv 1983-1984.csv --force --symbolic
+ 3589  la
+ 3590  ln ../europe-champions-league/1982-83/champs.csv 1982-1983.csv --force --symbolic
+ 3591  la
+ 3592  ln ../europe-champions-league/1981-82/champs.csv 1981-1982.csv --force --symbolic
+ 3593  la
+ 3594  ln ../europe-champions-league/1980-81/champs.csv 1980-1981.csv --force --symbolic
+ 3595  la
+ 3596  man ls
+ 3597  ls -lA --sort
+ 3598  ls -lA --sort=time
+ 3599  ls -A --sort=time
+ 3600  man ls
+ 3601  ls -A --sort=time --format=x
+ 3602  ls -A --sort=time --format='horizontal'
+ 3603  man mv
+ 3604  cd ..
+ 3605  mkdir other
+ 3606  cd matches_of_interest
+ 3607  mv -i 1980-1981.csv  1981-1982.csv  1982-1983.csv  1983-1984.csv  1984-1985.csv  1985-1986.csv  1986-1987.csv  1987-1988.csv  1988-1989.csv  1989-1990.csv  1990-1991.csv  1991-1992.csv -D ../other
+ 3608  man mv
+ 3609  mv -i 1980-1981.csv  1981-1982.csv  1982-1983.csv  1983-1984.csv  1984-1985.csv  1985-1986.csv  1986-1987.csv  1987-1988.csv  1988-1989.csv  1989-1990.csv  1990-1991.csv  1991-1992.csv -t ../other
+ 3610  la
+ 3611  mv 1992-1993.csv -t ../other
+ 3612  cd ..
+ 3613  git add .
+ 3614  git commit -m "removed years and added first ggplot2 plot"
+ 3615  git push
+ 3616  sudo shutdown now
+ 3617  cd programming/PE/Europe-Champions-League-R-data-analysis
+ 3618  la
+ 3619  git pull
+ 3620  la
+ 3621  sudo shutdown now
+ 3622  polybar
+ 3623  sudo ln -sf libjsoncpp.so libjsoncpp.so.24
+ 3624  polybar
+ 3625  sudo reboot now
+ 3626  polybar
+ 3627  vim .config/polybar/config.ini
+ 3628  cd .config/polybar/mybar2
+ 3629  la
+ 3630  ./launch.sh
+ 3631  cd ..
+ 3632  la
+ 3633  sudo reboot now
+ 3634  cd programming/uni/SO/practicar
+ 3635  la
+ 3636  cd pipes
+ 3637  la
+ 3638  vim file.c
+ 3639  touch lol.c
+ 3640  vim lol.c
+ 3641  pwd
+ 3642  cd /home/ivan/programming/uni/SO/practicar/pipes
+ 3643  vim lol.c
+ 3644  gcc lol.c -o lol
+ 3645  vim file.c
+ 3646  vim lol.c
+ 3647  cat file.c
+ 3648  ps | cat
+ 3649  gcc lol.c -o lol
+ 3650  ./lol
+ 3651  gcc lol.c -o lol
+ 3652  ./lol
+ 3653  vim lol.c
+ 3654  gcc lol.c -o lol
+ 3655  vim lol.c
+ 3656  gcc lol.c -o lol
+ 3657  ./lol
+ 3658  gcc lol.c -o lol
+ 3659  ./lol
+ 3660  gcc lol.c -o lol
+ 3661  ./lol
+ 3662  gcc lol.c -o lol
+ 3663  ./lol
+ 3664  gcc lol.c -o lol
+ 3665  ./lol
+ 3666  man ps
+ 3667  gcc lol.c -o lol
+ 3668  ./lol
+ 3669  gcc lol.c -o lol
+ 3670  ./lol
+ 3671  ps
+ 3672  ps > /dev/null
+ 3673  ps | echo
+ 3674  ps | cat
+ 3675  gcc lol.c -o lol
+ 3676  ./lol
+ 3677  gcc lol.c -o lol
+ 3678  ./lol
+ 3679  gcc lol.c -o lol
+ 3680  ./lol
+ 3681  gcc lol.c -o lol
+ 3682  ./lol
+ 3683  gcc lol.c -o lol
+ 3684  ./lol
+ 3685  cat < file.c
+ 3686  gcc lol.c -o lol
+ 3687  cat < file.c
+ 3688  ./lol
+ 3689  cat < file.c
+ 3690  gcc lol.c -o lol
+ 3691  ./lol
+ 3692  sudo reboot noe
+ 3693  sudo reboot now
+ 3694  cd programming/PE/Europe-Champions-League-R-data-analysis
+ 3695  git add .
+ 3696  git diff
+ 3697  git commit -m "added images and modified script2"
+ 3698  git push
+ 3699  git checkout master+
+ 3700  git checkout master
+ 3701  git pull
+ 3702  git rm script.r
+ 3703  git add .
+ 3704  git commit -m "removed old script"
+ 3705  git push
+ 3706  cd matches_of_interest
+ 3707  la
+ 3708  sudo shutdown now
+ 3709  sudo reboot now
+ 3710  cd programming/uni
+ 3711  la
+ 3712  cd EDA
+ 3713  l
+ 3714  la
+ 3715  mkdir Use of STL data structures
+ 3716  cd Use
+ 3717  la
+ 3718  cd ..
+ 3719  la
+ 3720  rm -rf Use of st data structures
+ 3721  la
+ 3722  rm -rf STL
+ 3723  mkdir 'Use of STL data structures'
+ 3724  la
+ 3725  cd Use\ of\ STL\ data\ structures
+ 3726  la
+ 3727  touch P50709.cc
+ 3728  cd ..
+ 3729  mkdir Jutge
+ 3730  la
+ 3731  mv Jutge C++ Problems
+ 3732  mv Jutge 'Jutge C++ Problems'
+ 3733  la
+ 3734  mv Use\ of\ STL\ data\ structures Jutge\ C++\ Problems
+ 3735  la
+ 3736  cd Jutge\ C++\ Problems
+ 3737  la
+ 3738  cd Use\ of\ STL\ data\ structures
+ 3739  la
+ 3740  cd ..
+ 3741  vim Makefile
+ 3742  mv Makefile Use\ of\ STL\ data\ structures
+ 3743  cd Use\ of\ STL\ data\ structures
+ 3744  la
+ 3745  make
+ 3746  la
+ 3747  make
+ 3748  vim Makefile
+ 3749  make
+ 3750  vim Makefile
+ 3751  make
+ 3752  la
+ 3753  make
+ 3754  vim Makefile
+ 3755  make
+ 3756  la
+ 3757  vim Makefile
+ 3758  make
+ 3759  make clean
+ 3760  la
+ 3761  make
+ 3762  vim P50709.cc
+ 3763  make
+ 3764  la
+ 3765  make
+ 3766  vim Makefile
+ 3767  make
+ 3768  la
+ 3769  make
+ 3770  vim Makefile
+ 3771  make
+ 3772  la
+ 3773  vim Makefile
+ 3774  make
+ 3775  la
+ 3776  ./P50709
+ 3777  vim P50709
+ 3778  make clean
+ 3779  vim P50709.cc
+ 3780  cp Makefile ..
+ 3781  l
+ 3782  clear
+ 3783  la
+ 3784  vim P50709.cc
+ 3785  cd programming/uni/EDA/Jutge\ C++\ Problems
+ 3786  la
+ 3787  cd Use\ of\ STL\ data\ structures
+ 3788  la
+ 3789  make
+ 3790  ./P50709 A\nS 10    A\nS -7    A\nS 20    A\nI 3     A
+ 3791  ./P50709
+ 3792  vim P50709.cc
+ 3793  ./P50709
+ 3794  vim P50709.cc
+ 3795  ./P50709 
+ 3796  vim P50709.cc
+ 3797  make
+ 3798  ./P50709 
+ 3799  vim P50709.cc
+ 3800  make
+ 3801  ./P50709 
+ 3802  vim P50709.cc
+ 3803  make
+ 3804  vim P37064.cc
+ 3805  make
+ 3806  ./P37064
+ 3807  sudo systemctl suspend
+ 3808  sudo reboot now
+ 3809  cd programming/uni/EDA/Jutge\ C++\ Problems
+ 3810  pwd
+ 3811  la
+ 3812  pwd
+ 3813  cd /home/ivan/programming/uni/EDA/Jutge C++ Problems
+ 3814  la
+ 3815  cd /home/ivan/programming/uni/EDA/'Jutge C++ Problems'
+ 3816  la
+ 3817  mkdir Graph Algorithms
+ 3818  rm -rf Graph Algorithms
+ 3819  mkdir 'Graph Algorithms'
+ 3820  cd Graph\ Algorithms
+ 3821  la
+ 3822  clear
+ 3823  cp ../Makefile .
+ 3824  la
+ 3825  make
+ 3826  vim P70690.cc
+ 3827  vim ../Use\ of\ STL\ data\ structures/P37064.cc
+ 3828  clear
+ 3829  la
+ 3830  make
+ 3831  la
+ 3832  vim P29033.cc
+ 3833  rm P70690.cc P70690
+ 3834  clear
+ 3835  sudo reboot now
+ 3836  cd programming/uni/EDA/Jutge\ C++\ Problems
+ 3837  la
+ 3838  mkdir exams
+ 3839  cd exams
+ 3840  la
+ 3841  touch P84415.cc
+ 3842  vim P84415.cc
+ 3843  g++ -o P84415 P84415.cc
+ 3844  vim P84415.cc
+ 3845  g++ -o P84415 P84415.cc
+ 3846  vim P84415.cc
+ 3847  g++ -o P84415 P84415.cc
+ 3848  vim P84415.cc
+ 3849  g++ -o P84415 P84415.cc
+ 3850  vim P84415.cc
+ 3851  g++ -o P84415 P84415.cc
+ 3852  vim P84415.cc
+ 3853  g++ -o P84415 P84415.cc
+ 3854  vim P84415.cc
+ 3855  g++ -o P84415 P84415.cc
+ 3856  vim P84415.cc
+ 3857  g++ -o P84415 P84415.cc
+ 3858  ./P84415
+ 3859  vim P84415.cc
+ 3860  ./P84415
+ 3861  g++ -o P84415 P84415.cc
+ 3862  vim P84415.cc
+ 3863  g++ -o P84415 P84415.cc
+ 3864  vim P84415.cc
+ 3865  g++ -o P84415 P84415.cc
+ 3866  vim P84415.cc
+ 3867  g++ -o P84415 P84415.cc
+ 3868  vim P84415.cc
+ 3869  g++ -o P84415 P84415.cc
+ 3870  vim P84415.cc
+ 3871  g++ -o P84415 P84415.cc
+ 3872  vim P84415.cc
+ 3873  g++ -o P84415 P84415.cc
+ 3874  vim P84415.cc
+ 3875  g++ -o P84415 P84415.cc
+ 3876  clear
+ 3877  g++ -o P84415 P84415.cc
+ 3878  vim P84415.cc
+ 3879  g++ -o P84415 P84415.cc
+ 3880  ./P84415
+ 3881  vim P84415.cc
+ 3882  ./P84415
+ 3883  g++ -o P84415 P84415.cc
+ 3884  ./P84415
+ 3885  vim P84415.cc
+ 3886  g++ -o P84415 P84415.cc
+ 3887  ./P84415
+ 3888  vim input.txt
+ 3889  ./P84415 < input.txt
+ 3890  ./P84415
+ 3891  vim input.txt
+ 3892  vim P84415.cc
+ 3893  g++ -o P84415 P84415.cc
+ 3894  ./P84415 < input.txt
+ 3895  vim P84415.cc
+ 3896  g++ -o P84415 P84415.cc
+ 3897  vim P84415.cc
+ 3898  g++ -o P84415 P84415.cc
+ 3899  vim P84415.cc
+ 3900  g++ -o P84415 P84415.cc
+ 3901  ./P84415 < input.txt
+ 3902  vim P84415.cc
+ 3903  la
+ 3904  make
+ 3905  vim PacMan.cc
+ 3906  make
+ 3907  la
+ 3908  cp ../Makefile
+ 3909  make
+ 3910  cp ../Makefile .
+ 3911  make
+ 3912  vim PacMan.cc
+ 3913  make
+ 3914  vim PacMan.cc
+ 3915  make
+ 3916  vim PacMan.cc
+ 3917  make
+ 3918  vim PacMan.cc
+ 3919  make
+ 3920  ./PacMan
+ 3921  vim Makefile
+ 3922  make
+ 3923  make clean
+ 3924  make
+ 3925  la
+ 3926  vim input.txt
+ 3927  gdb -tui PacMan
+ 3928  gbd -tui PacMan
+ 3929  gdb
+ 3930  sudo pacman -S gdb
+ 3931  sudo pacman -Syu
+ 3932  sudo pacman -S gdb
+ 3933  gbd -tui PacMan
+ 3934  gdb -tui PacMan
+ 3935  vim PacMan.cc
+ 3936  make
+ 3937  ./PacMan
+ 3938  ./PacMan < input.txt
+ 3939  ./PacMan
+ 3940  sudo systemctl suspend
+ 3941  make
+ 3942  ./PacMan < input.txt
+ 3943  vim PacMan.cc
+ 3944  gdb -tui PacMan
+ 3945  vim PacMan.cc
+ 3946  make
+ 3947  ./PacMan < input.txt
+ 3948  ./PacMan
+ 3949  vim PacMan.cc
+ 3950  gdb -tui PacMan
+ 3951  vim input.txt
+ 3952  make
+ 3953  gdb -tui PacMan
+ 3954  vim input.txt
+ 3955  vim PacMan.cc
+ 3956  make
+ 3957  gdb -tui PacMan
+ 3958  vim PacMan.cc
+ 3959  sudo reboot now
+ 3960  cd programming/uni/EDA/Jutge\ C++\ Problems
+ 3961  cd exams
+ 3962  la
+ 3963  make
+ 3964  vim X34137.cc
+ 3965  make
+ 3966  ./X34137
+ 3967  vim X34137.cc
+ 3968  make
+ 3969  ./X34137
+ 3970  cd programming/PE/Europe-Champions-League-R-data-analysis
+ 3971  la
+ 3972  vim script2.r
+ 3973  ./X34137
+ 3974  make
+ 3975  ./X34137
+ 3976  vim input2.txt
+ 3977  gdb -tui X34137
+ 3978  vim script2.r
+ 3979  vim X34137.cc
+ 3980  gdb -tui X34137
+ 3981  vim X34137.cc
+ 3982  make
+ 3983  vim X34137.cc
+ 3984  make
+ 3985  vim X34137.cc
+ 3986  ./X34137 < input2.txt
+ 3987  ./X34137
+ 3988  sudo reboot now
+ 3989  cdm programming/uni/EDA/Jutge\ C++\ Problems
+ 3990  la
+ 3991  cdm programming/uni/EDA/Jutge\ C++\ Problems
+ 3992  cd programming/uni/EDA/Jutge\ C++\ Problems
+ 3993  la
+ 3994  cd exams
+ 3995  la
+ 3996  make
+ 3997  vim Makefile
+ 3998  sudo reboot now
+ 3999  cd programming/uni/EDA/Jutge\ C++\ Problems
+ 4000  cd exams
+ 4001  make
+ 4002  vim X34032.cc
+ 4003  make
+ 4004  vim X34032.cc
+ 4005  make
+ 4006  vim X34032.cc
+ 4007  make
+ 4008  vim X34032.cc
+ 4009  make
+ 4010  vim X34032.cc
+ 4011  make
+ 4012  vim X34032.cc
+ 4013  make
+ 4014  vim X34032.cc
+ 4015  make
+ 4016  ./X34032
+ 4017  gdb -tui X34032
+ 4018  vim input2.txt
+ 4019  gdb -tui X34032
+ 4020  vim input2.txt
+ 4021  gdb -tui X34032
+ 4022  vim input2.txt
+ 4023  vim X34032.cc
+ 4024  make
+ 4025  ./X34032 < input2.txt
+ 4026  ./X34032
+ 4027  vim X34032.cc
+ 4028  make
+ 4029  ./X34032 < input2.txt
+ 4030  gdb -tui X34032
+ 4031  vim X34032.cc
+ 4032  gdb -tui X34032
+ 4033  vim input2.txt
+ 4034  make
+ 4035  ./X34032 < input2.txt
+ 4036  vim input2.txt
+ 4037  vim X34032.cc
+ 4038  make
+ 4039  ./X34032 < input2.txt
+ 4040  vim X34032.cc
+ 4041  make
+ 4042  ./X34032 < input2.txt
+ 4043  vim X34032.cc
+ 4044  make
+ 4045  ./X34032 < input2.txt
+ 4046  vim X34032.cc
+ 4047  make
+ 4048  ./X34032 < input2.txt
+ 4049  vim X34032.cc
+ 4050  make
+ 4051  ./X34032 < input2.txt
+ 4052  vim X34032.cc
+ 4053  vim input2.txt
+ 4054  make
+ 4055  ./X34032 < input2.txt
+ 4056  ./X34032
+ 4057  vim X34032.cc
+ 4058  make
+ 4059  vim input2.txt
+ 4060  ./X34032 < input2.txt
+ 4061  vim input2.txt
+ 4062  vim X34032.cc
+ 4063  make
+ 4064  ./X34032 < input2.txt
+ 4065  vim X34032.cc
+ 4066  make
+ 4067  vim X34032.cc
+ 4068  vim ~/Downloads/program\ \(1\).cc
+ 4069  vim X34032.cc
+ 4070  vim ~/Downloads/program\ \(1\).cc
+ 4071  vim X34032.cc
+ 4072  vim ~/Downloads/program\ \(1\).cc
+ 4073  vim X34032.cc
+ 4074  make
+ 4075  vim X34032.cc
+ 4076  make
+ 4077  vim X34032.cc
+ 4078  make
+ 4079  vim X34032.cc
+ 4080  sudo reboot now
+ 4081  ./ledger_live
+ 4082  sudo shutdown now
+ 4083  lsusb
+ 4084  
+ 4085  
+ 4086  sudo systemctl suspend
+ 4087  sudo pacman -Syu
+ 4088  sudo shutdown now
+ 4089  la
+ 4090  rm libjsoncpp.so.24
+ 4091  la
+ 4092  cd programming/PE/quimicos
+ 4093  vim file.txt
+ 4094  pwd
+ 4095  la
+ 4096  pwd
+ 4097  cd programming/PE/quimicos
+ 4098  la
+ 4099  vim file.txt
+ 4100  sudo shutdown now
+ 4101  sudo reboot now
+ 4102  sudo shutdown now
+ 4103  sudo reboot now
+ 4104  cd programming/uni
+ 4105  la
+ 4106  cd EDA
+ 4107  la
+ 4108  cd Jutge\ C++\ Problems
+ 4109  la
+ 4110  cd exams
+ 4111  la
+ 4112  make
+ 4113  vim Tresors4.cc
+ 4114  make
+ 4115  vim Tresors4.cc
+ 4116  make
+ 4117  vim Tresors4.cc
+ 4118  make
+ 4119  vim Tresors4.cc
+ 4120  make
+ 4121  vim Tresors4.cc
+ 4122  make
+ 4123  ./Tresors4
+ 4124  vim Tresors4.cc
+ 4125  make
+ 4126  ./Tresors4
+ 4127  make
+ 4128  vim Tresors4.cc
+ 4129  make
+ 4130  ./Tresors4
+ 4131  vim Tresors4.cc
+ 4132  make
+ 4133  ./Tresors4
+ 4134  vim Tresors4.cc
+ 4135  make
+ 4136  ./Tresors4
+ 4137  vim Tresors4.cc
+ 4138  ./Tresors4
+ 4139  vim input
+ 4140  vim input.txt
+ 4141  make
+ 4142  ./Tresors4 < input.txt
+ 4143  vim input.txt
+ 4144  ./Tresors4 < input.txt
+ 4145  vim input.txt
+ 4146  vim Tresors4.cc
+ 4147  make
+ 4148  ./Tresors4 < input.txt
+ 4149  vim Tresors4.cc
+ 4150  make
+ 4151  vim Tresors4.cc
+ 4152  make
+ 4153  ./Tresors4 < input.txt
+ 4154  vim Tresors4.cc
+ 4155  make
+ 4156  sudo systemctl suspend
+ 4157  sudo shutdown now
+ 4158  cd programming/uni/EDA/Jutge\ C++\ Problems
+ 4159  la
+ 4160  cd exams
+ 4161  ..
+ 4162  cd exams
+ 4163  la
+ 4164  touch P47386.cc
+ 4165  vim P47386.cc
+ 4166  make
+ 4167  vim P47386.cc
+ 4168  make
+ 4169  vim P47386.cc
+ 4170  make
+ 4171  vim P47386.cc
+ 4172  make
+ 4173  ./P47386
+ 4174  vim P47386.cc
+ 4175  sudo pacman -Syu
+ 4176  cd programming/uni/EDA/
+ 4177  la
+ 4178  cd Jutge\ C++\ Problems
+ 4179  la
+ 4180  cd exams
+ 4181  vim X07174.cc
+ 4182  make
+ 4183  vim X07174.cc
+ 4184  make
+ 4185  vim X07174.cc
+ 4186  vim P69865.cc
+ 4187  make
+ 4188  vim P69865.cc
+ 4189  make
+ 4190  vim P69865.cc
+ 4191  sudo reboot now
+ 4192  cd programming/uni/EDA/Jutge\ C++\ Problems
+ 4193  la
+ 4194  cd exams
+ 4195  la
+ 4196  vim P69865.cc
+ 4197  make
+ 4198  vim P69865.cc
+ 4199  make
+ 4200  make clean
+ 4201  make
+ 4202  cleart
+ 4203  clear
+ 4204  vim P69865.cc
+ 4205  make
+ 4206  vim P69865.cc
+ 4207  make
+ 4208  vim P69865.cc
+ 4209  vim P47386.cc
+ 4210  vim *.cc
+ 4211  vim P47386.cc
+ 4212  vim P69865.cc
+ 4213  make
+ 4214  vim P69865.cc
+ 4215  make
+ 4216  ./P69865
+ 4217  vim P69865.cc
+ 4218  make
+ 4219  ./P69865
+ 4220  vim P69865.cc
+ 4221  gdb -tui P69865
+ 4222  cd programming/uni/EDA/Jutge\ C++\ Problems
+ 4223  vim P69865.cc
+ 4224  cd exams
+ 4225  vim input.txt
+ 4226  vim P69865.cc
+ 4227  make
+ 4228  ./P69865 < input.txt
+ 4229  vim P69865.cc
+ 4230  make
+ 4231  vim P69865.cc
+ 4232  make
+ 4233  gdb -tui P69865
+ 4234  vim P69865.cc
+ 4235  ./P69865 < input.txt
+ 4236  vim P69865.cc
+ 4237  vim input.txt
+ 4238  ./P69865 < input.txt
+ 4239  vim input.txt
+ 4240  vim P69865.cc
+ 4241  make
+ 4242  vim P69865.cc
+ 4243  make
+ 4244  ./P69865 < input.txt
+ 4245  vim P69865.cc
+ 4246  make
+ 4247  ./P69865 < input.txt
+ 4248  vim P69865.cc
+ 4249  make
+ 4250  ./P69865 < input.txt
+ 4251  vim P69865.cc
+ 4252  make
+ 4253  ./P69865 < input.txt
+ 4254  vim P69865.cc
+ 4255  make
+ 4256  ./P69865 < input.txt
+ 4257  vim P69865.cc
+ 4258  make
+ 4259  ./P69865 < input.txt
+ 4260  vim P69865.cc
+ 4261  make
+ 4262  ./P69865 < input.txt
+ 4263  vim P69865.cc
+ 4264  make
+ 4265  ./P69865 < input.txt
+ 4266  vim input.txt
+ 4267  make
+ 4268  ./P69865 < input.txt
+ 4269  vim input.txt
+ 4270  ./P69865 < input.txt
+ 4271  cd Downloads
+ 4272  vim program.cc
+ 4273  sudo systemctl suspend
+ 4274  sudo reboot now
+ 4275  cd programming/
+ 4276  la
+ 4277  cd projects
+ 4278  la
+ 4279  i3-msg restart
+ 4280  sudo systemctl suspend
+ 4281  sudo reboot now
+ 4282  sudo systemctl suspend
+ 4283  cd programming/SO
+ 4284  cd programming/uni/SO
+ 4285  la
+ 4286  cd practicar
+ 4287  la
+ 4288  ps | cat
+ 4289  la
+ 4290  sudo shutdown now
+ 4291  cd programming/uni/EDA/Jutge\ C++\ Problems/exams
+ 4292  la
+ 4293  htop
+ 4294  la
+ 4295  clear
+ 4296  cd programming/uni/EDA/
+ 4297  cd Jutge\ C++\ Problems
+ 4298  la
+ 4299  cd exams
+ 4300  la
+ 4301  vim cuts.cc
+ 4302  make
+ 4303  vim cuts.cc
+ 4304  make
+ 4305  vim cuts.cc
+ 4306  make
+ 4307  vim cuts.cc
+ 4308  make
+ 4309  vim cuts.cc
+ 4310  make
+ 4311  vim cuts.cc
+ 4312  make
+ 4313  ./cuts
+ 4314  vim cuts.cc
+ 4315  make
+ 4316  ./cuts
+ 4317  vim cuts.cc
+ 4318  ./cuts
+ 4319  make
+ 4320  ./cuts
+ 4321  vim cuts.cc
+ 4322  ./cuts
+ 4323  make
+ 4324  ./cuts
+ 4325  vim cuts.cc
+ 4326  make
+ 4327  ./cuts
+ 4328  vim cuts.cc
+ 4329  make
+ 4330  ./cuts
+ 4331  vim cuts.cc
+ 4332  make
+ 4333  vim cuts.cc
+ 4334  make
+ 4335  ./cuts
+ 4336  vim cuts.cc
+ 4337  ./cuts
+ 4338  sudo reboot now
+ 4339  sudo systemctl suspend
+ 4340  sudo reboot now
+ 4341  cd programming/uni/EDA/Jutge\ C++\ Problems
+ 4342  la
+ 4343  cd exams
+ 4344  touch P11655.cc
+ 4345  make
+ 4346  vim P11655.cc
+ 4347  make
+ 4348  ./P11655
+ 4349  vim P11655.cc
+ 4350  make
+ 4351  ./P11655
+ 4352  vim P11655.cc
+ 4353  ./P11655
+ 4354  make
+ 4355  ./P11655
+ 4356  vim P11655.cc
+ 4357  make
+ 4358  vim P11655.cc
+ 4359  ./P11655
+ 4360  vim P11655.cc
+ 4361  ./P11655
+ 4362  vim P11655.cc
+ 4363  make
+ 4364  ./P11655
+ 4365  vim P11655.cc
+ 4366  make
+ 4367  vim P11655.cc
+ 4368  ./P11655
+ 4369  vim P11655.cc
+ 4370  vim X67572.cc
+ 4371  make
+ 4372  vim X67572.cc
+ 4373  make
+ 4374  vim X67572.cc
+ 4375  make
+ 4376  ./X67572
+ 4377  vim X67572.cc
+ 4378  make
+ 4379  vim X67572.cc
+ 4380  make
+ 4381  vim X67572.cc
+ 4382  make
+ 4383  vim X67572.cc
+ 4384  make
+ 4385  vim X67572.cc
+ 4386  ./X67572
+ 4387  vim X67572.cc
+ 4388  make
+ 4389  ./X67572
+ 4390  vim X67572.cc
+ 4391  make
+ 4392  ./X67572
+ 4393  vim X67572.cc
+ 4394  make
+ 4395  ./X67572
+ 4396  2\nie\nei
+ 4397  ./X67572
+ 4398  cd programming/uni/EDA/Jutge\ C++\ Problems/exams
+ 4399  ./X67572
+ 4400  sudo reboot now
+ 4401  cal 3
+ 4402  cal -3
+ 4403  cal 2400
+ 4404  cal 230*
+ 4405  sudo shutdown now
+ 4406  cd programming/uni/SO/exams
+ 4407  la
+ 4408  cd SO1920q2
+ 4409  la
+ 4410  vim Makefile
+ 4411  make
+ 4412  touch controla.c
+ 4413  make
+ 4414  vim controla.c
+ 4415  make
+ 4416  vim controla.c
+ 4417  make
+ 4418  vim controla.c
+ 4419  man 3 write
+ 4420  make
+ 4421  man 3 write
+ 4422  vim controla.c
+ 4423  make
+ 4424  vim controla.c
+ 4425  ./controla
+ 4426  vim controla.c
+ 4427  make
+ 4428  vim controla.c
+ 4429  make
+ 4430  vim controla.c
+ 4431  make
+ 4432  vim controla.c
+ 4433  make
+ 4434  vim controla.c
+ 4435  make
+ 4436  vim controla.c
+ 4437  make
+ 4438  vim controla.c
+ 4439  make
+ 4440  vim controla.c
+ 4441  make
+ 4442  vim controla.c
+ 4443  make
+ 4444  vim controla.c
+ 4445  make
+ 4446  vim controla.c
+ 4447  man 3 waitpid
+ 4448  make
+ 4449  man 3 waitpid
+ 4450  vim controla.c
+ 4451  man 3 alarm
+ 4452  make
+ 4453  man 3 alarm
+ 4454  vim controla.c
+ 4455  make
+ 4456  vim controla.c
+ 4457  make
+ 4458  vim controla.c
+ 4459  sudo shutdown now
+ 4460  cd programming/uni/SO/exams
+ 4461  cd SO1920q2
+ 4462  la
+ 4463  vim controla
+ 4464  vim controla.c
+ 4465  make
+ 4466  vim controla.c
+ 4467  make
+ 4468  vim controla.c
+ 4469  make
+ 4470  vim controla.c
+ 4471  man waitpid
+ 4472  man wnohang
+ 4473  make
+ 4474  vim controla.c
+ 4475  make
+ 4476  vim controla.c
+ 4477  make
+ 4478  ./controla 2 ps
+ 4479  vim controla.c
+ 4480  make
+ 4481  ./controla 2 ps
+ 4482  vim controla.c
+ 4483  vim suma.c
+ 4484  make
+ 4485  vim Makefile
+ 4486  make
+ 4487  vim Makefile
+ 4488  vim suma.c
+ 4489  vim Makefile
+ 4490  make
+ 4491  ./suma
+ 4492  vim suma.c
+ 4493  ./suma hola
+ 4494  fg
+ 4495  vim suma.c
+ 4496  make
+ 4497  ./suma hola
+ 4498  vim suma.c
+ 4499  make
+ 4500  ./suma hola
+ 4501  vim suma.c
+ 4502  make
+ 4503  ./suma hola
+ 4504  vim suma.c
+ 4505  make
+ 4506  ./suma hola
+ 4507  1
+ 4508  ./suma hola
+ 4509  3
+ 4510  ./suma hola
+ 4511  cd SO1920q2
+ 4512  ./suma hola
+ 4513  vim suma.c
+ 4514  ./suma hola
+ 4515  2
+ 4516  ./suma hola
+ 4517  cd programming/uni/SO/exams
+ 4518  cd SO1920q2
+ 4519  la
+ 4520  ./suma 1
+ 4521  vim suma.c
+ 4522  make
+ 4523  ./suma 1
+ 4524  vim suma.c
+ 4525  make
+ 4526  ./suma 1
+ 4527  vim suma.c
+ 4528  make+
+ 4529  make
+ 4530  vim suma.c
+ 4531  make
+ 4532  vim suma.c
+ 4533  m,ake
+ 4534  make
+ 4535  vim suma.c
+ 4536  make
+ 4537  vim suma.c
+ 4538  make
+ 4539  vim suma.c
+ 4540  make
+ 4541  vim suma.c
+ 4542  make
+ 4543  ./suma hola
+ 4544  vim suma
+ 4545  vim suma.c
+ 4546  ./suma ./hola
+ 4547  la
+ 4548  cat hola
+ 4549  vim suma.c
+ 4550  la
+ 4551  make
+ 4552  ./suma ./hola
+ 4553  vim hola
+ 4554  vim suma.c
+ 4555  make
+ 4556  ./suma hola
+ 4557  vim suma.c
+ 4558  make
+ 4559  ./suma hola
+ 4560  vim suma.c
+ 4561  make
+ 4562  rm hola
+ 4563  ./suma hola
+ 4564  ./suma ./hola
+ 4565  la
+ 4566  rm hola
+ 4567  vim suma.c
+ 4568  rm hola
+ 4569  la
+ 4570  make
+ 4571  ./suma ./hola
+ 4572  la
+ 4573  vim hola
+ 4574  la
+ 4575  vim suma.c
+ 4576  la
+ 4577  rm hola
+ 4578  la
+ 4579  make
+ 4580  ./suma ./hola
+ 4581  cat hola
+ 4582  la
+ 4583  rm hola
+ 4584  vim suma.c
+ 4585  make
+ 4586  la
+ 4587  ./suma tres
+ 4588  la
+ 4589  cat tres
+ 4590  rm tres
+ 4591  la
+ 4592  cp suma.c solo_pares.c
+ 4593  la
+ 4594  make clean
+ 4595  vim Makefile
+ 4596  la
+ 4597  vim solo_pares.c
+ 4598  make
+ 4599  vim solo_pares.c
+ 4600  make
+ 4601  ./solo_pares
+ 4602  3 2 1
+ 4603  ./solo_pares tres
+ 4604  cat tres
+ 4605  vim solo_pares.c
+ 4606  make
+ 4607  ./solo_pares tres
+ 4608  cat tres
+ 4609  cp suma.c suma_pares.c
+ 4610  vim suma_pares.c
+ 4611  make
+ 4612  vim Makefile
+ 4613  make
+ 4614  vim Makefile
+ 4615  vim suma_pares.c
+ 4616  make
+ 4617  ./suma_pares dos
+ 4618  cat dos
+ 4619  vim Makefile
+ 4620  cd ..
+ 4621  tar -zcvf SO1920q2.tar SO1920q2/*
+ 4622  cd SO1920q2
+ 4623  make clean
+ 4624  cd ..
+ 4625  tar -zcvf SO1920q2.tar SO1920q2/*
+ 4626  cd SO1920q2
+ 4627  rm tres dos
+ 4628  la
+ 4629  cd ..
+ 4630  tar -zcvf SO1920q2.tar SO1920q2/*
+ 4631  cd SO1920q2/
+ 4632  vim suma_pares.c
+ 4633  vim controla.c
+ 4634  sudo reboot now
+ 4635  fdisk
+ 4636  fdisk /dev/nvme0n1p1
+ 4637  su
+ 4638  cd programming/uni/SO/practicar
+ 4639  la
+ 4640  cd CLAB-2020-21-Q2
+ 4641  la
+ 4642  vim makefile
+ 4643  cd ~/Downloads
+ 4644  la
+ 4645  vim Makefile
+ 4646  cd /root
+ 4647  cd /
+ 4648  la
+ 4649  ls -i
+ 4650  ls -lai
+ 4651  vim lost+found
+ 4652  cd lost+found
+ 4653  la
+ 4654  mkdir lost+found
+ 4655  file lost+found
+ 4656  cd lost+found
+ 4657  su
+ 4658  nmtui
+ 4659  sudo reboot now
+ 4660  cd programming/uni/SO/practicar/
+ 4661  la
+ 4662  mkdir gestor
+ 4663  cd gestor
+ 4664  cp ../CLAB-2020-21-Q2/makefile .
+ 4665  mv makefile Makefile
+ 4666  la
+ 4667  vim alfa.c
+ 4668  vim gestor.c
+ 4669  vim ../CLAB-2020-21-Q2/usage.h
+ 4670  vim gestor.c
+ 4671  make
+ 4672  la
+ 4673  mv Makefile\ \(1\) Makefile
+ 4674  la
+ 4675  makeç
+ 4676  make
+ 4677  vim Makefile
+ 4678  make
+ 4679  vim Makefile
+ 4680  make
+ 4681  vim gestor.c
+ 4682  make
+ 4683  vim Makefile
+ 4684  make
+ 4685  vim Makefile
+ 4686  vim gestor.c
+ 4687  make
+ 4688  vim gestor.c
+ 4689  make
+ 4690  vim gestor.c
+ 4691  make
+ 4692  ./gestor 2
+ 4693  vim gestor.c
+ 4694  make
+ 4695  vim gestor.c
+ 4696  make
+ 4697  vim gestor.c
+ 4698  make
+ 4699  ./gestor
+ 4700  ./gestor 2
+ 4701  vim gestor.c
+ 4702  vim alfa.c
+ 4703  vim gestor.c
+ 4704  make
+ 4705  ./gestor
+ 4706  ./gestor 2
+ 4707  vim gestor.c
+ 4708  make
+ 4709  ./gestor 2
+ 4710  vim gestor.c
+ 4711  make
+ 4712  ./gestor 2
+ 4713  vim gestor.c
+ 4714  make
+ 4715  man 3 mknod
+ 4716  vim gestor.c
+ 4717  man EEXIST
+ 4718  man mknod
+ 4719  man 3 mknod
+ 4720  vim gestor.c
+ 4721  make
+ 4722  vim gestor.c
+ 4723  make
+ 4724  vim omega.c
+ 4725  vim gestor.c
+ 4726  make
+ 4727  vim gestor.c
+ 4728  make
+ 4729  vim gestor.c
+ 4730  make
+ 4731  vim gestor.c
+ 4732  make
+ 4733  ./gestor 2
+ 4734  vim alfa.c
+ 4735  vim omega.c
+ 4736  vim alfa.c
+ 4737  vim gestor.c
+ 4738  make
+ 4739  ./gestor 2
+ 4740  vim gestor.c
+ 4741  make
+ 4742  vim gestor.c
+ 4743  make
+ 4744  ./gestor 2
+ 4745  la
+ 4746  tar -zcvf cosas_neus.tar *
+ 4747  mv cosas_neus.tar cosas_neus.tar.gz
+ 4748  vim omega.c
+ 4749  vim gestor.c
+ 4750  man wait
+ 4751  man 3 wait
+ 4752  vim gestor.c
+ 4753  cd ..
+ 4754  cd CLAB-2020-21-Q2
+ 4755  la
+ 4756  vim cuenta.c
+ 4757  vim improvisaciones.h 
+ 4758  la
+ 4759  cd ..
+ 4760  la
+ 4761  cd ..
+ 4762  cd exams
+ 4763  la
+ 4764  cd SO1920q2
+ 4765  la
+ 4766  vim controla.c
+ 4767  sudo shutdown now
+ 4768  sudo pacman -Syu
+ 4769  yay
+ 4770  ssh pi@192.168.1.100
+ 4771  ip show
+ 4772  ip addr
+ 4773  man nc
+ 4774  man netcat
+ 4775  sudo pacman -Syu netcat
+ 4776  man netcat
+ 4777  nc --help
+ 4778  nc 192.168.1.100 1234
+ 4779  nc -l 192.168.1.100 1234
+ 4780  nc 192.168.1.100 1234
+ 4781  sudo reboot now
+ 4782  cd programming/projects
+ 4783  la
+ 4784  mkdir word-plot
+ 4785  cd word-plot
+ 4786  la
+ 4787  vim file.txt
+ 4788  pip3
+ 4789  pip3 install matplotlib
+ 4790  vim plott
+ 4791  vim plot.py
+ 4792  vim plot_word.py
+ 4793  vim ~/.zshrc
+ 4794  source ~/.zshrc
+ 4795  la
+ 4796  pwd
+ 4797  cd programming/projects/word-plot
+ 4798  la
+ 4799  vim plot_word.py
+ 4800  python3 plot_word.py
+ 4801  vim plot_word.py
+ 4802  python3 plot_word.py
+ 4803  vim plot_word.py
+ 4804  python3 plot_word.py
+ 4805  vim plot_word.py
+ 4806  python3 plot_word.py
+ 4807  vim plot_word.py
+ 4808  python3 plot_word.py
+ 4809  vim plot_word.py
+ 4810  python3 plot_word.py
+ 4811  vim plot_word.py
+ 4812  python3 plot_word.py
+ 4813  vim plot_word.py
+ 4814  python3 plot_word.py
+ 4815  ls
+ 4816  sudo pacman -S python3-tk
+ 4817  pip3 install tk
+ 4818  vim plot_word.py
+ 4819  pip3 install tk
+ 4820  python3 plot_word.py
+ 4821  vim plot_word.py
+ 4822  python3 plot_word.py
+ 4823  pip3 install tkinter
+ 4824  pip3 install pyqt5
+ 4825  python3 plot_word.py
+ 4826  vim plot_word.py
+ 4827  python3 plot_word.py
+ 4828  la
+ 4829  vim plot_word.py
+ 4830  python3 plot_word.py
+ 4831  vim plot_word.py
+ 4832  python3 plot_word.py
+ 4833  vim plot_word.py
+ 4834  sudo shutdown now
+ 4835  cd programming
+ 4836  la
+ 4837  cd projects
+ 4838  la
+ 4839  cd word-plot
+ 4840  la
+ 4841  python3 plot_word.py
+ 4842  vim plot_word.py
+ 4843  cd programming
+ 4844  vim plot_word.py
+ 4845  cd projects
+ 4846  la
+ 4847  cd word-plot
+ 4848  la
+ 4849  vim plot_word.py
+ 4850  python3 plot_word.py
+ 4851  vim plot_word.py
+ 4852  python3 plot_word.py
+ 4853  la
+ 4854  dolphin .
+ 4855  clear
+ 4856  la
+ 4857  rm Hola.png
+ 4858  la
+ 4859  mkdir takes
+ 4860  cd takes
+ 4861  cd ..
+ 4862  mv word-plot tweet-plot-bot
+ 4863  la
+ 4864  cd tweet-plot-bot
+ 4865  git init
+ 4866  la
+ 4867  man git init
+ 4868  la
+ 4869  cd programming/projects
+ 4870  la
+ 4871  cd Tetrispp
+ 4872  cd ..
+ 4873  cd tweet-plot-bot
+ 4874  la
+ 4875  cd programming/projects/tweet-plot-bot
+ 4876  la
+ 4877  vim .gitignore
+ 4878  git add .
+ 4879  git remote add origin git@github.com:icalamesa/tweet-plot-bot.git
+ 4880  git branch -M master
+ 4881  git branch
+ 4882  git checkout
+ 4883  git -h
+ 4884  git branch -d main
+ 4885  la
+ 4886  git commit -m "first commit"
+ 4887  git push -u origin master
+ 4888  la
+ 4889  vim plot_word.py
+ 4890  python3 plot_word.py
+ 4891  python3 plot_word.pyla
+ 4892  la
+ 4893  rm Hola.png
+ 4894  vim plot_word.py
+ 4895  python3 plot_word.pyla
+ 4896  python3 plot_word.py
+ 4897  ls takes
+ 4898  ls
+ 4899  python3 plot_word.py
+ 4900  la
+ 4901  dolphin .
+ 4902  clear
+ 4903  la
+ 4904  python3 plot_word.py
+ 4905  pip3 isntall tweepy
+ 4906  pip3 install tweepy
+ 4907  python3 plot_word.py
+ 4908  la
+ 4909  vim .gitignore
+ 4910  vim keys
+ 4911  mv keys key
+ 4912  la
+ 4913  vim .gitignore
+ 4914  vim secret
+ 4915  vim .gitignore
+ 4916  la
+ 4917  vim plot_word.py
+ 4918  python3 plot_word.py
+ 4919  vim access_token
+ 4920  vim access_secret
+ 4921  la
+ 4922  vim .gitignore
+ 4923  la
+ 4924  vim plot_word.py
+ 4925  python3 plot_word.py
+ 4926  vim plot_word.py
+ 4927  python3 plot_word.py
+ 4928  tweepy example bot
+ 4929  vim plot_word.py
+ 4930  sudo reboot now
+ 4931  cd programming/projects/tweet-plot-bot
+ 4932  la
+ 4933  pwd
+ 4934  vim plot_word.py
+ 4935  cd /home/ivan/programming/projects/tweet-plot-bot
+ 4936  la
+ 4937  python3 plot_word.py
+ 4938  vim plot_word.py
+ 4939  python3 plot_word.py
+ 4940  sudo reboot now
+ 4941  nmtui
+ 4942  sudo reboot now
+ 4943  man pcb
+ 4944  sudo pacman -S pcb
+ 4945  man pcb
+ 4946  git clone https://github.com/Argennon-Project/ascee.git
+ 4947  la
+ 4948  rm -rf ascee
+ 4949  cd programming/
+ 4950  git clone https://github.com/Argennon-Project/ascee.git
+ 4951  cd ascee
+ 4952  la
+ 4953  mkdir cmake-build && cd cmake-build
+ 4954  cmake ..
+ 4955  sudo pacman -S cmake
+ 4956  cmake ..
+ 4957  cmake --build .
+ 4958  sudo pacman -S pcb
+ 4959  sudo pacman -S gmp
+ 4960  cd install
+ 4961  git clone https://github.com/blynn/pbc
+ 4962  la
+ 4963  cd pbc
+ 4964  la
+ 4965  make
+ 4966  cat INSTALL
+ 4967  ./configure.ac
+ 4968  file ./configure.ac
+ 4969  la
+ 4970  ./setup
+ 4971  make
+ 4972  ./install-sh
+ 4973  la
+ 4974  cd ..
+ 4975  la
+ 4976  cd pbc
+ 4977  la
+ 4978  cat INSTALL
+ 4979  la
+ 4980  sudo pacman -S gmp
+ 4981  la
+ 4982  ./configure
+ 4983  make
+ 4984  la
+ 4985  make
+ 4986  make install
+ 4987  sudo make install
+ 4988  make
+ 4989  la
+ 4990  make
+ 4991  la
+ 4992  su
+ 4993  make
+ 4994  cd programming/ascee
+ 4995  la
+ 4996  vim CMakeLists.txt
+ 4997  make
+ 4998  cmake
+ 4999  make
+ 5000  la
+ 5001  cd src
+ 5002  la
+ 5003  cd ..
+ 5004  la
+ 5005  cd cmake-build
+ 5006  la
+ 5007  make
+ 5008  cmake -S .. .
+ 5009  la
+ 5010  make
+ 5011  cmake -S ..
+ 5012  la
+ 5013  make clean
+ 5014  la
+ 5015  make
+ 5016  cd ..
+ 5017  la
+ 5018  vim CMakeLists.txt
+ 5019  cd ..
+ 5020  cd install/pbc
+ 5021  cd ..
+ 5022  cd programming/ascee
+ 5023  la
+ 5024  vim CMakeLists.txt
+ 5025  cd cmake-build
+ 5026  cmake -S ..
+ 5027  make
+ 5028  vim Makefile 
+ 5029  vim ../CMakeLists.txt
+ 5030  echo CC
+ 5031  echo $CC
+ 5032  echo $CXX
+ 5033  CXX="gcc"
+ 5034  cmake -S ..
+ 5035  make
+ 5036  echo $CXX
+ 5037  CXX="g++"
+ 5038  cmake -S ..
+ 5039  make
+ 5040  cd ..
+ 5041  cd src/util
+ 5042  vim StaticArray.hpp
+ 5043  cd ..
+ 5044  cd cmake-build
+ 5045  make
+ 5046  la
+ 5047  cd bin
+ 5048  la
+ 5049  cd ..
+ 5050  la
+ 5051  gcc main.cpp -I ~/install/pbc/include -lpbc -lgmp
+ 5052  cd src
+ 5053  gcc main.cpp -I ~/install/pbc/include -lpbc -lgmp
+ 5054  cd ..
+ 5055  la
+ 5056  cd src
+ 5057  gcc main.cpp -I ~/install/pbc/include -lpbc -lgmp
+ 5058  git log
+ 5059  cd programming/ascee/cmake-build/bin
+ 5060  la
+ 5061  cd .
+ 5062  la
+ 5063  cd ..
+ 5064  la
+ 5065  cd src
+ 5066  la
+ 5067  cd ascee
+ 5068  la
+ 5069  cd ..
+ 5070  la
+ 5071  cd src
+ 5072  la
+ 5073  gcc main.cpp -I ~/install/pbc/include -lpbc -lgmp
+ 5074  la
+ 5075  g++ main.cpp -I ~/install/pbc/include -lpbc -lgmp
+ 5076  cd ..
+ 5077  la
+ 5078  cd cmake-build
+ 5079  la
+ 5080  ./ascee_run
+ 5081  sudo shutdown now
+ 5082  cd programming/ascee
+ 5083  l
+ 5084  cd tests
+ 5085  la
+ 5086  vim ArgcFloatTest.cpp
+ 5087  vim AsceeCryptoTest.cpp
+ 5088  vim RequestSchedulerTest.cpp 
+ 5089  sudo reboot now
+ 5090  cd programming/ascee
+ 5091  la
+ 5092  cd programming/ascee/
+ 5093  la
+ 5094  cd cmake-build
+ 5095  make
+ 5096  la
+ 5097  make clean
+ 5098  make
+ 5099  cd src
+ 5100  la
+ 5101  cd util
+ 5102  la
+ 5103  vim base64url.cpp
+ 5104  man base64
+ 5105  cd ..
+ 5106  cd tests
+ 5107  la
+ 5108  vim UtilBase64urlTest.cpp 
+ 5109  la
+ 5110  vim StaticArray.hpp
+ 5111  vim BlockingQueue.hpp
+ 5112  vim PrefixTrie.hpp
+ 5113  sudo systemctl suspend
+ 5114  sudo pacman -S vscode
+ 5115  sudo pacman -S clion
+ 5116  cd Downloads
+ 5117  la
+ 5118  cd ..
+ 5119  cd install
+ 5120  la
+ 5121  tar -zxvf CLion-2021.3.2.tar.gz
+ 5122  la
+ 5123  cd clion-2021.3.2
+ 5124  la
+ 5125  vim build.txt
+ 5126  la
+ 5127  vim Install-Linux-tar.txt
+ 5128  cd bin
+ 5129  la
+ 5130  ./clion.sh
+ 5131  echo $PATH
+ 5132  MAN RF
+ 5133  man rf
+ 5134  which kitty
+ 5135  export PATH=~/install/clion-2021.3.2/bin:$PATH
+ 5136  la
+ 5137  man subl
+ 5138  sduo pacman -S subl
+ 5139  sudo pacman -S subl
+ 5140  man subl3
+ 5141  sudo pacman -S subl3
+ 5142  man subl3
+ 5143  clion.sh
+ 5144  vim .dmrc
+ 5145  cd /etc/profile.d
+ 5146  la
+ 5147  vim jre.sh
+ 5148  su
+ 5149  clion.sh
+ 5150  echo $PATH
+ 5151  bash
+ 5152  sudo reboot now
+ 5153  echo $PATH
+ 5154  sudo reboot now
+ 5155  la
+ 5156  ls
+ 5157  ls -l
+ 5158  cd personal
+ 5159  la
+ 5160  cd media
+ 5161  la
+ 5162  cd ..
+ 5163  ls
+ 5164  cd ..
+ 5165  la
+ 5166  ls Desktop
+ 5167  sudo reboot now
+ 5168  cd programming/projects/Tetrispp
+ 5169  la
+ 5170  make
+ 5171  la
+ 5172  cd  build
+ 5173  la
+ 5174  cd ..
+ 5175  cd uni/EDA/P69781
+ 5176  la
+ 5177  sudo pacman -S valgrind
+ 5178  sudo pacman -Syu
+ 5179  sudo pacman -S valgrind
+ 5180  la
+ 5181  valgrind --tool=lackey ./bin
+ 5182  valgrind --tool=lackey ./bin < input.txt
+ 5183  gcc -S main.cpp
+ 5184  la
+ 5185  vim main.s
+ 5186  valgrind --tool=lackey ./bin < input.txt
+ 5187  cd ..
+ 5188  la
+ 5189  cd ..
+ 5190  mkdir AC
+ 5191  cd AC
+ 5192  la
+ 5193  mkdir previo1
+ 5194  cd previo1
+ 5195  la
+ 5196  unzip Practica01.zip
+ 5197  la
+ 5198  gcc -o first Simple.c
+ 5199  la
+ 5200  gcc -o first Simple.c -Oz
+ 5201  gcc -o first Simple.c -Os
+ 5202  la
+ 5203  rm first
+ 5204  la
+ 5205  LA
+ 5206  VIM vim cycle.h
+ 5207  vim cycle.h
+ 5208  vim Simple.c
+ 5209  sudo reboot now
+ 5210  cd programming/uni/AC/
+ 5211  unzip Practica02.zip
+ 5212  la
+ 5213  mkdir prac02
+ 5214  unzip Practica02.zip -d prac02
+ 5215  la
+ 5216  sudo shutdown now
+ 5217  cd programming/uni/AC/prac02
+ 5218  ls
+ 5219  vim test.c
+ 5220  gcc -o codi -S test.c
+ 5221  vim test.c
+ 5222  gcc -o codi -S test.c
+ 5223  vim test.c
+ 5224  gcc -o codi -S test.c -m32
+ 5225  cat codi
+ 5226  gcc -o codi_opt -S test.c -m32 -02
+ 5227  gcc -o codi_opt -S test.c -m32 -O2
+ 5228  cat codi
+ 5229  cat codi_opt
+ 5230  vim test.c
+ 5231  gcc -o codi -S test.c -m32
+ 5232  cat codi
+ 5233  gcc -o codi_opt -S test.c -m32 -O2
+ 5234  cat codi_opt
+ 5235  gcc -o codi_opt -S test.c -m32
+ 5236  cat codi_opt
+ 5237  sudo systemctl suspend
+ 5238  sudo reboot now
+ 5239  cd programming/uni/AC
+ 5240  la
+ 5241  cd prac02
+ 5242  ls
+ 5243  la
+ 5244  rm test.c codi*
+ 5245  ls
+ 5246  la
+ 5247  clear
+ 5248  la
+ 5249  gcc -m32 -gstabs+ -o prog2 ProgramaPractica2_Main.c
+ 5250  sudo pacman -S lib32-glibc
+ 5251  gcc -m32 -gstabs+ -o prog2 ProgramaPractica2_Main.c
+ 5252  gcc -m32 -gstabs+ -o prog2 ProgramaPractica2_Main.c -L ProgramaPractica2_
+ 5253  gcc -m32 -gstabs+ -o prog2 ProgramaPractica2_Main.c -L ProgramaPractica2_PierdeTiempo.s
+ 5254  gcc -m32 -gstabs+ -o prog2 ProgramaPractica2_Main.c -
+ 5255  gcc -m32 -gstabs+ -o prog2 ProgramaPractica2_Main.c ProgramaPractica2_PierdeTiempo.s
+ 5256  man gcc
+ 5257  gcc -m32 -gstabs+ -o prog2 ProgramaPractica2_Main.c -l ProgramaPractica2_PierdeTiempo.s
+ 5258  gcc -m32 -gstabs+ -o prog2 ProgramaPractica2_Main.c ProgramaPractica2_PierdeTiempo.s
+ 5259  gcc -m32 -gstabs+ -o prog2 ProgramaPractica2_Main.c -c
+ 5260  ld prog2 ProgramaPractica2_PierdeTiempo.s
+ 5261  file ProgramaPractica2_PierdeTiempo.s
+ 5262  vim ProgramaPractica2_PierdeTiempo.s
+ 5263  gcc -m32 -gstabs+ -o prog2 ProgramaPractica2_Main.c
+ 5264  sudo pacman -S lib32-glibc glibc
+ 5265  gcc -m32 -gstabs+ -o prog2 ProgramaPractica2_Main.c
+ 5266  ls
+ 5267  vim ProgramaPractica2_PierdeTiempo.s
+ 5268  gcc -m32 -gstabs+ -o pierde ProgramaPractica2_PierdeTiempo.s
+ 5269  sudo reboot now
+ 5270  cd install/
+ 5271  ls
+ 5272  yay -S ly
+ 5273  ls
+ 5274  cd install
+ 5275  git clone https://github.com/tiagovla/.dotfiles
+ 5276  ls
+ 5277  la
+ 5278  cd .dotfiles
+ 5279  ls
+ 5280  stow */
+ 5281  sudo pacman -S stow
+ 5282  stow */
+ 5283  sudo pacman -S bspwm
+ 5284  stow */
+ 5285  stow */ -v
+ 5286  man stow
+ 5287  stow */ -v=5
+ 5288  stow */ --verbose=5
+ 5289  sudo stow */
+ 5290  sudo reboot now
+ 5291  cd programming/uni/AC/
+ 5292  mkdir prac03
+ 5293  unzip Practica03.zip
+ 5294  cd prac03
+ 5295  ls
+ 5296  unzip Pràctica\ 3\ \(Solucions\).zip
+ 5297  ls
+ 5298  touch previ_3.s
+ 5299  vim previ_3.s
+ 5300  vim Practica3CompletarA.s
+ 5301  sudo shutdown now
+ 5302  cd programming/basurero/
+ 5303  mkdir asm
+ 5304  cd asm
+ 5305  ls
+ 5306  vim code.c
+ 5307  gcc -S code.c -c
+ 5308  ls
+ 5309  file code.s
+ 5310  vim code.s
+ 5311  gcc -S code.c -c =2
+ 5312  gcc -S code.c -c -02
+ 5313  gcc -S code.c -c -O2
+ 5314  vim code.s
+ 5315  vim 2.10.b.s
+ 5316  vim code.s
+ 5317  ls
+ 5318  vim 2.14.s
+ 5319  vim *.s
+ 5320  sudo shutdown now
+ 5321  route -n
+ 5322  sudo pacman -S route
+ 5323  ifconfig
+ 5324  _ifconfig
+ 5325  routel
+ 5326  man routel
+ 5327  sudo shutdown now
+ 5328  cd programming/uni/IDI
+ 5329  ls
+ 5330  tar -zxvf Exercici-1-Lab-2122Q2.tgz
+ 5331  ls
+ 5332  cd Exercici-1-Lab-2122Q2
+ 5333  ls
+ 5334  tar -zxvf Exercici-1.tgz
+ 5335  ls
+ 5336  cd Exercici-1
+ 5337  ls
+ 5338  qmake-qt5
+ 5339  make
+ 5340  sudo pacman -S glm
+ 5341  qmake-qt5
+ 5342  make
+ 5343  ls
+ 5344  ./Exercici-1
+ 5345  cd ~/programming/uni/IDI/Exercici-1-Lab-2122Q2/Exercici-1 
+ 5346  cd shaders
+ 5347  vim MyGLWidget.cpp MyGLWidget.h
+ 5348  vim basicShader.*
+ 5349  cd ~/programming/uni/IDI/Exercici-1-Lab-2122Q2/Exercici-1 
+ 5350  make
+ 5351  ls ..
+ 5352  ls
+ 5353  cd ~/programming/uni/IDI/Exercici-1-Lab-2122Q2/Exercici-1 
+ 5354  cd shaders
+ 5355  vim *
+ 5356  vim MyGLWidget.cpp MyGLWidget.h
+ 5357  make
+ 5358  ./Exercici-1
+ 5359  make
+ 5360  ./Exercici-1
+ 5361  make
+ 5362  ./Exercici-1
+ 5363  make
+ 5364  ./Exercici-1
+ 5365  make
+ 5366  ./Exercici-1
+ 5367  make
+ 5368  ./Exercici-1
+ 5369  make
+ 5370  ./Exercici-1
+ 5371  sudo reboot now
+ 5372  cd ~/programming/uni/IDI/Exercici-1-Lab-2122Q2/Exercici-1 
+ 5373  ls
+ 5374  ./Exercici-1
+ 5375  la
+ 5376  vim MyGLWidget.h MyGLWidget.cpp
+ 5377  cd ~/programming/uni/IDI/Exercici-1-Lab-2122Q2/Exercici-1 
+ 5378  cd shaders
+ 5379  ls
+ 5380  vim *
+ 5381  cd ~/programming/uni/IDI/Exercici-1-Lab-2122Q2/Exercici-1 
+ 5382  cd
+ 5383  make
+ 5384  cd ~/programming/uni/IDI/Exercici-1-Lab-2122Q2/Exercici-1 
+ 5385  make
+ 5386  ./Exercici-1
+ 5387  ls
+ 5388  ./Exercici-1
+ 5389  vim *
+ 5390  ./Exercici-1
+ 5391  make
+ 5392  ./Exercici-1
+ 5393  make
+ 5394  ./Exercici-1
+ 5395  make
+ 5396  ./Exercici-1
+ 5397  make
+ 5398  ./Exercici-1
+ 5399  make
+ 5400  ./Exercici-1
+ 5401  make
+ 5402  ./Exercici-1
+ 5403  make
+ 5404  ./Exercici-1
+ 5405  make
+ 5406  ./Exercici-1
+ 5407  ..
+ 5408  ls
+ 5409  cd Exercici-1
+ 5410  ls
+ 5411  make
+ 5412  ./Exercici-1
+ 5413  make
+ 5414  ./Exercici-1
+ 5415  make
+ 5416  ./Exercici-1
+ 5417  make
+ 5418  ./Exercici-1
+ 5419  make
+ 5420  ./Exercici-1
+ 5421  make
+ 5422  ./Exercici-1
+ 5423  make
+ 5424  ./Exercici-1
+ 5425  make
+ 5426  ./Exercici-1
+ 5427  nmtui
+ 5428  ./Exercici-1
+ 5429  sudo shutdown now
+ 5430  cd ~/programming/uni/IDI/Exercici-1-Lab-2122Q2/Exercici-1 
+ 5431  cd shaders
+ 5432  vim *
+ 5433  vim MyGLWidget.cpp MyGLWidget.h
+ 5434  cd ~/programming/uni/IDI/Exercici-1-Lab-2122Q2/Exercici-1 
+ 5435  ./Exercici-1
+ 5436  make
+ 5437  ./Exercici-1
+ 5438  make
+ 5439  ./Exercici-1
+ 5440  make
+ 5441  ./Exercici-1
+ 5442  make
+ 5443  ./Exercici-1
+ 5444  make
+ 5445  ./Exercici-1
+ 5446  make
+ 5447  ./Exercici-1
+ 5448  make
+ 5449  ./Exercici-1
+ 5450  make
+ 5451  ./Exercici-1
+ 5452  make
+ 5453  ./Exercici-1
+ 5454  make
+ 5455  ./Exercici-1
+ 5456  make
+ 5457  ./Exercici-1
+ 5458  make
+ 5459  ./Exercici-1
+ 5460  make
+ 5461  ./Exercici-1
+ 5462  make
+ 5463  ./Exercici-1
+ 5464  make
+ 5465  ./Exercici-1
+ 5466  make
+ 5467  ./Exercici-1
+ 5468  make
+ 5469  ./Exercici-1
+ 5470  make
+ 5471  ./Exercici-1
+ 5472  make
+ 5473  ./Exercici-1
+ 5474  make
+ 5475  ./Exercici-1
+ 5476  make
+ 5477  ./Exercici-1
+ 5478  make
+ 5479  ./Exercici-1
+ 5480  make
+ 5481  ./Exercici-1
+ 5482  make
+ 5483  ./Exercici-1
+ 5484  make
+ 5485  ./Exercici-1
+ 5486  make
+ 5487  ./Exercici-1
+ 5488  make
+ 5489  ./Exercici-1
+ 5490  make
+ 5491  ./Exercici-1
+ 5492  make
+ 5493  ./Exercici-1
+ 5494  make
+ 5495  ./Exercici-1
+ 5496  make
+ 5497  ./Exercici-1
+ 5498  make
+ 5499  ./Exercici-1
+ 5500  make
+ 5501  ./Exercici-1
+ 5502  make
+ 5503  ./Exercici-1
+ 5504  make distclean
+ 5505  ls
+ 5506  make
+ 5507  qmake-qt5
+ 5508  make
+ 5509  qmake-qt5
+ 5510  make distclean
+ 5511  ls
+ 5512  tar -zcvf ivan.cala-Ex1.tgz *
+ 5513  ls
+ 5514  cd programming/uni/AC
+ 5515  ls
+ 5516  unzip Practica04.zip
+ 5517  ls
+ 5518  rm *.c
+ 5519  rm *.h
+ 5520  ls
+ 5521  rm *.s
+ 5522  ls
+ 5523  mkdir prac04
+ 5524  unzip Practica04.zip prac04
+ 5525  unzip Practica04.zip -t prac04
+ 5526  unzip Practica04.zip -d prac04
+ 5527  cd prac04
+ 5528  ls
+ 5529  sudo shutdown now
+ 5530  cd
+ 5531  cd º
+ 5532  cd programming/uni/AC/prac04
+ 5533  ls
+ 5534  vim Insertar.c
+ 5535  vim Asignar.c
+ 5536  vim Main.c
+ 5537  vim elemento.h
+ 5538  vim *.c 
+ 5539  cd programming/uni/AC/prac04
+ 5540  ls
+ 5541  make test0
+ 5542  vim Makefile
+ 5543  sudo reboot now
+ 5544  cd programming/uni/IDI
+ 5545  ls
+ 5546  cd Exercici-1-Lab-2122Q2
+ 5547  ls
+ 5548  cd Exercici-1
+ 5549  ls
+ 5550  vim MyGLWidget.h
+ 5551  sudo systemctl suspend
+ 5552  cd programming/uni/IDI
+ 5553  cd Exercici-1-Lab-2122Q2/Exercici-1
+ 5554  ls
+ 5555  vim MyGLWidget.h
+ 5556  cd ~/programming/uni/IDI/Exercici-1-Lab-2122Q2/Exercici-1 
+ 5557  ls
+ 5558  make
+ 5559  qmake-qt5
+ 5560  make
+ 5561  cd ~/programming/uni/IDI/Exercici-1-Lab-2122Q2/Exercici-1 
+ 5562  ls
+ 5563  cd ..
+ 5564  ls
+ 5565  mkdir test
+ 5566  cp Exercici-1 test
+ 5567  cp Exercici-1 -d test
+ 5568  ls
+ 5569  cp Exercici-1.tgz -d test
+ 5570  cd test
+ 5571  ls
+ 5572  tar zxvf Exercici-1.tgz
+ 5573  ls
+ 5574  cd Exercici-1
+ 5575  vim MyGLWidget.cpp
+ 5576  amke
+ 5577  make
+ 5578  qmake-qt5
+ 5579  make
+ 5580  ./Exercici-1
+ 5581  make
+ 5582  clear
+ 5583  make
+ 5584  clear
+ 5585  make
+ 5586  ./Exercici-1
+ 5587  make
+ 5588  ./Exercici-1
+ 5589  make
+ 5590  ./Exercici-1
+ 5591  make
+ 5592  ./Exercici-1
+ 5593  make
+ 5594  ./Exercici-1
+ 5595  make
+ 5596  ./Exercici-1
+ 5597  make
+ 5598  ./Exercici-1
+ 5599  make
+ 5600  ./Exercici-1
+ 5601  make
+ 5602  ./Exercici-1
+ 5603  make
+ 5604  ./Exercici-1
+ 5605  make
+ 5606  ./Exercici-1
+ 5607  make
+ 5608  ./Exercici-1
+ 5609  make
+ 5610  ./Exercici-1
+ 5611  make
+ 5612  ./Exercici-1
+ 5613  make
+ 5614  ./Exercici-1
+ 5615  make
+ 5616  ./Exercici-1
+ 5617  make
+ 5618  ./Exercici-1
+ 5619  vim MyGLWidget.cpp
+ 5620  make
+ 5621  ./Exercici-1
+ 5622  make
+ 5623  ./Exercici-1
+ 5624  make
+ 5625  ./Exercici-1
+ 5626  make
+ 5627  ./Exercici-1
+ 5628  make
+ 5629  ./Exercici-1
+ 5630  make
+ 5631  ./Exercici-1
+ 5632  make
+ 5633  ./Exercici-1
+ 5634  make
+ 5635  ./Exercici-1
+ 5636  make
+ 5637  ./Exercici-1
+ 5638  make
+ 5639  ./Exercici-1
+ 5640  make
+ 5641  ./Exercici-1
+ 5642  make
+ 5643  ./Exercici-1
+ 5644  make
+ 5645  ./Exercici-1
+ 5646  make
+ 5647  ./Exercici-1
+ 5648  make
+ 5649  ./Exercici-1
+ 5650  make
+ 5651  ./Exercici-1
+ 5652  make
+ 5653  ./Exercici-1
+ 5654  make
+ 5655  ./Exercici-1
+ 5656  make
+ 5657  ./Exercici-1
+ 5658  make
+ 5659  ./Exercici-1
+ 5660  make
+ 5661  ./Exercici-1
+ 5662  make
+ 5663  ./Exercici-1
+ 5664  make
+ 5665  ./Exercici-1
+ 5666  make
+ 5667  ./Exercici-1
+ 5668  make
+ 5669  ./Exercici-1
+ 5670  make
+ 5671  ./Exercici-1
+ 5672  make
+ 5673  ./Exercici-1
+ 5674  make
+ 5675  ./Exercici-1
+ 5676  make
+ 5677  ./Exercici-1
+ 5678  make
+ 5679  ./Exercici-1
+ 5680  make
+ 5681  ./Exercici-1
+ 5682  make
+ 5683  ./Exercici-1
+ 5684  make
+ 5685  ./Exercici-1
+ 5686  make
+ 5687  ./Exercici-1
+ 5688  make
+ 5689  ./Exercici-1
+ 5690  make
+ 5691  ./Exercici-1
+ 5692  make
+ 5693  ./Exercici-1
+ 5694  make
+ 5695  ./Exercici-1
+ 5696  make
+ 5697  ./Exercici-1
+ 5698  cd shaders
+ 5699  vim basicShader.vert
+ 5700  make
+ 5701  vim basicShader.vert
+ 5702  make
+ 5703  vim basicShader.vert
+ 5704  ./Exercici-1
+ 5705  vim basicShader.vert
+ 5706  make
+ 5707  ./Exercici-1
+ 5708  make
+ 5709  ./Exercici-1
+ 5710  make
+ 5711  ./Exercici-1
+ 5712  make
+ 5713  ./Exercici-1
+ 5714  make
+ 5715  ./Exercici-1
+ 5716  make
+ 5717  ./Exercici-1
+ 5718  make
+ 5719  ./Exercici-1
+ 5720  make
+ 5721  ./Exercici-1
+ 5722  make
+ 5723  ./Exercici-1
+ 5724  make
+ 5725  ./Exercici-1
+ 5726  make
+ 5727  ./Exercici-1
+ 5728  make
+ 5729  ./Exercici-1
+ 5730  make
+ 5731  ./Exercici-1
+ 5732  make
+ 5733  ./Exercici-1
+ 5734  make
+ 5735  ./Exercici-1
+ 5736  make
+ 5737  ./Exercici-1
+ 5738  make
+ 5739  ./Exercici-1
+ 5740  make
+ 5741  ./Exercici-1
+ 5742  make
+ 5743  ./Exercici-1
+ 5744  make
+ 5745  ./Exercici-1
+ 5746  make
+ 5747  ./Exercici-1
+ 5748  make
+ 5749  ./Exercici-1
+ 5750  make
+ 5751  ./Exercici-1
+ 5752  make
+ 5753  ./Exercici-1
+ 5754  make
+ 5755  ./Exercici-1
+ 5756  make
+ 5757  ./Exercici-1
+ 5758  make
+ 5759  ./Exercici-1
+ 5760  make
+ 5761  ./Exercici-1
+ 5762  make
+ 5763  ./Exercici-1
+ 5764  make
+ 5765  ./Exercici-1
+ 5766  make
+ 5767  ./Exercici-1
+ 5768  make
+ 5769  ./Exercici-1
+ 5770  make
+ 5771  ./Exercici-1
+ 5772  make
+ 5773  ./Exercici-1
+ 5774  make
+ 5775  ./Exercici-1
+ 5776  make
+ 5777  ./Exercici-1
+ 5778  make
+ 5779  ./Exercici-1
+ 5780  make
+ 5781  ./Exercici-1
+ 5782  make
+ 5783  ./Exercici-1
+ 5784  make
+ 5785  ./Exercici-1
+ 5786  make
+ 5787  ./Exercici-1
+ 5788  make
+ 5789  ./Exercici-1
+ 5790  make
+ 5791  ./Exercici-1
+ 5792  make
+ 5793  ./Exercici-1
+ 5794  make
+ 5795  ./Exercici-1
+ 5796  make
+ 5797  ./Exercici-1
+ 5798  make
+ 5799  ./Exercici-1
+ 5800  make
+ 5801  ./Exercici-1
+ 5802  make
+ 5803  ./Exercici-1
+ 5804  make
+ 5805  ./Exercici-1
+ 5806  make
+ 5807  ./Exercici-1
+ 5808  make
+ 5809  ./Exercici-1
+ 5810  make
+ 5811  ./Exercici-1
+ 5812  make
+ 5813  ./Exercici-1
+ 5814  make
+ 5815  ./Exercici-1
+ 5816  make
+ 5817  ./Exercici-1
+ 5818  make
+ 5819  ./Exercici-1
+ 5820  make
+ 5821  ./Exercici-1
+ 5822  make distclean
+ 5823  tar -zcvf ivan.cala-Ex1.tgz *
+ 5824  sudo reboot now
+ 5825  vim MyGLWidget.cpp
+ 5826  cd programming/uni/AC
+ 5827  ls
+ 5828  cd prac04
+ 5829  ls
+ 5830  sudo pacman -Syy
+ 5831  sudo pacman -S lib32-gcc-libs lib32-glibc
+ 5832  ls
+ 5833  make test1
+ 5834  ls
+ 5835  make 
+ 5836  make clean
+ 5837  make
+ 5838  ls
+ 5839  ./Sesion04-0
+ 5840  cd ..
+ 5841  unzip Practica04.zip
+ 5842  ls
+ 5843  unzip Practica04.zip -d prac04
+ 5844  file Practica04.zip
+ 5845  vim Practica04.zip
+ 5846  vim Practica04\ \(1\).zip -d prac04
+ 5847  unzip Practica04\ \(1\).zip -d prac04
+ 5848  cd prac04
+ 5849  ls
+ 5850  make clean
+ 5851  make
+ 5852  ls
+ 5853  ./Sesion04-0
+ 5854  make test1
+ 5855  make test2
+ 5856  ./Sesion04-2
+ 5857  vim Inserta.s
+ 5858  cd Practica04
+ 5859  ls
+ 5860  make
+ 5861  make test1
+ 5862  make test2
+ 5863  make test3
+ 5864  ./Sesion04-2
+ 5865  ./Sesion04-1
+ 5866  vim Insertar.s
+ 5867  vim Inserta.s
+ 5868  ./Sesion04-make test2
+ 5869  make test2
+ 5870  ./Sesion04-2
+ 5871  make
+ 5872  ./Sesion04-0
+ 5873  gdb -tui Sesion04-2
+ 5874  file Sesion04-2
+ 5875  reboot now
+ 5876  sudo reboot now
+ 5877  vim Makefile
+ 5878  make clean
+ 5879  make test3
+ 5880  make test2
+ 5881  ./Sesion04-2
+ 5882  sudo reboot now
+ 5883  pip3 install --upgrade pywal
+ 5884  wal
+ 5885  i3-msg restart
+ 5886  cd wallpaper
+ 5887  wal -i . --iterative -l -t 
+ 5888  vim ../.config/picom
+ 5889  vim ../.config/i3/config
+ 5890  i3-msg restart
+ 5891  vim ../.config/picom
+ 5892  picom
+ 5893  vim .zshrc
+ 5894  sudo reboot now
+ 5895  ./ledger_live
+ 5896  sudo shutdown now
+ 5897  sudo reboot now
+ 5898  cd programming/uni/AC
+ 5899  ls
+ 5900  mkdir prac05
+ 5901  unzip Practica5.zip -d prac05
+ 5902  ls
+ 5903  cd prac05
+ 5904  l
+ 5905  cd programming/uni/AC
+ 5906  ls
+ 5907  cd prac05
+ 5908  ls
+ 5909  cd Practica05
+ 5910  ls
+ 5911  ./sim v 0
+ 5912  vim MiSimulador.c
+ 5913  gcc -m32 CacheSim.o MiSimulador.c tiempo.c -o sim
+ 5914  ./sim v 0
+ 5915  vim Practica05/MiSimulador.c
+ 5916  cd programming/uni/AC
+ 5917  ls
+ 5918  cd prac05/Practica05
+ 5919  ls
+ 5920  vim ok.s
+ 5921  gcc -m32 CacheSim.o MiSimulador.c tiempo.c -o sim
+ 5922  ./sim v 0
+ 5923  cd Practica05
+ 5924  ./sim v 0
+ 5925  vim ok.s
+ 5926  cd programming/uni/AC/prac05/Practica05
+ 5927  ls
+ 5928  vim Practica05/MiSimulador.c
+ 5929  vim MiSimulador.c
+ 5930  gcc -m32 CacheSim.o MiSimulador.c tiempo.c -o sim
+ 5931  ./sim v 0
+ 5932  gcc -m32 CacheSim.o MiSimulador.c tiempo.c -o sim
+ 5933  ./sim v 0
+ 5934  gcc -m32 CacheSim.o MiSimulador.c tiempo.c -o sim
+ 5935  ./sim v 0
+ 5936  test v 1
+ 5937  ./sim v 1
+ 5938  ./sim v
+ 5939  cp MiSimulador.c porsiaca.c
+ 5940  cp MiSimulador.c MiSimulador2.c
+ 5941  vim MiSimulador2.c
+ 5942  vim test.c
+ 5943  gcc -m32 CacheSim2.o test.c tiempo.c
+ 5944  gcc -m32 CacheSim.o test.c tiempo.c
+ 5945  vim test.c
+ 5946  gcc -m32 CacheSim.o test.c tiempo.c -o sim
+ 5947  ./sim v 0
+ 5948  ./sim v 0 > copia
+ 5949  gcc -m32 CacheSim.o MiSimulador.c tiempo.c -o sim
+ 5950  ./sim v 0 > mio
+ 5951  diff copia mio
+ 5952  diff copia mio -y
+ 5953  diff copia mio
+ 5954  vim test.c
+ 5955  vim MiSimulador.c
+ 5956  gcc -m32 CacheSim.o MiSimulador.c tiempo.c -o sim
+ 5957  ./sim v 0 > mio
+ 5958  diff copia mio
+ 5959  gcc -m32 CacheSim2.o MiSimulador2.c tiempo.c
+ 5960  gcc -m32 CacheSim2.o MiSimulador2.c tiempo.c CacheSim.o
+ 5961  gcc -m32 CacheSim2.o MiSimulador2.c tiempo.c
+ 5962  cd ..
+ 5963  ls
+ 5964  unzip aver.zip
+ 5965  ls
+ 5966  vim MiSimulador2.c
+ 5967  gcc -m32 CacheSim2.o MiSimulador2.c tiempo.c
+ 5968  vim MiSimulador2.c
+ 5969  vim MiSimulador.c
+ 5970  gcc -m32 CacheSim2.o MiSimulador2.c tiempo.c
+ 5971  gcc -m32 CacheSim2.o MiSimulador2.c tiempo.c -o sim
+ 5972  ./sim v 0
+ 5973  gcc -m32 CacheSim2.o MiSimulador2.c tiempo.c -o sim
+ 5974  ./sim v 0
+ 5975  gcc -m32 CacheSim.o test.c tiempo.c
+ 5976  ./a.out v 0
+ 5977  ./a.out v 0 > copia
+ 5978  ./sim v 0 > mio
+ 5979  diff copia mio
+ 5980  diff copia mio -y
+ 5981  diff copia mio
+ 5982  gcc -m32 CacheSim2.o MiSimulador2.c tiempo.c -o sim
+ 5983  ./sim v 0 > mio
+ 5984  diff copia mio
+ 5985  gcc -m32 CacheSim2.o MiSimulador2.c tiempo.c -o sim
+ 5986  vim test.c
+ 5987  gcc -m32 CacheSim.o test.c tiempo.c
+ 5988  diff copia mio
+ 5989  gcc -m32 CacheSim.o test.c tiempo.c
+ 5990  gcc -m32 CacheSim2.o test.c tiempo.c
+ 5991  gcc -m32 CacheSim2.o test.c tiempo.c CacheSim.o
+ 5992  gcc -m32  test.c tiempo.c CacheSim.o
+ 5993  cd Practica05
+ 5994  vim test.c
+ 5995  vim MiSimulador2.c
+ 5996  cat CacheSim.h
+ 5997  vim MiSimulador2.c
+ 5998  gcc -m32 CacheSim2.o MiSimulador2.c tiempo.c -o sim
+ 5999  vim ok.s
+ 6000  gcc -m32 CacheSim2.o MiSimulador2.c tiempo.c -o sim
+ 6001  ./sim v 0 > mio
+ 6002  gcc -m32 CacheSim2.o test.c tiempo.c -o sim2
+ 6003  ./sim2 v 0 > copia
+ 6004  diff copia mio
+ 6005  diff copia mio -y
+ 6006  gcc -m32 CacheSim2.o MiSimulador2.c tiempo.c -o sim
+ 6007  ./sim v 0 > mio
+ 6008  diff copia mio -y
+ 6009  gcc -m32 CacheSim2.o MiSimulador2.c tiempo.c -o sim
+ 6010  ./sim v 0 > mio
+ 6011  diff copia mio -y
+ 6012  gcc -m32 CacheSim2.o MiSimulador2.c tiempo.c -o sim
+ 6013  ./sim v 0 > mio
+ 6014  diff copia mio -y
+ 6015  gcc -m32 CacheSim2.o MiSimulador2.c tiempo.c -o sim
+ 6016  ./sim v 0 > mio
+ 6017  diff copia mio -y
+ 6018  gcc -m32 CacheSim2.o MiSimulador2.c tiempo.c -o sim
+ 6019  vim MiSimulador2.c
+ 6020  gcc -m32 CacheSim2.o MiSimulador2.c tiempo.c -o sim
+ 6021  ./sim v 0 > mio
+ 6022  diff copia mio -y
+ 6023  gcc -m32 CacheSim2.o MiSimulador2.c tiempo.c -o sim
+ 6024  ./sim v 0 > mio
+ 6025  diff copia mio -y
+ 6026  diff copia mio 
+ 6027  echo mio
+ 6028  less mio
+ 6029  ./sim v 2
+ 6030  ./sim v 1
+ 6031  ./sim v 2
+ 6032  ./sim v 2 > res2
+ 6033  vim res2
+ 6034  vim MiSimulador2.c
+ 6035  gcc -m32 CacheSim2.o test.c tiempo.c -o sim
+ 6036  gcc -m32 CacheSim2.o test.c tiempo.c -o sim2
+ 6037  ./sim2 v 2 > copia2
+ 6038  diff
+ 6039  diff copia2 res2
+ 6040  diff copia2 res2 -y
+ 6041  vim res2
+ 6042  vim copia2
+ 6043  diff copia2 res2
+ 6044  vim MiSimulador2.c
+ 6045  gcc -m32 CacheSim2.o MiSimulador2.c tiempo.c -o sim
+ 6046  ./sim v 2 > res2
+ 6047  diff copia2 res2
+ 6048  diff res2 copia2
+ 6049  compare res2 copia2
+ 6050  man diff
+ 6051  diff res2 copia2 -p
+ 6052  diff res2 copia2 -l
+ 6053  cleatr
+ 6054  clear
+ 6055  gcc -m32 CacheSim.o MiSimulador.c tiempo.c -o simdir
+ 6056  ./simdir v
+ 6057  gcc -m32 CacheSim2.o MiSimulador2.c tiempo.c -o sim
+ 6058  ./sim v
+ 6059  gcc -m32 CacheSim2.o MiSimulador2.c tiempo.c -o sim
+ 6060  ./sim v
+ 6061  ./sim v > res2
+ 6062  vim res2
+ 6063  diff res2 copia2
+ 6064  diff res2 copia2 -y
+ 6065  diff res2 copia2 -y > difffile
+ 6066  vim difffile
+ 6067  ./sim v 2 > res2
+ 6068  diff res2 copia2 -y > difffile
+ 6069  vim difffile
+ 6070  vim res2
+ 6071  grep -f res2 1f
+ 6072  grep -f res2 "1f"
+ 6073  grep 1f -f res2
+ 6074  man grep
+ 6075  grep -e 1f -f res2
+ 6076  grep -e 1f res2
+ 6077  grep -e "1f" res2
+ 6078  grep -e "MC:    1f" res2
+ 6079  man grep
+ 6080  grep -e "MC:    1f" res2 -n
+ 6081  vim res2
+ 6082  grep -e "MC:    1d" res2 -n
+ 6083  gcc -m32 CacheSim2.o MiSimulador2.c tiempo.c -o sim
+ 6084  ./sim
+ 6085  gcc -m32 CacheSim2.o MiSimulador2.c tiempo.c -o sim
+ 6086  ./sim
+ 6087  gcc -m32 CacheSim2.o MiSimulador2.c tiempo.c -o sim
+ 6088  ./sim
+ 6089  gcc -m32 CacheSim2.o MiSimulador2.c tiempo.c -o sim
+ 6090  ./sim
+ 6091  gcc -m32 CacheSim2.o MiSimulador2.c tiempo.c -o sim
+ 6092  ./sim
+ 6093  gcc -m32 CacheSim2.o MiSimulador2.c tiempo.c -o sim
+ 6094  ./sim
+ 6095  ./sim v
+ 6096  ./sim v > res2
+ 6097  vim res2
+ 6098  ./sim v > res2
+ 6099  gcc -m32 CacheSim2.o MiSimulador2.c tiempo.c -o sim
+ 6100  ./sim v > res2
+ 6101  vim res2
+ 6102  gcc -m32 CacheSim2.o MiSimulador2.c tiempo.c -o sim
+ 6103  ./sim
+ 6104  gcc -m32 CacheSim2.o MiSimulador2.c tiempo.c -o sim 
+ 6105  ./sim v
+ 6106  ./sim v > res2
+ 6107  vim res2
+ 6108  gcc -m32 CacheSim2.o MiSimulador2.c tiempo.c -o sim 
+ 6109  ./sim v > res2
+ 6110  vim res2
+ 6111  ./sim v > res2
+ 6112  vim res2
+ 6113  ./sim v > res2
+ 6114  vim res2
+ 6115  ./sim v > res2
+ 6116  vim res2
+ 6117  ./sim v > res2
+ 6118  vim res2
+ 6119  ./sim v > res2
+ 6120  vim res2
+ 6121  ./sim v > res2
+ 6122  vim res2
+ 6123  vim test.c
+ 6124  gcc -m32 CacheSim2.o test.c tiempo.c -o sim 
+ 6125  ./sim v > res2
+ 6126  vim res2
+ 6127  vim MiSimulador2.c
+ 6128  gcc -m32 CacheSim2.o test.c tiempo.c -o sim 
+ 6129  vim MiSimulador2.c
+ 6130  ./sim v > res2
+ 6131  vim res2
+ 6132  gcc -m32 CacheSim2.o MiSimulador2.c tiempo.c -o sim 
+ 6133  ./sim v > res2
+ 6134  vim res2
+ 6135  gcc -m32 CacheSim2.o test.c tiempo.c -o sim 
+ 6136  ./sim v > res2
+ 6137  vim res2
+ 6138  vim test.c
+ 6139  gcc -m32 CacheSim2.o test.c tiempo.c -o sim 
+ 6140  ./sim v > res2
+ 6141  vim test.c
+ 6142  vim res2
+ 6143  yay -S xwinclone nwrap
+ 6144  yay -S xwinwrap-git
+ 6145  cd animated
+ 6146  ls
+ 6147  xwininfo
+ 6148  xwinwrap
+ 6149  xinwrap -ni -b -fs -ov -nf --
+ 6150  xwinwrap -ni -b -fs -ov -nf --
+ 6151  xwinwrap retro.gif
+ 6152  xwinwrap -ov -g 2048x1080+0+0 -- mpv -wid WID retro.gif --no-osc --no-osd-bar --loop-file --player-operation-mode=cplayer --no-audio --panscan=1.0 --no-input-default-bindings
+ 6153  man mpv
+ 6154  xwinwrap -ov -g 2048x1080+0+0 -- gifview -wid WID retro.gif --no-osc --no-osd-bar --loop-file --player-operation-mode=cplayer --no-audio --panscan=1.0 --no-input-default-bindings
+ 6155  xwinwrap -g 2048x1080 -ni -s -nf -b -un -argb -sh circle -- gifview -w WID ./retro.gif -a
+ 6156  sudo pacman -S gifview
+ 6157  xwinwrap -g 2048x1080 -ni -s -nf -b -un -argb -sh circle --gifview -w WID ./retro.gif -a
+ 6158  yay -S gifview
+ 6159  man circle
+ 6160  xwinwrap -g  --gifview -w WID ./retro.gif -a
+ 6161  xwinwrap  --gifview -w WID ./retro.gif -a
+ 6162  sudo systemctl suspend
+ 6163  shutdown now
+ 6164  cd programming/uni/AC/prac05/Practica05
+ 6165  cat mio
+ 6166  shutdown now
+ 6167  cd .config/i3/
+ 6168  ls
+ 6169  vim config
+ 6170  i3-msg restart
+ 6171  sudo pacman -S i3status
+ 6172  i3-msg restart
+ 6173  shutdown now
+ 6174  nmtui
+ 6175  sudo reboot now
+ 6176  shutdown now
+ 6177  shutdown
+ 6178  shutdown now
+ 6179  timedatectl
+ 6180  shutdown now
+ 6181  nmtui
+ 6182  nmcli radio wifi on
+ 6183  nmtui
+ 6184  shutdown now
+ 6185  nmyui
+ 6186  nmtui
+ 6187  shutdown now
+ 6188  ls
+ 6189  rm nohup.out
+ 6190  ls
+ 6191  rm *.xopp
+ 6192  ls
+ 6193  sshpi
+ 6194  pissh
+ 6195  man ping
+ 6196  man nmap
+ 6197  sudo pacman -S nmaps
+ 6198  sudo pacman -S nmap
+ 6199  man nmap
+ 6200  nmap -A -T4 
+ 6201  nmap -A -T4 192.168.1.0
+ 6202  nmap -A -T4 192.168.1.1
+ 6203  man ping
+ 6204  ping -b 192.168.1.255
+ 6205  ip show
+ 6206  ip list show
+ 6207  man ip
+ 6208  ip address
+ 6209  nc youtube.com
+ 6210  nc youtube.com 80
+ 6211  man nc
+ 6212  man netcat
+ 6213  nc youtube.com 80
+ 6214  sudo systemctl suspend
+ 6215  pip3 install django
+ 6216  $ python -m django --versio
+ 6217  python -m django --versio
+ 6218  python -m django --version
+ 6219  python --version
+ 6220  ls
+ 6221  cd programming
+ 6222  ls
+ 6223  cd web
+ 6224  ls
+ 6225  mkdir django
+ 6226  cd django
+ 6227  ls
+ 6228  _django
+ 6229  django-admin startproject mysite
+ 6230  python3
+ 6231  sudo pacman -S python-django
+ 6232  sudo pacman -Syu
+ 6233  sudo pacman -S archlinux-keyring
+ 6234  sudo pacman -Syu
+ 6235  sudo pacman -S python-django
+ 6236  sudo pacman -S python-psycopg2
+ 6237  fdisk
+ 6238  fdisk -h
+ 6239  fdisk -l
+ 6240  sudo fdisk -l
+ 6241  django-admin
+ 6242  django-admin startproject mysite
+ 6243  ls
+ 6244  cd mysite
+ 6245  ls
+ 6246  ./manage.py
+ 6247  cd mysite
+ 6248  ls
+ 6249  ./urls.py 
+ 6250  cd ..
+ 6251  ./manage.py runserver
+ 6252  cd programming/web
+ 6253  ls
+ 6254  cd django
+ 6255  ls
+ 6256  cd mysite
+ 6257  ./manage.py startapp polls
+ 6258  l
+ 6259  cd polls
+ 6260  ls
+ 6261  vim urls.py
+ 6262  vim views.py
+ 6263  vim urls.py
+ 6264  cd programming/web/django/mysite
+ 6265  ls
+ 6266  ./manage.py runserver
+ 6267  pip3 install django
+ 6268  ./manage.py runserver
+ 6269  cd programming/web/django/mysite
+ 6270  ls
+ 6271  ./manage.py
+ 6272  sudo pacman -S postgresql
+ 6273  ./manage.py migrate
+ 6274  la
+ 6275  ls
+ 6276  file db.sqlite3
+ 6277  vim db.sqlite3
+ 6278  yay -S sqlitebrowser
+ 6279  ./manage.py runserver
+ 6280  ./manage.py sqlmigrate
+ 6281  ./manage.py sqlmigrate polls 0001
+ 6282  ./manage.py sqlmigrate poll 0001
+ 6283  ./manage.py sqlmigrate polls 0001
+ 6284  ls
+ 6285  ./manage.py check
+ 6286  ./manage.py migrate
+ 6287  ./manage.py sqlmigrate polls 0000
+ 6288  ./manage.py makemigrations
+ 6289  ./manage.py check
+ 6290  ./manage.py sqlmigrate polls 0000
+ 6291  ./manage.py sqlmigrate polls 0001
+ 6292  ./manage.py makemigrations
+ 6293  ./manage.py sqlmigrate polls 0001
+ 6294  ./manage.py migrate
+ 6295  ./manage.py shell
+ 6296  ./manage.py makemigrations
+ 6297  ./manage.py migrate
+ 6298  ./manage.py sqlmigrate polls 002
+ 6299  ./manage.py migrate
+ 6300  ./manage.py shell
+ 6301  shutdown now
+ 6302  cd programming
+ 6303  ls
+ 6304  cd uni
+ 6305  ls
+ 6306  cd IDI
+ 6307  ls
+ 6308  pwd
+ 6309  ls
+ 6310  rm basicShader.frag
+ 6311  ls
+ 6312  mkdir Exercici2
+ 6313  tar -zxvf Exercici-2-Lab-2122Q2.tgz -d Exercici-2-Lab-2122Q2/
+ 6314  tar -zxvf Exercici-2-Lab-2122Q2.tgz -t Exercici-2-Lab-2122Q2/
+ 6315  tar -zxvf Exercici-2-Lab-2122Q2.tgz Exercici-2-Lab-2122Q2/
+ 6316  cd Exercici-2-Lab-2122Q2
+ 6317  ls
+ 6318  tar -zxvf Exercici-2.tgz
+ 6319  ls
+ 6320  cd Exercici-2
+ 6321  ls
+ 6322  make
+ 6323  qmake-qt5
+ 6324  make
+ 6325  ls
+ 6326  ./Exercici-2
+ 6327  ls
+ 6328  vim MyGLWidget.cpp
+ 6329  vim LL2GLWidget.cpp
+ 6330  ./Exercici-2
+ 6331  fg
+ 6332  vim MyGLWidget.*
+ 6333  cd programming/uni/IDI/Exercici-2-Lab-2122Q2
+ 6334  ls
+ 6335  cd Exercici-2
+ 6336  ls
+ 6337  make
+ 6338  vim MyGLWidget.*
+ 6339  make
+ 6340  ./Exercici-2
+ 6341  make
+ 6342  ./Exercici-2
+ 6343  make
+ 6344  ./Exercici-2
+ 6345  vim MyGLWidget.*
+ 6346  ./Exercici-2
+ 6347  make
+ 6348  ./Exercici-2
+ 6349  make
+ 6350  ./Exercici-2
+ 6351  make
+ 6352  ./Exercici-2
+ 6353  make
+ 6354  ./Exercici-2
+ 6355  make
+ 6356  ./Exercici-2
+ 6357  make
+ 6358  ./Exercici-2
+ 6359  make
+ 6360  ./Exercici-2
+ 6361  make
+ 6362  ./Exercici-2
+ 6363  sudo systemctl suspend
+ 6364  ls
+ 6365  cd programming/uni/IDI/Exercici-2-Lab-2122Q2
+ 6366  ls
+ 6367  open
+ 6368  ./Exercici-2
+ 6369  make
+ 6370  ./Exercici-2
+ 6371  make
+ 6372  ./Exercici-2
+ 6373  make
+ 6374  ./Exercici-2
+ 6375  make
+ 6376  ./Exercici-2
+ 6377  make
+ 6378  ./Exercici-2
+ 6379  make
+ 6380  ./Exercici-2
+ 6381  make
+ 6382  ./Exercici-2
+ 6383  make
+ 6384  ./Exercici-2
+ 6385  make
+ 6386  ./Exercici-2
+ 6387  make
+ 6388  ./Exercici-2
+ 6389  make
+ 6390  ./Exercici-2
+ 6391  make
+ 6392  ./Exercici-2
+ 6393  make
+ 6394  ./Exercici-2
+ 6395  make
+ 6396  ./Exercici-2
+ 6397  make
+ 6398  ./Exercici-2
+ 6399  make
+ 6400  ./Exercici-2
+ 6401  make
+ 6402  ./Exercici-2
+ 6403  make
+ 6404  ./Exercici-2
+ 6405  make
+ 6406  ./Exercici-2
+ 6407  make
+ 6408  ./Exercici-2
+ 6409  make
+ 6410  ./Exercici-2
+ 6411  make
+ 6412  ./Exercici-2
+ 6413  make
+ 6414  ./Exercici-2
+ 6415  make
+ 6416  ./Exercici-2
+ 6417  make
+ 6418  ./Exercici-2
+ 6419  make
+ 6420  ./Exercici-2
+ 6421  make
+ 6422  ./Exercici-2
+ 6423  make
+ 6424  ./Exercici-2
+ 6425  vim MyGLWidget.*
+ 6426  make
+ 6427  vim MyGLWidget.*
+ 6428  ./Exercici-2
+ 6429  make
+ 6430  ./Exercici-2
+ 6431  make
+ 6432  ./Exercici-2
+ 6433  make
+ 6434  ./Exercici-2
+ 6435  make
+ 6436  ./Exercici-2
+ 6437  make
+ 6438  ./Exercici-2
+ 6439  make
+ 6440  ./Exercici-2
+ 6441  make
+ 6442  ./Exercici-2
+ 6443  make
+ 6444  ./Exercici-2
+ 6445  make
+ 6446  ./Exercici-2
+ 6447  cd ..
+ 6448  cd AC
+ 6449  mkdir Prac07
+ 6450  unzip Practica07.zip -d Prac07
+ 6451  cd Prac07/
+ 6452  ls
+ 6453  firefox Practica7.pdf
+ 6454  sudo reboot now
+ 6455  cd programming/uni/IDI
+ 6456  cd Exercici-2-Lab-2122Q2
+ 6457  ls
+ 6458  cd Exercici-2
+ 6459  ./Exercici-2
+ 6460  ls
+ 6461  vim MyGLWidget.*
+ 6462  cd programming/uni/IDI/Exercici-2-Lab-2122Q2/Exercici-2
+ 6463  ls
+ 6464  make
+ 6465  ./Exercici-2
+ 6466  make
+ 6467  ./Exercici-2
+ 6468  make
+ 6469  ./Exercici-2
+ 6470  make
+ 6471  ./Exercici-2
+ 6472  make
+ 6473  ./Exercici-2
+ 6474  make
+ 6475  ./Exercici-2
+ 6476  make
+ 6477  ./Exercici-2
+ 6478  make
+ 6479  ./Exercici-2
+ 6480  make
+ 6481  ./Exercici-2
+ 6482  make
+ 6483  ./Exercici-2
+ 6484  make
+ 6485  ./Exercici-2
+ 6486  make
+ 6487  ./Exercici-2
+ 6488  make
+ 6489  ./Exercici-2
+ 6490  make
+ 6491  ./Exercici-2
+ 6492  make
+ 6493  ./Exercici-2
+ 6494  make
+ 6495  ./Exercici-2
+ 6496  make
+ 6497  ./Exercici-2
+ 6498  make
+ 6499  ./Exercici-2
+ 6500  make
+ 6501  ./Exercici-2
+ 6502  sudo reboot now
+ 6503  cd programming/uni/IDI/Exercici-2-Lab-2122Q2/Exercici-2/
+ 6504  vim MyGLWidget.*
+ 6505  make
+ 6506  ./Exercici-2
+ 6507  dolphin .
+ 6508  vim MyGLWidget.*
+ 6509  make
+ 6510  ./Exercici-2
+ 6511  sudo reboot now
+ 6512  cd programming/uni/IDI/Exercici-2-Lab-2122Q2
+ 6513  ls
+ 6514  cd Exercici-2
+ 6515  ls
+ 6516  vim MyGLWidget.*
+ 6517  sudo shutdown now
+ 6518  yay
+ 6519  sudo pacman -Syu
+ 6520  yay
+ 6521  ls
+ 6522  cd programming/uni/IDI
+ 6523  ls
+ 6524  cd Exercici-2-Lab-2122Q2
+ 6525  ls
+ 6526  cd Exercici-2
+ 6527  ls
+ 6528  ./Exercici-2
+ 6529  cd programming/uni/IDI
+ 6530  ls
+ 6531  cd Exercici-2-Lab-2122Q2
+ 6532  ls
+ 6533  cd Exercici-2
+ 6534  ls
+ 6535  vim MyGLWidget.cpp
+ 6536  make
+ 6537  ./Exercici-2
+ 6538  make
+ 6539  ./Exercici-2
+ 6540  make
+ 6541  ./Exercici-2
+ 6542  make
+ 6543  ./Exercici-2
+ 6544  make
+ 6545  ./Exercici-2
+ 6546  make
+ 6547  ./Exercici-2
+ 6548  make
+ 6549  ./Exercici-2
+ 6550  make
+ 6551  ./Exercici-2
+ 6552  make
+ 6553  ./Exercici-2
+ 6554  make
+ 6555  ./Exercici-2
+ 6556  make
+ 6557  ./Exercici-2
+ 6558  cd programming/uni/IDI/Exercici-2-Lab-2122Q2
+ 6559  ls
+ 6560  cd Exercici-2
+ 6561  ls
+ 6562  vim MyGLWidget.cpp
+ 6563  make
+ 6564  ./Exercici-2
+ 6565  make
+ 6566  ./Exercici-2
+ 6567  make
+ 6568  ./Exercici-2
+ 6569  make
+ 6570  ./Exercici-2
+ 6571  make
+ 6572  ./Exercici-2
+ 6573  nmtui
+ 6574  shutdown now
+ 6575  cd programming/uni/IDI/Exercici-2-Lab-2122Q2
+ 6576  cd Exercici-2
+ 6577  ls
+ 6578  make distclean
+ 6579  ls
+ 6580  tar -zcvf ivan.cala-Ex2.tgz
+ 6581  tar -zcvf ivan.cala-Ex2.tgz *
+ 6582  shutdown now
+ 6583  cd programming/uni/IDI
+ 6584  ls
+ 6585  cd Exercici-2-Lab-2122Q2
+ 6586  ls
+ 6587  cd Exercici-2
+ 6588  ls
+ 6589  vim MyGLWidget.cpp
+ 6590  make
+ 6591  ls
+ 6592  qmake-qt5ç
+ 6593  qmake-qt5
+ 6594  make
+ 6595  ls
+ 6596  ./Exercici-2
+ 6597  vim MyGLWidget.cpp
+ 6598  make
+ 6599  ./Exercici-2
+ 6600  cd programming/uni/IDI
+ 6601  cd Exercici-2-Lab-2122Q2
+ 6602  ls
+ 6603  cd Exercici-2
+ 6604  ls
+ 6605  vim MyGLWidget.cpp
+ 6606  cd ..
+ 6607  ls
+ 6608  cd AC
+ 6609  ls
+ 6610  cd Prac07
+ 6611  ls
+ 6612  unzip Pràctica\ 7\ \(Solucions\).zip
+ 6613  ls
+ 6614  pwd
+ 6615  sudo pacman -S ippfin
+ 6616  sudo pacman -S ippfind
+ 6617  man ippfind
+ 6618  sudo pacman -S cups
+ 6619  man ippfind
+ 6620  ippfind
+ 6621  sudo pacman -S bonjour
+ 6622  sudo systemctl enable avahi-daemon.service
+ 6623  ippfind
+ 6624  lpadmin -p my_brother -v $IPP_URI -E -m everywhere
+ 6625  sudo pacman -S nss-mdns
+ 6626  sudo pacman -S cups-pdf cups-filters
+ 6627  sudo service cups start
+ 6628  sudo systemctl enable cups.service
+ 6629  lsusb
+ 6630  lpinfo
+ 6631  man lpinfo
+ 6632  ls
+ 6633  vim LineSize.c
+ 6634  vim CacheSize.c
+ 6635  cal
+ 6636  cal +1
+ 6637  cal -3
+ 6638  cal 2022
+ 6639  shutdown now
+ 6640  ls
+ 6641  ls Desktop
+ 6642  ls
+ 6643  dolhpin.
+ 6644  dolphin .
+ 6645  thunar .
+ 6646  sudo pacman -S designer
+ 6647  sudo pacman -S qt
+ 6648  designer
+ 6649  sudo pacman -S qt5-tools
+ 6650  cd programming/
+ 6651  l
+ 6652  cd uni
+ 6653  ls
+ 6654  cd IDI
+ 6655  l
+ 6656  mv Exercici-3-2122Q2.pdf Ex3
+ 6657  cd Ex3
+ 6658  ls
+ 6659  unzip bloc-3.zip
+ 6660  l
+ 6661  cd bloc-3
+ 6662  ls
+ 6663  qmake
+ 6664  qmake-qt5
+ 6665  make
+ 6666  ls
+ 6667  cd ..
+ 6668  rm -rf bloc-3.*
+ 6669  ls
+ 6670  rm -rf bloc-3*
+ 6671  ls
+ 6672  unzip models.zip
+ 6673  unzip Ex1\ Qt\ disseny.zip
+ 6674  ls
+ 6675  cd Ex1\ Qt\ disseny
+ 6676  ls
+ 6677  qmake-qt5
+ 6678  make
+ 6679  make clean
+ 6680  make
+ 6681  ./gui
+ 6682  CD programming/uni/IDI
+ 6683  ls
+ 6684  cd programming/uni/IDI
+ 6685  ls
+ 6686  cd Ex3
+ 6687  ls
+ 6688  cd Ex1\ Qt\ disseny
+ 6689  cd ..
+ 6690  mv Ex1\ Qt\ disseny base
+ 6691  ls
+ 6692  cd base
+ 6693  ls
+ 6694  vim MyLabel.cpp MyLabel.h
+ 6695  cd ..
+ 6696  make
+ 6697  vim MyLabel.cpp MyLabel.h
+ 6698  fg
+ 6699  cd programming/uni/IDI/Ex3
+ 6700  ls
+ 6701  cd base
+ 6702  ls
+ 6703  make
+ 6704  ls
+ 6705  mv MyLabel.cpp MyPushButton.cpp
+ 6706  mv MyLabel.hh MyPushButton.hh
+ 6707  mv MyLabel.h MyPushButton.hh
+ 6708  ls
+ 6709  vim gui.pro
+ 6710  make clean
+ 6711  make
+ 6712  vim MyPushButton.cpp
+ 6713  make
+ 6714  l
+ 6715  mv MyPushButton.hh MyPushButton.h
+ 6716  make
+ 6717  vim MyPushButton.cpp
+ 6718  vim MyLabel.cpp MyLabel.h
+ 6719  vim MyPushButton.cpp MyPushButton.h
+ 6720  make
+ 6721  vim MyPushButton.cpp MyPushButton.h
+ 6722  make
+ 6723  vim MyPushButton.cpp MyPushButton.h
+ 6724  make
+ 6725  vim MyPushButton.cpp MyPushButton.h
+ 6726  make
+ 6727  vim MyPushButton.cpp MyPushButton.h
+ 6728  make
+ 6729  maker
+ 6730  make
+ 6731  ./gui
+ 6732  make
+ 6733  qmake-qt5
+ 6734  make
+ 6735  ./gui
+ 6736  make
+ 6737  ./gui
+ 6738  make
+ 6739  al
+ 6740  la
+ 6741  make clean
+ 6742  make distclean
+ 6743  qmake-qt5
+ 6744  make distclean
+ 6745  qmake-qt5
+ 6746  make
+ 6747  qmake-qt5
+ 6748  make clean
+ 6749  make
+ 6750  la
+ 6751  vim gui.h
+ 6752  vim gui.cpp
+ 6753  vim gui.h
+ 6754  shutdown now
+ 6755  cd programming/uni/IDI/Ex3/base
+ 6756  ls
+ 6757  la
+ 6758  vim MyPushButton.cpp MyPushButton.h
+ 6759  cd programming/uni/IDI/Ex3/base
+ 6760  ls
+ 6761  make
+ 6762  vim *.pro
+ 6763  make distclean
+ 6764  qmake-qt5
+ 6765  make
+ 6766  ,,
+ 6767  make
+ 6768  make clñean
+ 6769  make clean
+ 6770  make
+ 6771  make distclean
+ 6772  qmake-qt5
+ 6773  make
+ 6774  w
+ 6775  make
+ 6776  OA
+ 6777  make
+ 6778  ./gui
+ 6779  qmake
+ 6780  qmake-qt5
+ 6781  make
+ 6782  make distclean
+ 6783  make
+ 6784  qmake-qt5
+ 6785  make
+ 6786  ./gui
+ 6787  make
+ 6788  ./gui
+ 6789  make
+ 6790  ./gui
+ 6791  make
+ 6792  ./gui
+ 6793  make
+ 6794  ./gui
+ 6795  make
+ 6796  ./gui
+ 6797  qmake-qt5
+ 6798  make
+ 6799  ./gui
+ 6800  make
+ 6801  ./gui
+ 6802  make
+ 6803  ./gui
+ 6804  make
+ 6805  ./gui
+ 6806  make
+ 6807  ./gui
+ 6808  make
+ 6809  ./gui
+ 6810  make
+ 6811  ./gui
+ 6812  make
+ 6813  ./gui
+ 6814  make
+ 6815  ./gui
+ 6816  make
+ 6817  ./gui
+ 6818  make
+ 6819  ./gui
+ 6820  make
+ 6821  ./gui
+ 6822  make
+ 6823  ./gui
+ 6824  make
+ 6825  ./gui
+ 6826  make
+ 6827  vim *pro
+ 6828  make distclean
+ 6829  qmake-qt5
+ 6830  make
+ 6831  vim *pro
+ 6832  make
+ 6833  ./gui
+ 6834  make
+ 6835  ./gui
+ 6836  sudo systemctl suspend
+ 6837  ./gui
+ 6838  make
+ 6839  ./gui
+ 6840  make
+ 6841  ./gui
+ 6842  make
+ 6843  ./gui
+ 6844  make
+ 6845  ./gui
+ 6846  make
+ 6847  ./gui
+ 6848  make
+ 6849  ./gui
+ 6850  make
+ 6851  ./gui
+ 6852  make
+ 6853  ./gui
+ 6854  make
+ 6855  ./gui
+ 6856  make
+ 6857  ./gui
+ 6858  ls
+ 6859  cd ..
+ 6860  lñs
+ 6861  ls
+ 6862  Exercici2
+ 6863  ls
+ 6864  ..
+ 6865  Exercici-2-Lab-2122Q2
+ 6866  ls
+ 6867  cd Exercici-2
+ 6868  ls
+ 6869  vim LL2GLWidget.h
+ 6870  vim MyForm.cpp
+ 6871  vim LL2GLWidget.h
+ 6872  vim LL2GLWidget.cpp LL2GLWidget.h
+ 6873  cd programming/uni/IDI/Ex3/base
+ 6874  ls
+ 6875  vim MyGUI.h
+ 6876  make distclean
+ 6877  vim gui.pro
+ 6878  make distclean
+ 6879  qmake-qt5
+ 6880  make
+ 6881  ./gui
+ 6882  make
+ 6883  ./gui
+ 6884  make
+ 6885  qmake-qt5
+ 6886  make
+ 6887  make distclean
+ 6888  make
+ 6889  qmake-qt5
+ 6890  make
+ 6891  make distclean
+ 6892  ls
+ 6893  vim gui.h
+ 6894  make distclean
+ 6895  qmake-qt5
+ 6896  make
+ 6897  ls
+ 6898  make clean
+ 6899  vim gui.h
+ 6900  make clean
+ 6901  make
+ 6902  vim gui.h
+ 6903  make
+ 6904  ./gui
+ 6905  vim gui.pro
+ 6906  vim gui.cpp
+ 6907  make
+ 6908  ./gui
+ 6909  vim gui.cpp
+ 6910  make
+ 6911  vim gui.cpp
+ 6912  make
+ 6913  ./gui
+ 6914  vim gui.cpp
+ 6915  make
+ 6916  ./gui
+ 6917  vim gui.cpp
+ 6918  make
+ 6919  vim gui.cpp
+ 6920  make
+ 6921  ./gui
+ 6922  vim gui.cpp
+ 6923  make
+ 6924  ./gui
+ 6925  vim gui.cpp
+ 6926  make
+ 6927  ./gui
+ 6928  vim gui.cpp
+ 6929  make
+ 6930  ./gui
+ 6931  vim gui.cpp
+ 6932  make
+ 6933  ./gui
+ 6934  vim gui.cpp
+ 6935  make
+ 6936  ./gui
+ 6937  vim gui.cpp
+ 6938  ./gui
+ 6939  make
+ 6940  ./gui
+ 6941  vim gui.cpp
+ 6942  make
+ 6943  ./gui
+ 6944  vim gui.cpp
+ 6945  make
+ 6946  ./gui
+ 6947  vim gui.cpp
+ 6948  make
+ 6949  ./gui
+ 6950  make
+ 6951  vim MyStartButton.cpp
+ 6952  make
+ 6953  ./gui
+ 6954  vim MyStartButton.cpp
+ 6955  vim gui.cpp
+ 6956  make
+ 6957  ./gui
+ 6958  make
+ 6959  ./gui
+ 6960  make
+ 6961  ./gui
+ 6962  make
+ 6963  ./gui
+ 6964  make
+ 6965  ./gui
+ 6966  vim MyPushButton.h
+ 6967  shutdown now
+ 6968  sudo reboot now
+ 6969  shutdown now
+ 6970  cd programming/uni/IDI
+ 6971  ls
+ 6972  cd Ex3
+ 6973  ls
+ 6974  cd base
+ 6975  la
+ 6976  make
+ 6977  ./gui
+ 6978  vim MyPushButton.cpp
+ 6979  vim MyStartButton.cpp
+ 6980  make
+ 6981  ./gui
+ 6982  sudo reboot now
+ 6983  cd programming/uni/IDI
+ 6984  cd Ex3
+ 6985  ls
+ 6986  cd base
+ 6987  ls
+ 6988  make distclean
+ 6989  ls
+ 6990  vim *.pro
+ 6991  tar -czvf ivan.cala-Ex3.tgz *
+ 6992  vim ~/.config/i3/config
+ 6993  polybar
+ 6994  cd programming/u
+ 6995  cd programming/uni/IDI/Ex3/base
+ 6996  ls
+ 6997  qmake-qt5
+ 6998  make
+ 6999  ./gui
+ 7000  qmake-qt5
+ 7001  make
+ 7002  vim gui.h
+ 7003  vim gui.pro gui.cpp gui.h
+ 7004  make
+ 7005  ./gui
+ 7006  vim gui.pro gui.cpp gui.h
+ 7007  make
+ 7008  ./gui
+ 7009  make distclean
+ 7010  tar -czvf ivan.cala-Ex3.tgz *
+ 7011  shutdown now
+ 7012  sudo reboot now
+ 7013  mv Downloads/Entrega\ 10\ Ivan\ Cala.Nora\ Caballero.pdf Downloads/Entrega\ 8\ Ivan\ Cala.Nora\ Caballero.pdf
+ 7014  cd Downloads
+ 7015  ls
+ 7016  la
+ 7017  shutdown now
+ 7018  sudo reboot now
+ 7019  cd programming/uni/AC
+ 7020  ls
+ 7021  cd prac09
+ 7022  unzip Practica09.zip
+ 7023  ls
+ 7024  shutdown now
+ 7025  cd programming/uni/IDI/Exercici-2-Lab-2122Q2
+ 7026  ls
+ 7027  cd Exercici-2
+ 7028  ls
+ 7029  qmake-qt5
+ 7030  make
+ 7031  ./Exercici-2
+ 7032  cd ..
+ 7033  cd lab17-18
+ 7034  l
+ 7035  tar zxvf examen.tgz
+ 7036  ls
+ 7037  cd examen-1718Q2/ç
+ 7038  cd e
+ 7039  cd examen-1718Q2/
+ 7040  ls
+ 7041  qmake-qt5ç
+ 7042  qmake-qt5
+ 7043  make
+ 7044  ./examen
+ 7045  dolphin .
+ 7046  l
+ 7047  la
+ 7048  cd programming/uni/IDI/lab17-18
+ 7049  ls
+ 7050  cd examen-1718Q2
+ 7051  ls
+ 7052  rm -rf cmake-build-debug
+ 7053  cd model
+ 7054  ls model
+ 7055  ls model/
+ 7056  ls models
+ 7057  make
+ 7058  ./examen
+ 7059  make
+ 7060  ./examen
+ 7061  cd programming/uni/IDI/Exercici-2-Lab-2122Q2
+ 7062  ls
+ 7063  cd Exercici-2
+ 7064  ls
+ 7065  vim MyGLWidget.cpp
+ 7066  cd programming/uni/IDI/Exercici-2-Lab-2122Q2
+ 7067  vim MyGLWidget.cpp
+ 7068  cd Exercici-2/
+ 7069  vim MyGLWidget.cpp
+ 7070  make
+ 7071  ./examen
+ 7072  make
+ 7073  ./examen
+ 7074  cd programming/uni/IDI/
+ 7075  ls
+ 7076  cd Exercici-2
+ 7077  cd Exercici-2-Lab-2122Q2/Exercici-2/
+ 7078  ls
+ 7079  ./Exercici-2
+ 7080  make
+ 7081  ./Exercici-2
+ 7082  ./examen
+ 7083  make
+ 7084  ./examen
+ 7085  make
+ 7086  ./examen
+ 7087  man tcpdump
+ 7088  sudo pacman -S tcpdump
+ 7089  man tcpdump
+ 7090  tcpdump
+ 7091  sudo tcpdump
+ 7092  man tcpdump
+ 7093  sudo tcpdump -S
+ 7094  sudo pacman -S brscan34
+ 7095  sudo pacman -S brscan4
+ 7096  yay -S brother-dcpl2530dw 
+ 7097  shutdown now
+ 7098  sudo reboot now
+ 7099  cd programming/uni/AC
+ 7100  ls
+ 7101  mkdir prac10
+ 7102  unzip Practica10.zip -d prac10
+ 7103  cd prac10
+ 7104  ls
+ 7105  shutdown now
+ 7106  sudo systemctl suspend
+ 7107  shutdown now
+ 7108  cd programming/uni/IDI
+ 7109  ls
+ 7110  cd Ex3
+ 7111  ls
+ 7112  ..
+ 7113  ks
+ 7114  ls
+ 7115  la
+ 7116  xran
+ 7117  shutdown now
+ 7118  reboot now
+ 7119  sudo reboot now
+ 7120  shutdown now
+ 7121  sudo systemctl suspend
+ 7122  shutdown now
+ 7123  cd Downloads
+ 7124  mv wuolah-free-examenes_ac_resueltos.zip ../programming/uni/AC
+ 7125  cd ../programming/uni/AC
+ 7126  ls
+ 7127  unzip wuolah-free-examenes_ac_resueltos.zip
+ 7128  ls
+ 7129  shutdown now
+ 7130  sudo systemctl suspend
+ 7131  shutdown now
+ 7132  sudo pacman -S spotifyd
+ 7133  yay -S spotify
+ 7134  sudo systemctl suspend
+ 7135  yay
+ 7136  pa-applet
+ 7137  sudo pacman -S pamixwere
+ 7138  sudo pacman -S pamixer
+ 7139  yay
+ 7140  sudo pacman -S archlinux-keyring
+ 7141  yay
+ 7142  ls
+ 7143  sudo reboot now
+ 7144  sudo pacman -S pamixer
+ 7145  pamixer
+ 7146  pamixer --get-default-sink
+ 7147  pamixer --get-volume
+ 7148  pamixer --list-sinks
+ 7149  sudo pacman -S pulsemixer
+ 7150  pulsemixer
+ 7151  pulseaudio -v
+ 7152  amixer
+ 7153  pamixer --get-volume-human
+ 7154  sudo reboot now
+ 7155  cd programming/uni/SO
+ 7156  la
+ 7157  cd exams
+ 7158  ls
+ 7159  cd ..
+ 7160  ks
+ 7161  ls
+ 7162  cd practicar
+ 7163  ls
+ 7164  cd CLAB-2020-21-Q2
+ 7165  ls
+ 7166  make
+ 7167  ..
+ 7168  shutdown now
+ 7169  cd programming/basurero
+ 7170  ls
+ 7171  cd ..
+ 7172  mkdir mercenario
+ 7173  cd mercenario
+ 7174  vim uf3-ex-arr2.c
+ 7175  gcc uf3-ex-arr2.c
+ 7176  vim uf3-ex-arr2.c
+ 7177  gcc uf3-ex-arr2.c
+ 7178  vim uf3-ex-arr2.c
+ 7179  gcc uf3-ex-arr2.c
+ 7180  ./a.out
+ 7181  vim uf3-ex-arr2.c
+ 7182  ./a.out
+ 7183  gcc uf3-ex-arr2.c
+ 7184  ./a.out
+ 7185  vim uf3-ex-arr2.c
+ 7186  gcc uf3-ex-arr2.c
+ 7187  ./a.out
+ 7188  vim uf3-ex-arr2.c
+ 7189  gcc uf3-ex-arr2.c
+ 7190  ./a.out
+ 7191  vim uf3-ex-arr2.c
+ 7192  gcc uf3-ex-arr2.c
+ 7193  ./a.out
+ 7194  vim uf3-ex-arr2.c
+ 7195  gcc uf3-ex-arr2.c
+ 7196  ./a.out
+ 7197  vim uf3-ex-arr2.c
+ 7198  gcc uf3-ex-arr2.c
+ 7199  ./a.out
+ 7200  vim uf3-ex-arr2.c
+ 7201  gcc uf3-ex-arr2.c
+ 7202  ./a.out
+ 7203  vim uf3-ex-arr2.c
+ 7204  gcc uf3-ex-arr2.c
+ 7205  vim uf3-ex-arr2.c
+ 7206  gcc uf3-ex-arr2.c
+ 7207  vim uf3-ex-arr2.c
+ 7208  ./a.out
+ 7209  vim uf3-ex-arr2.c
+ 7210  gcc uf3-ex-arr2.c
+ 7211  ./a.out
+ 7212  vim uf3-ex-arr2.c
+ 7213  gcc uf3-ex-arr2.c
+ 7214  ./a.out
+ 7215  vim uf3-ex-arr2.c
+ 7216  gcc uf3-ex-arr2.c
+ 7217  ./a.out
+ 7218  vim uf3-ex-arr2.c
+ 7219  gcc uf3-ex-arr2.c
+ 7220  ./a.out
+ 7221  vim uf3-ex-arr2.c
+ 7222  gcc uf3-ex-arr2.c
+ 7223  ./a.out
+ 7224  vim uf3-ex-arr2.c
+ 7225  gcc uf3-ex-arr2.c
+ 7226  ./a.out
+ 7227  vim uf3-ex-arr2.c
+ 7228  gcc uf3-ex-arr2.c
+ 7229  vim uf3-ex-arr2.c
+ 7230  gcc uf3-ex-arr2.c
+ 7231  ./a.out
+ 7232  vim uf3-ex-arr2.c
+ 7233  gcc uf3-ex-arr2.c
+ 7234  ./a.out
+ 7235  vim uf3-ex-arr2.c
+ 7236  gcc uf3-ex-arr2.c
+ 7237  ./a.out
+ 7238  vim uf3-ex-arr2.c
+ 7239  shutdown now
+ 7240  pa-applet
+ 7241  pamixer
+ 7242  alsamixer
+ 7243  pamixer --list-sinks
+ 7244  ALSAMIXER
+ 7245  alsamixer
+ 7246  pavucontrol
+ 7247  yay
+ 7248  shutdown now
+ 7249  sudo reboot now
+ 7250  shutdown now
+ 7251  cat Downloads/discord_backup_codes.txt
+ 7252  cd Downloads/
+ 7253  cat discord_backup_codes.txt
+ 7254  shutdown now
+ 7255  cd Downloads
+ 7256  ls
+ 7257  cat discord_backup_codes.txt
+ 7258  shutdown now
+ 7259  cd /dev
+ 7260  ls
+ 7261  la
+ 7262  man umount
+ 7263  mkdir ~/disk
+ 7264  mount nvme0n1p1 ~/disk
+ 7265  sudo mount nvme0n1p1 ~/disk
+ 7266  cd disk
+ 7267  ls
+ 7268  cd EFI
+ 7269  ls
+ 7270  cd ..
+ 7271  umount man umount
+ 7272  man umount
+ 7273  cd ..
+ 7274  umount -v disk
+ 7275  sudo umount -v disk
+ 7276  sudo mount nvme0n1p2 ~/disk
+ 7277  sudo mount nvme0n1p3 ~/disk
+ 7278  sudo fdisk -l
+ 7279  sudo mount nvme0n1p3 ~/disk
+ 7280  sudo mount -t ntfs nvme0n1p3 ~/disk
+ 7281  man dmesg
+ 7282  sudo pacman -S fuse
+ 7283  sudo pacman -S ntfs-3g
+ 7284  sudo mount -t ntfs nvme0n1p3 ~/disk
+ 7285  ls
+ 7286  cd disk
+ 7287  ls
+ 7288  la
+ 7289  ls
+ 7290  la
+ 7291  cd System\ Volume\ Information
+ 7292  ls
+ 7293  cd ..
+ 7294  ls
+ 7295  la
+ 7296  cd Users
+ 7297  ls
+ 7298  cd ivanc
+ 7299  ls
+ 7300  la
+ 7301  cd Reciente
+ 7302  ls
+ 7303  file 024_Lenguaje_Maquina_x86\ \(1\).mp4.lnk
+ 7304  ..
+ 7305  ls
+ 7306  cd Documents
+ 7307  ls
+ 7308  la
+ 7309  cd Mis\ imágenes
+ 7310  ls
+ 7311  cd Camera\ Roll
+ 7312  ls
+ 7313  cd ..
+ 7314  ls
+ 7315  cd ..
+ 7316  ls
+ 7317  cd source/repos
+ 7318  ls
+ 7319  cd ..
+ 7320  la
+ 7321  file OneDrive
+ 7322  ..
+ 7323  l
+ 7324  ..
+ 7325  l
+ 7326  sl
+ 7327  cd Temp
+ 7328  ls
+ 7329  cd ..
+ 7330  ls
+ 7331  cd OneDriveTemp
+ 7332  l
+ 7333  cd S-1-5-21-2680754609-1216999696-492865663-1001
+ 7334  ls
+ 7335  file 12CC40D2EF21EC3\!243-12CC40D2EF21EC3\!245-12CC40D2EF21EC3\!49896-0000000000000000000000000000000000000000_persist.bin
+ 7336  cd ..
+ 7337  ls
+ 7338  cd Documents\ and\ Settings
+ 7339  ls
+ 7340  cd Default
+ 7341  ls
+ 7342  cd Reciente
+ 7343  ls
+ 7344  la
+ 7345  ..
+ 7346  ls
+ 7347  ..l
+ 7348  ..
+ 7349  umount disk
+ 7350  sudo umount disk
+ 7351  shutdown now
+ 7352  fdisk -l
+ 7353  sudo fdisk -l
+ 7354  shutdown now
+ 7355  sudo reboot now
+ 7356  sudo pacman -S postgresql
+ 7357  postgres
+ 7358  psql
+ 7359  ls
+ 7360  cd programming
+ 7361  ls
+ 7362  mkdir sql
+ 7363  cd sql
+ 7364  ls
+ 7365  mkdir postgre
+ 7366  cd postgre
+ 7367  ls
+ 7368  sudo service postgresql-14.3-2 start
+ 7369  sudo systemctl start postgresql-14.3-2
+ 7370  sudo systemctl start postgresql.service alsa-state.service
+ 7371  sudo systemctl status postgresql
+ 7372  sudo -i -u postgres
+ 7373  cd programming/sql/postgre
+ 7374  ls
+ 7375  createdb mydb
+ 7376  sudo pacman -S postgresql
+ 7377  sudo pacman -S postgresql-libs
+ 7378  sudo pacman -S postgresql-ip4r
+ 7379  ls
+ 7380  createdb mydb
+ 7381  postgres
+ 7382  pg_ctl -D /usr/local/var/postgres start
+ 7383  sudo -u postgres psql -c "ALTER USER postgres PASSWORD 'postgres';"
+ 7384  pg_ctl -D /usr/local/var/postgres start
+ 7385  ps -ef | grep postgres
+ 7386  pg_lsclusters
+ 7387  sudo systemctl suspend
+ 7388  shutdown now
+ 7389  sudo reboot now
+ 7390  sudo systemctl suspend
+ 7391  ssh pi@192.168.1.100
+ 7392  yay -S minecraft-launcher
+ 7393  update-alternatives --display java
+ 7394  java -version
+ 7395  ls
+ 7396  cat $JAVA_HOME
+ 7397  cat %JAVA_HOME
+ 7398  ECHO $JAVA_HOME
+ 7399  echo $JAVA_HOME
+ 7400  sl
+ 7401  yay -S sl
+ 7402  yay
+ 7403  sudo pacman -S archlinux-keyring
+ 7404  yay -S sl
+ 7405  sl
+ 7406  ssh pi@192.168.1.100
+ 7407  sudo reboot now
+ 7408  shutdown now
+ 7409  sudo reboot now
+ 7410  sudo systemctl suspend
+ 7411  sudo reboot now
+ 7412  shutdown now
+ 7413  sudo reboot now
+ 7414  lsblk
+ 7415  fdisk
+ 7416  fdisk -h
+ 7417  df
+ 7418  df -h
+ 7419  man df
+ 7420  df -ha
+ 7421  man df
+ 7422  sudo reboot now
+ 7423  rm -rf R
+ 7424  rm -rf dotfile_test
+ 7425  mkdir uni
+ 7426  cd uni
+ 7427  ls
+ 7428  mkdir CAIM
+ 7429  cd CAIM
+ 7430  ls
+ 7431  unzip session1ESZipfHeaps.zip
+ 7432  ls
+ 7433  cd session1ESZipfHeaps
+ 7434  ls
+ 7435  pip install jupyter
+ 7436  pip install jupyter-LAB
+ 7437  pip install jupyter-lab
+ 7438  sudo pacman -S jupyter-notebook
+ 7439  sudo pacman -Syu
+ 7440  nmtui
+ 7441  shutdown now
+ 7442  yay
+ 7443  sudo pacman -Syu
+ 7444  shutdown now
+ 7445  cal
+ 7446  shutdown now
+ 7447  sudo pacman -S ntfs-3g
+ 7448  sudo rm /var/lib/pacman/db.lck
+ 7449  sudo pacman -S ntfs-3g
+ 7450  sudo pacman -Syu
+ 7451  sudo fdisk -l
+ 7452  sudo mkdir /mnt/media
+ 7453  vim /etc/fstab
+ 7454  sudo vim /etc/fstab
+ 7455  mount /dev/sda /mnt/media/toshiba
+ 7456  mount /dev/sda /mnt/media/
+ 7457  mount /dev/sda /mnt/media
+ 7458  systemctl daemon-reload
+ 7459  sudo systemctl daemon-reload
+ 7460  mount /dev/sda /mnt/media
+ 7461  sudo mount /dev/sda /mnt/media
+ 7462  dmesg
+ 7463  sudo dmesg
+ 7464  sudo pacman -S archlinux-keyring
+ 7465  sudo pacman -Syu
+ 7466  shutdown now
+ 7467  ls
+ 7468  lsblk
+ 7469  sudo /mnt/media /dev/sda1
+ 7470  sudo mount /mnt/media /dev/sda1
+ 7471  sudo mount /dev/sda1 /mnt/media
+ 7472  cd /mnt/media
+ 7473  ls
+ 7474  mkdir CAIM
+ 7475  cd ~
+ 7476  ls
+ 7477  cd uni/CAIM/session1ESZipfHeaps
+ 7478  ls
+ 7479  unzip 20_novelsgroups.zip -d /mnt/media/CAIM
+ 7480  cd /mnt/media/CAIM
+ 7481  ls
+ 7482  cd 20_newsgroups
+ 7483  ls
+ 7484  la
+ 7485  ls
+ 7486  la
+ 7487  sudo reboot now
+ 7488  shutdown now
+ 7489  cd uni/CAIM
+ 7490  ls
+ 7491  cd session1ESZipfHeaps
+ 7492  ls
+ 7493  ls -la
+ 7494  ls -laH
+ 7495  ls -la -h
+ 7496  unzip 20_newsgroups.zip
+ 7497  la
+ 7498  la -h
+ 7499  cd 20_newsgroups/comp.graphics
+ 7500  ls
+ 7501  la
+ 7502  cd ..
+ 7503  ls
+ 7504  ..
+ 7505  la
+ 7506  pacman -S jupyterlab
+ 7507  sudo pacman -S jupyterlab
+ 7508  sudo rm /var/lib/pacman/db.lck
+ 7509  sudo pacman -S jupyterlab
+ 7510  sudo pacman -Syu
+ 7511  sudo pacman -S archlinux-keyring
+ 7512  sudo pacman -Syu
+ 7513  sudo pacman -S jupyter-notebook
+ 7514  jupyuter lab
+ 7515  jupyter lab
+ 7516  jupyter notebook list
+ 7517  cd uni/CAIM/session1ESZipfHeaps
+ 7518  ls
+ 7519  cd ..
+ 7520  git clone https://github.com/icalamesa/CAIM/tree/master/session1ESZipfHeaps
+ 7521  rm -rf session1ESZipfHeaps
+ 7522  git clone https://github.com/icalamesa/CAIM/tree/master/session1ESZipfHeaps
+ 7523  cd ..
+ 7524  ls
+ 7525  rm -rf CAIM
+ 7526  git clone git@github.com:icalamesa/CAIM.git
+ 7527  cd CAIM
+ 7528  ls
+ 7529  cd  session1ESZipfHeaps
+ 7530  ls
+ 7531  git pull
+ 7532  git pull -f
+ 7533  git reset
+ 7534  git pull -f
+ 7535  ls
+ 7536  la
+ 7537  git sttaus
+ 7538  git status
+ 7539  git diff
+ 7540  git add .
+ 7541  git pull -f
+ 7542  git stash
+ 7543  git pull -f
+ 7544  git stash pop
+ 7545  la
+ 7546  pip install pandas
+ 7547  pip install ntlk
+ 7548  pip3 install ntlk
+ 7549  pip update
+ 7550  pip install -U
+ 7551  pip help install
+ 7552  pip install --upgrade
+ 7553  sudo pip install --upgrade
+ 7554  sudo pip install --upgrade pip
+ 7555  pip install --upgrade pip
+ 7556  pip install --upgrade ntlk
+ 7557  pip install numpy
+ 7558  pip install nltk
+ 7559  pip install PyDictionary
+ 7560  pip install english-words-py
+ 7561  pip install english-words
+ 7562  python
+ 7563  sudo systemctl suspend
+ 7564  CD uni/CAIM
+ 7565  LS
+ 7566  cd uni/CAIM
+ 7567  ls
+ 7568  git commit -m "started lemmatization"
+ 7569  git add .
+ 7570  git commit -m "started lemmatization"
+ 7571  git push
+ 7572  shutdown now
+ 7573  ls
+ 7574  la
+ 7575  sudo mount /dev/sda1 /mnt/media
+ 7576  sudo reboot now
+ 7577  jupyter-lab
+ 7578  cd uni/CAIM/
+ 7579  git pull
+ 7580  pip ionstall scipy
+ 7581  pip install scipy
+ 7582  sudo systemctl suspend
+ 7583  pip install PyEnchant
+ 7584  python
+ 7585  pip install PyEnchant
+ 7586  python
+ 7587  yay -S elasticsearch
+ 7588  yay -S elasticsearch --info
+ 7589  yay -S elasticsearch
+ 7590  sudo reboot now
+ 7591  yay -S elasticsearch
+ 7592  java --version
+ 7593  java
+ 7594  java -version
+ 7595  sudo arch-linux java status
+ 7596  sudo archlinux java status
+ 7597  yay -S jdk
+ 7598  yay -S elasticsearch
+ 7599  jupyter server list
+ 7600  sudo update-alternatives --config java
+ 7601  cd Downloads
+ 7602  ls
+ 7603  mv elasticsearch-8.4.1-linux-x86_64.tar.gz ~/install
+ 7604  cd ~/install
+ 7605  ls
+ 7606  tar -xzvf elasticsearch-8.4.1-linux-x86_64.tar.gz
+ 7607  cd elasticsearch-8.4.1
+ 7608  ls
+ 7609  cat NOTICE.txt
+ 7610  cd
+ 7611  ls
+ 7612  cd install/
+ 7613  cd elasticsearch-8.4.1
+ 7614  ls
+ 7615  cd bin
+ 7616  ls
+ 7617  ./elasticsearch
+ 7618  cp -r ~/install/elasticsearch-8.4.1/config /tmp
+ 7619  sudo mount /dev/sda1 /mnt/media
+ 7620  setenv ES_PATH_CONF /mnt/media/CAIM/config
+ 7621  sudo pacman -S setenv
+ 7622  env ES_PATH_CONF /mnt/media/CAIM/config
+ 7623  export ES_PATH_CONF=/mnt/media/CAIM/config
+ 7624  cd uni/CAIM
+ 7625  ls
+ 7626  cd session1ESZipfHeaps
+ 7627  ls
+ 7628  python elastic_test.py
+ 7629  ./elasticsearch
+ 7630  cd ~/install/elasticsearch-8.4.1
+ 7631  cd bin
+ 7632  ls
+ 7633  ./elasticsearch
+ 7634  sudo mkdir /mnt/media/CAIM/config
+ 7635  cp -r ~/install/elasticsearch-8.4.1/config /tmp
+ 7636  cp -r ~/install/elasticsearch-8.4.1/config /mnt/media/CAIM/config
+ 7637  ./elasticsearch
+ 7638  export ES_PATH_CONF=/mnt/media/CAIM/config
+ 7639  ./elasticsearch
+ 7640  cp -r ../config/* /mnt/media/CAIM/confignews
+ 7652  la
+ 7653  la -h
+ 7654  ls
+ 7655  ls- la
+ 7656  ls -la
+ 7657  python IndexFiles.py --index novels --path data/20_newsgroups
+ 7658  python IndexFiles.py --index news2 --path data/20_newsgroups
+ 7659  export ES_PATH_CONF=~/install/elasticsearch-8.4.1/config/
+ 7660  python IndexFiles.py --index news2 --path data/20_newsgroups
+ 7661  ./elasticsearch
+ 7662  python elastic_test.py
+ 7663  python IndexFiles.py --index news2 --path ./data/20_newsgroups
+ 7664  vim ~/install/elasticsearch-8.4.1/config/elasticsearch.yml
+ 7665  ./elasticsearch
+ 7666  python IndexFiles.py --index novels --path ./data/20_newsgroups
+ 7667  vim ~/install/elasticsearch-8.4.1/config/elasticsearch.yml
+ 7668  python IndexFiles.py --index novels --path ./data/20_newsgroups
+ 7669  ./elasticsearch
+ 7670  python IndexFiles.py --index novels --path ./data/20_newsgroups
+ 7671  htop
+ 7672  sudo reboot now
+ 7673  sudo systemctl suspend
+ 7674  as
+ 7675  sudo reboot now
+ 7676  cd Downloads
+ 7677  unzip session1ESZipfHeaps\(1\).zip
+ 7678  mv output* ~/uni/CAIM/session1ESZipfHeaps
+ 7679  ls
+ 7680  ../uni/CAIM
+ 7681  ls
+ 7682  cd session1ESZipfHeaps
+ 7683  ls
+ 7684  sudo reboot now
+ 7685  git add .
+ 7686  rm -rf data
+ 7687  git add .
+ 7688  git commit -m "working loglog and curve fitting"
+ 7689  git push
+ 7690  sudo reboot now
+ 7691  yay -S elasticsearch7
+ 7692  sudo pacman -S jdk8-openjdk
+ 7693  yay -S elasticsearch7
+ 7694  yay -S elasticsearch7 --scan
+ 7695  cd install
+ 7696  ls
+ 7697  mkdir elasticsearch7
+ 7698  cd elasticsearch
+ 7699  cd elasticsearch7
+ 7700  ls
+ 7701  wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.17.6-darwin-x86_64.tar.gz
+ 7702  tar -xzf elasticsearch-7.17.6-darwin-x86_64.tar.gz
+ 7703  cd elasticsearch-7.17.6
+ 7704  ls
+ 7705  ./bin/elasticsearch
+ 7706  ls
+ 7707  cd jdk.app
+ 7708  ls
+ 7709  cd Contents
+ 7710  ls
+ 7711  cd Home
+ 7712  ls
+ 7713  cd ..
+ 7714  mv Contents/.
+ 7715  ls
+ 7716  mv Contents/* .
+ 7717  ls
+ 7718  cd Home/* .
+ 7719  mv Home/* .
+ 7720  ls
+ 7721  cd ..
+ 7722  ./bin
+ 7723  ls
+ 7724  ./elasticsearch
+ 7725  cd ..
+ 7726  cd jdk.app/bin
+ 7727  ls
+ 7728  cd ..
+ 7729  lñs
+ 7730  cd ..
+ 7731  ls
+ 7732  mv jdk.app jdk
+ 7733  cd jdk
+ 7734  ls
+ 7735  ln -S bin/java java
+ 7736  ln -S java bin/java
+ 7737  cd ..
+ 7738  cd bin
+ 7739  ./elasticsearch
+ 7740  cd ..
+ 7741  ls
+ 7742  cd ..
+ 7743  ls
+ 7744  rm -rf elasticsearch-7.17.6
+ 7745  tar -xzf elasticsearch-7.17.6-darwin-x86_64.tar.gz
+ 7746  cd elasticsearch-7.17.6
+ 7747  ./bin/elasticsearch
+ 7748  ls
+ 7749  cd /usr/bin/
+ 7750  ls
+ 7751  la
+ 7752  ./java
+ 7753  ./java -v
+ 7754  ./java --version
+ 7755  ./java --help
+ 7756  ./java -version
+ 7757  vim config/jvm.options
+ 7758  vim config/elasticsearch.yml
+ 7759  ./bin/elasticsearch
+ 7760  export ES_JAVA_HOME=/usr/bin/java
+ 7761  ./bin/elasticsearch
+ 7762  export ES_JAVA_HOME=/usr/bin
+ 7763  ./bin/elasticsearch
+ 7764  ./bin/elasticsearch-cli
+ 7765  export ES_JAVA_HOME=/usr/
+ 7766  ./bin/elasticsearch-cli
+ 7767  su
+ 7768  ./bin/elasticsearch-cli
+ 7769  ./bin/elasticsearch
+ 7770  vim config/elasticsearch.yml
+ 7771  vim config/elasticsearch-plugins.example.yml
+ 7772  vim config/elasticsearch.yml
+ 7773  ./bin/elasticsearch
+ 7774  cd ~
+ 7775  ls
+ 7776  cd uni/CAIM/session1ESZipfHeaps
+ 7777  ls
+ 7778  python elastic_test.py
+ 7779  python IndexFiles.py
+ 7780  vim ~/.zshrc
+ 7781  echo $ES_JAVA_HOME
+ 7782  vim ~/.zshrc
+ 7783  cd install/elasticsearch7
+ 7784  ls
+ 7785  cd elasticsearch-7.17.6
+ 7786  ls
+ 7787  ./bin/elasticsearch
+ 7788  shutdown now
+ 7789  cd install/elasticsearch7
+ 7790  ls
+ 7791  cd elasticsearch-7.17.6
+ 7792  ./bin/elasticsearch
+ 7793  shutdown now
+ 7794  cd Downloads
+ 7795  ls
+ 7796  unzip session2ESprogramming.zip -d ../uni/CAIM/
+ 7797  ls
+ 7798  mkdir ../uni/CAIM/session2ES
+ 7799  unzip session2ESprogramming.zip -d ../uni/CAIM/session2ES
+ 7800  cd ~/uni/CAIM
+ 7801  ls
+ 7802  rm *
+ 7803  rm *.py *.pdf
+ 7804  la
+ 7805  rm -rf docs
+ 7806  rm ProgrammingES.ipynb
+ 7807  cd session2ES
+ 7808* cd install/elasticsearch7
+ 7809* ./elasticsearch-7.17.6
+ 7810* ./bin/elasticsearch
+ 7811  cp ../session1ESZipfHeaps/20_newsgroups.zip ..
+ 7812  cd ..
+ 7813  cd session1ESZipfHeaps
+ 7814  mkdir ../novels
+ 7815  unzip ../20_newsgroups.zip -d ../novels
+ 7816  python IndexFiles.py --index novels --path ../novels/20_newsgroups
+ 7817  cd ..
+ 7818  cd session2ES/
+ 7819  ls
+ 7820  python IndexFilesPreprocess.py --index novels --path ../novels/20_newsgroups/ --token letter --filter lowercase asciifolding
+ 7821  ls
+ 7822  python CountWords.py novels
+ 7823  python CountWords.py --index novels
+ 7824  ls
+ 7825  python CountWords.py --index novels > newsCountLetterLowerCaseAsciiFolding
+ 7826  ls
+ 7827  python IndexFilesPreprocess.py --index novels --path ../novels/ --token letter
+ 7828  python CountWords.py --index novels > newsCountLetterLowercaseLetter
+ 7829  mv newsCountLetterLowercaseLetter newsCountLetterLowerCase
+ 7830  python IndexFilesPreprocess.py --index novels --path ../novels/ --token whitespace
+ 7831  mv newsCountLetterLowercaseLetter newsCountWhitespaceLowerCase
+ 7832  python CountWords.py --index novels > newsCountWhitespaceLowercaseLetter
+ 7833  python IndexFilesPreprocess.py --index novels --path ../novels/ --token classic
+ 7834  python CountWords.py --index novels > newsCountClassicLowercaseLetter
+ 7835  python IndexFilesPreprocess.py --index novels --path ../novels/ --token standard
+ 7836  python CountWords.py --index novels > newsCountStandardLowercaseLetter
+ 7837  mv ~/Downloads/novels.zip ..
+ 7838  unzip ../novels.zip -d ..
