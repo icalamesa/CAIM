@@ -44,7 +44,7 @@ __author__ = 'bejar'
 beta = 1
 alpha = 2
 R = 4
-nrows = 10
+nrows = 100
 
 def doc_count(client, index):
     """
@@ -131,24 +131,29 @@ def search_file_by_path(client, index, path):
         return lfiles[0].meta.id
 
 #
-def queryToDict(query):
-    dictQuery = {}
+def formatQuery2Dict(query):
+    dQuery = {}
     for elem in query:
-        if '^' in elem:
-            key, value = elem.split('^')
-            value = float(value)
-        else:
-            key = elem
-            value = 1.0
-        dictQuery[key] = value
-        
-    return normalize(dictQuery)
 
-def dictToquery(di):
+        if '^' in elem:
+            key, val = elem.split('^')
+            val = float(val)
+
+        else:
+            val = 1.0
+            key = elem
+        
+        dQuery[key] = val
+        
+    return normalize(dQuery)
+
+def formatDict2Query(theDict):
     query = []
-    for elem in di:
-        q = elem + '^' + str(di[elem])
+
+    for elem in theDict:
+        q = elem + '^' + str(theDict[elem])
         query.append(q)
+    
     return query
 
 if __name__ == '__main__':
@@ -167,9 +172,11 @@ if __name__ == '__main__':
     try:
         client = Elasticsearch()
         s = Search(using=client, index=index)
-
+        
+        itCount = 0
         if query is not None:
             for j in range(0, nrows):
+                itCount +=1
                 q = Q('query_string',query=query[0])
                 for i in range(1, len(query)):
                     q &= Q('query_string',query=query[i])
@@ -178,7 +185,7 @@ if __name__ == '__main__':
                 s = s.query(q)
                 response = s[0:nhits].execute()
 
-                dictQuery = queryToDict(query)
+                dictQuery = formatQuery2Dict(query)
                 docSum = {}
 
                 for r in response:  # only returns a specific number of results
@@ -187,15 +194,16 @@ if __name__ == '__main__':
                     print(f'ID= {r.meta.id} SCORE={r.meta.score}')
                     print(f'PATH= {r.path}')
                     print(f'TEXT: {r.text[:50]}')
+                    print(f'ITERATION: {itCount}')
                     print('-----------------------------------------------------------------')
                 docSum = {t: docSum.get(t,0)*beta/nhits for t in set(docSum)} # Beta * vector de documents / K
                 oldQuery = {t: dictQuery.get(t,0)*alpha for t in set(dictQuery)} # Alpha * query
-                query2 = {}
-                query2 = {t: docSum.get(t, 0) + oldQuery.get(t, 0) for t in set(docSum) | set(oldQuery)} # alpha * query + beta * vector documents / K
-                query2 = sorted(query2.items(), key=operator.itemgetter(1), reverse = True) # ordenem per valor, es converteix en tuples
-                query2 = query2[:R] #agafem els R mes relevants
-                dictQuery = dict((t, val) for (t, val) in query2) #ho tornem a transformar en un diccionari
-                query = dictToquery(normalize(dictQuery))
+                newQuery = {}
+                newQuery = {t: docSum.get(t, 0) + oldQuery.get(t, 0) for t in set(docSum) | set(oldQuery)} # alpha * query + beta * vector documents / K
+                newQuery = sorted(newQuery.items(), key=operator.itemgetter(1), reverse = True) # ordenem per valor, es converteix en tuples
+                newQuery = newQuery[:R] #agafem els R mes relevants
+                dictQuery = dict((t, val) for (t, val) in newQuery) #ho tornem a transformar en un diccionari
+                query = formatDict2Query(normalize(dictQuery))
                 print (f"{response.hits.total['value']} Documents")
 
         else:

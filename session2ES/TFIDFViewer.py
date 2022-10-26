@@ -90,9 +90,11 @@ def toTFIDF(client, index, file_id):
     tfidfw = []
     for (t, w),(_, df) in zip(file_tv, file_df):
         #
+        idfi = np.log2((dcount/df))
+        tfdi = w/max_freq
+        tfidfw.append((t,tfdi * idfi))
         # Something happens here
         #
-        pass
 
     return normalize(tfidfw)
 
@@ -104,8 +106,9 @@ def print_term_weigth_vector(twv):
     """
     #
     # Program something here
+    for x in twv:
+        print (x)
     #
-    pass
 
 
 def normalize(tw):
@@ -117,13 +120,18 @@ def normalize(tw):
     """
     #
     # Program something here
+    pwrsum = sum(map(lambda y: y[1]**2, tw))
+    r = np.sqrt(pwrsum) 
+    norm = list(map(lambda x: (x[0],x[1]/r),tw))
+
+    return norm
     #
-    return None
+    
 
 
 def cosine_similarity(tw1, tw2):
     """
-    Computes the cosine similarity between two weight vectors, terms are alphabetically ordered
+    Computes the cosine similarityilarity between two weight vectors, terms are alphabetically ordered
     :param tw1:
     :param tw2:
     :return:
@@ -131,7 +139,22 @@ def cosine_similarity(tw1, tw2):
     #
     # Program something here
     #
-    return 0
+    tw1_ind = 0
+    tw2_ind = 0
+    similarity = 0
+    while tw1_ind < len(tw1) and tw2_ind < len(tw2):
+        (t1,w1) = tw1[tw1_ind]
+        (t2,w2) = tw2[tw2_ind]
+        if t1 == t2:
+            similarity += w1 * w2
+            tw1_ind += 1
+            tw2_ind += 1
+        elif t1 < t2:
+            tw1_ind += 1
+        else:
+            tw2_ind += 1
+    
+    return similarity
 
 def doc_count(client, index):
     """
